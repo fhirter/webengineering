@@ -7,4 +7,4 @@ app.get('/', function(request, response) {
     response.send('hello world');
 });
 
-app.listen(port, () => console.log("Example app listening on http://localhost:"+port));
+app.listen(port, () => console.log("Example application listening on http://localhost:"+port));
