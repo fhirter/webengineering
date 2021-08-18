@@ -1,10 +1,13 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
 
-const port = 8080;
+const port = process.env.PORT;
+const ip = process.env.PUBLIC_IP;
 
 app.get('/', function(request, response) {
     response.send('hello world');
 });
 
-app.listen(port, () => console.log("Example application listening on http://localhost:"+port));
+app.listen(port, () => console.log("Example application listening on: http://"+ip+":"+port));
