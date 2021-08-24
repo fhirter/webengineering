@@ -7,6 +7,7 @@ const port = process.env.PORT;
 const ip = process.env.PUBLIC_IP;
 
 app.get('/', function(request, response) {
+    console.log("New Request")
     response.send('hello world');
 });
 
