@@ -1,5 +1,5 @@
 require('dotenv').config();
-const numbers = require('generateNumbers');
+const numbers = require('./generateNumbers');
 
 const express = require('express');
 const app = express();
