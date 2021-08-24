@@ -1,4 +1,5 @@
 #!/bin/bash
-cd ..
-npm install --production git+https:github.com/fhirter/webengineering
+git fetch origin
+git merge
+npm install --production
 npm start
