@@ -5,3 +5,4 @@ function randInt() {
 module.exports = {
     randInt,
 }
+
