@@ -10,10 +10,39 @@
 ## Aufbau von Webapplikationen
 ![img_1.png](separation_of_concerns.png)
 
+## Software Stacks
+### LAMP
+![img.png](LAMP.png)
+
+### MERN
+![img.png](MERN.png)
+
+
 ## Werkzeuge
 ![img.png](browser_dev_tools.png)
 
 # Webseiten strukturieren mit HTML
+## Barrierefreiheit
+### Gerätevielfalt
+![img.png](gerätevielfalt.png)
+
+### Browser Wars
+![img.png](browser_warsI.png)
+---
+![StatCounter-browser-ww-monthly-200901-202303.png](StatCounter-browser-ww-monthly-200901-202303.png)
+---
+![StatCounter-comparison-ww-monthly-200901-202303.png](StatCounter-comparison-ww-monthly-200901-202303.png)
+
+## Layoutkonzepte
+* http://info.cern.ch/hypertext/WWW/TheProject.html
+* Framesets
+* Tabellen
+* Cascading Style Sheets (CSS)
+* Fixed vs. Liquid Layout
+* Responsive Webdesign
+* Device Agnostic
+* Mobile First
+
 ## Grundstruktur
 ```html
 <!DOCTYPE html>
@@ -29,26 +58,7 @@
 </html>
 ```
 
-## Barrierefreiheit
-### Gerätevielfalt
-![img.png](gerätevielfalt.png)
-
-### Browser Wars
-![img.png](browser_warsI.png)
----
-![img.png](browser_warsII.png)
-
 # Webseiten gestalten mit CSS
-## Layoutkonzepte
-* http://info.cern.ch/hypertext/WWW/TheProject.html
-* Framesets
-* Tabellen
-* Cascading Style Sheets (CSS)
-* Fixed vs. Liquid Layout
-* Responsive Webdesign
-* Device Agnostic
-* Mobile First
-
 ## Einbindung
 ## Selektoren
 ## Box Model
