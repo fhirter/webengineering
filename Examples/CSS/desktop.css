@@ -1,0 +1,35 @@
+@media screen and (min-width: 40rem) {
+	header nav ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	body {
+		display: grid;
+		grid-template-columns: 10rem auto;
+		grid-template-rows: auto;
+		
+		grid-template-areas: 
+			"header header"
+			"sidebar main"
+			"footer footer";
+	}
+	
+	header {
+		grid-area: header;
+	}
+
+	aside {
+		grid-area: sidebar;
+	}
+
+	main {
+		grid-area: main;
+	}
+
+	footer {
+		grid-area: footer;
+	}
+}
+
+

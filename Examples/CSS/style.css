@@ -1,0 +1,28 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: #ff0000;
+}
+
+main p {
+	background-color: rgba(255,0,0,0.5);
+}
+
+footer p {
+	background-color: blue;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+.class {
+}
+
+#id {
+	
+}
