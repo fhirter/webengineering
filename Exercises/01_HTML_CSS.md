@@ -16,6 +16,6 @@ Nutze nur relative Einheiten (`em`, `rem`)
 Notiere deine Erkenntnisse und erweitere die Seite:
    1. Semantische HTML Elemente
    2. Korrekte Verwendung von Überschriften
-   3. Korekte Tabellen
+   3. Korrekte Tabellen
 
 ![img.png](Internetprotokollfamilie.png)
