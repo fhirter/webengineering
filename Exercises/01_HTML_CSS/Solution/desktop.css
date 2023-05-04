@@ -1,0 +1,11 @@
+@media (min-width: 50em) {
+
+	body {
+		display: grid;
+		grid-template-columns: 15em 2fr;
+	}
+
+	footer {
+		 grid-column: 2 / 3 ;
+	}
+}
