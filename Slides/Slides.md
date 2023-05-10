@@ -59,14 +59,46 @@
 ```
 
 # Webseiten gestalten mit CSS
-## Einbindung
-## Selektoren
 ## Box Model
+![img.png](box_model.png)
+![img_1.png](content_box.png)![img_2.png](border_box.png)
+
+
 ## Einheiten
+- Absolute Grössen: `px` (`cm` ,`mm`, ...) -> sparsam verwenden
+- Relative Grössen
+  - `em`: Schriftgrösse des Elternelements
+  - `rem`: Schriftgrösse des Wurzelelements
+  - `vw`, `vh`: viewport breite, viewport höhe
+![img.png](px_vw_em.png)![img.png](percent.png)
+
 ## Farben
-## Flexbox
-## Grid
-## Media Queries
+
+### CIE 1931 Farbraum
+![img.png](CIE1931.png)
+---
+### Vergleich Farbräume
+![img.png](color_spaces.png)
+
+---
+
+### Farben in CSS
+#### sRGB Farbraum
+- Farbnamen: `color: darkblue;`
+- Hex-Werte: `color: #ffa500;`
+- RGBA-Werte (mit Deckkraft): `color: rgba(169, 169, 169, 0.5)`
+- HSL-Werte (Hue, Saturation, Lightness): `color: hsl(60, 100, 50)`
+
+#### Alle sichtbaren Farben
+- LCH (Lightness Chroma Hue / Opacity): `color: lch(29.2345% 44.2 27 / 0.5)`
+- Oklch: `color: oklch(40.1% 0.123 21.57)`
+- CIELAB (Lightness, red-green, blue-yellow): `color: lab(29.2345% 39.3825 20.0664);`
+- Oklab: `color: oklab(40.1% 0.1143 0.045);`
+---
+![img.png](HSL_vs_LCH.png)
+https://codepen.io/web-dot-dev/pen/poZgXxy
+
+
 # Webanwendungen deployen und hosten
 ## Webanwendungen organisieren und verwalten
 # Webseiten interaktiv machen mit JavaScript

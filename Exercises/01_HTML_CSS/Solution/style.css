@@ -70,7 +70,7 @@ th {
 }
 
 table tr:nth-child(2) {
-	background-color: #ffdddd;
+	background-color: hsl(0, 42%, 59%);
 }
 table tr:nth-child(3) {
 	background-color: #ffdddd;
