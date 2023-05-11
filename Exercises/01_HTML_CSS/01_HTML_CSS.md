@@ -9,7 +9,8 @@ Verwende möglichst wenige `class` und `id` Attribute im HTML Code.
 Nutze nur relative Einheiten (`em`, `rem`)
    1. Erstelle dazu zuerst das Layout für Mobilgeräte. 
    2. Erstelle anschliessend die Version für grössere Geräte mit Grid-Layout.
-   3. Experimentiere mit den verschiedenen Farbsystemen (Farbnamen, Hex, RGB(A) HSL(A) )
+   3. Erstelle mit `flex` und `grid` eine alternative Version, bei der das Menü horizontal über dem Inhalt ist statt links daneben.
+   4. Experimentiere mit den verschiedenen Farbsystemen (Farbnamen, Hex, RGB(A) HSL(A) )
 3. Untersuche, ob die Webseite so barrierefrei ist. 
 Notiere deine Erkenntnisse und erweitere die Seite:
    1. Semantische HTML Elemente
