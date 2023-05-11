@@ -73,12 +73,13 @@
 ![img.png](px_vw_em.png)![img.png](percent.png)
 
 ## Farben
+![width:500px](CIE1931.png)
+CIE 1931 Farbraum
 
-### CIE 1931 Farbraum
-![img.png](CIE1931.png)
 ---
+
 ### Vergleich Farbräume
-![img.png](color_spaces.png)
+![width:500px](color_spaces.png)
 
 ---
 
@@ -89,12 +90,16 @@
 - RGBA-Werte (mit Deckkraft): `color: rgba(169, 169, 169, 0.5)`
 - HSL-Werte (Hue, Saturation, Lightness): `color: hsl(60, 100, 50)`
 
+---
+
 #### Alle sichtbaren Farben
 - LCH (Lightness Chroma Hue / Opacity): `color: lch(29.2345% 44.2 27 / 0.5)`
 - Oklch: `color: oklch(40.1% 0.123 21.57)`
 - CIELAB (Lightness, red-green, blue-yellow): `color: lab(29.2345% 39.3825 20.0664);`
 - Oklab: `color: oklab(40.1% 0.1143 0.045);`
+
 ---
+
 ![img.png](HSL_vs_LCH.png)
 https://codepen.io/web-dot-dev/pen/poZgXxy
 
