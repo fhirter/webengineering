@@ -1,0 +1,33 @@
+@media (min-width: 50em) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "nav"
+            "main"
+            "footer";
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    #service-nav {
+        grid-area: nav;
+        width: 50rem;
+        height: 3rem;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    #service-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #service-nav ul li {
+
+    }
+
+}
