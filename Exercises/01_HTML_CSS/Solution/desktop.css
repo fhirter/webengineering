@@ -1,11 +1,21 @@
 @media (min-width: 50em) {
-
 	body {
 		display: grid;
-		grid-template-columns: 15em 2fr;
+		grid-template-areas:
+            "nav main"
+            "nav footer";
+		grid-template-columns: 15em 1fr;
+	}
+
+	main {
+		grid-area: main;
+	}
+
+	nav#service-nav {
+		grid-area: nav;
 	}
 
 	footer {
-		 grid-column: 2 / 3 ;
+		grid-area: footer;
 	}
 }
