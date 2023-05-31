@@ -9,12 +9,20 @@ Erstelle anschliessend einen Docker Container für die Webseite.
 Später werden wir Applikationen mit serverseitigem Code und Datenbanken einfach mit Containern starten.
 
 ## Statisches Hosting
-Deploye die Seite auf einem Hosting für statische Seiten:
+Deploye die Seite auf einem Hosting für statische Seiten.
+
+Untersuche und vergleiche folgende Angebote:
 - [GitHub Pages](https://pages.github.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 - [Google Cloud Storage](https://cloud.google.com/storage)
 
-Halte dein Vorgehen fest!
+Wie ist kontinuierliches Deployment möglichst einfach möglich?
+
+Versuche, die Seite automatisiert aus dem Git Repository zu deployen.
+
+Halte dein Vorgehen fest so dass du es in der Klasse präsentieren kannst.
+Nutze dafür Markdown mit PlantUML oder Mermaid, für Diagramme.
+Halte die Dokumentation im Git Repository fest.
 
 ## Docker Container
 Packe die Website in einen Docker Container
