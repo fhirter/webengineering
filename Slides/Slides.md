@@ -105,16 +105,34 @@ https://codepen.io/web-dot-dev/pen/poZgXxy
 
 
 # Webanwendungen deployen und hosten
-## Continous Integration
+
+## CI / CD
+![](CI_CD.png)
+
+## Continuous Integration
 - Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
 - Dieser Branch ist jederzeit lauffähig
 - Dadurch werden die Releases vereinfachen
 - Eine sehr hohe, automatische Testabdeckung ist zwingend
  
-## Continous Delivery
-- Ziel: Releases werden vereinfacht
-- Time to market ist kürzer, neue Features sind sofort verfügbar
-- Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
+## Continuous Delivery
+- Low risk releases
+- Faster time to market
+- Higher quality
+- Lower costs
+- Better products
+- Happier teams
+
+## Principles
+- Build quality in
+- Work in small batches
+- Computers perform repetitive tasks, people solve problems
+- Relentlessly pursue continuous improvement
+- Everyone is responsible
+
+https://www.continuousdelivery.com/
+
+[Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
 
 ## Begriffe
 GitOps: Git als Single Source of Truth für alles was für die Applikation relevant ist.
