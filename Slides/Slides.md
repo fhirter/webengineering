@@ -141,6 +141,14 @@ GitOps: Git als Single Source of Truth für alles was für die Applikation relev
 
 ## Webanwendungen organisieren und verwalten
 # Webseiten interaktiv machen mit JavaScript
+## Tips & Tricks
+```JavaScript
+Object.freeze()
+```
+- Klassen sind syntaktischer Zucker
+- `this`
+- JSON
+
 # Web-APIs verwenden
 # Webanwendungen testen
 # Webprotokolle verwenden
