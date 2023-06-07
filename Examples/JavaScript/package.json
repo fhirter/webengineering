@@ -2,7 +2,7 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "TDD Example",
-  "main": "index.js",
+  "main": "PayloadExtractor.js",
   "scripts": {
     "test": "jest",
     "watch": "jest --watchAll"
@@ -10,7 +10,15 @@
   "author": "Fabian Hirter",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.4",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": ["@babel/plugin-transform-modules-commonjs"]
+      }
+    }
   }
 }
