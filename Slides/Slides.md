@@ -141,6 +141,8 @@ GitOps: Git als Single Source of Truth für alles was für die Applikation relev
 
 ## Webanwendungen organisieren und verwalten
 # Webseiten interaktiv machen mit JavaScript
+vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
+
 ## How Class Free Works
 - Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden kann.
 - Sie verhalten sich anders als Klassen in C++, Java oder C#. Das kann verwirrend sein.
