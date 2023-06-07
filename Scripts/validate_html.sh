@@ -7,9 +7,6 @@ validate_html_files() {
 
     for file in $html_files; do
         html_validation_output=$(curl -s -F "uploaded_file=@$file" https://validator.w3.org/nu/?out=json)
-        echo $html_validation_output > output.html
-
-        exit
 
         if echo "$html_validation_output" | grep -q "The document validates"; then
             echo "$file is valid"
