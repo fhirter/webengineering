@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# usage: ./validate_html.sh <folder path>
+
 validate_html_files() {
     folder_path=$1
     html_files=$(find "$folder_path" -type f -name "*.html" -print)
@@ -29,6 +31,4 @@ validate_html_files() {
     done
 }
 
-# Usage example
-folder_path="/Users/fabian/Library/CloudStorage/OneDrive-TEKOSchweizerischeFachschuleAG/_Web_TIN20/Prüfungen/Abgabe1/Abgabe"
-validate_html_files "$folder_path"
+validate_html_files "$1"
