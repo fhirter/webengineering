@@ -227,9 +227,16 @@ p1.then((value) => {
 );
 
 ```
+# Webanwendungen testen
+- Test First: Fokus auf die Problemstellung und Schnittstelle
+- Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
+- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert werden.
+- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem minimalen Objekt isolieren
+
+## IDE Integration
+![img.png](TestRunner.png)
 
 # Web-APIs verwenden
-# Webanwendungen testen
 # Webprotokolle verwenden
 ## HTTP
 ## Websockets
