@@ -1,4 +1,4 @@
-<!-- headingDivider: 2 -->
+<!-- headingDivider: 3 -->
 
 # Grundlagen
 ## Client - Server
@@ -141,13 +141,90 @@ GitOps: Git als Single Source of Truth für alles was für die Applikation relev
 
 ## Webanwendungen organisieren und verwalten
 # Webseiten interaktiv machen mit JavaScript
-## Tips & Tricks
+## How Class Free Works
+- Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden kann.
+- Sie verhalten sich anders als Klassen in C++, Java oder C#. Das kann verwirrend sein.
+
+### Komposition
+- Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln. 
+- Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist, welche Methoden aufgerufen werden.
+- Komposition ist sehr leistungsfähig.
+
+---
+
+Folgende Struktur wird empfohlen:
 ```JavaScript
-Object.freeze()
+function counter_constructor() {
+    // private property
+    let counter = 0;
+  
+    // composition
+    const reuse = other_constructor();
+    
+    function up() {
+        counter -= 1;
+        return counter;
+    }
+    
+    function down() {
+        counter += 1;
+        return counter;
+    }
+    
+    // freeze to make the object immutable
+    return Object.freeze({
+      // make functions up and down public
+      up,
+      down,
+      // expose goodess property from another object
+      goodness: reuse.goodness
+    })
+}
 ```
-- Klassen sind syntaktischer Zucker
-- `this`
-- JSON
+
+## Asynchronität
+
+- JavaScript wurde primär für User-Interaktionen entwickelt.
+- Asynchronität ist deshalb ein zentrales Sprachfeature.
+- Es gibt verschiedene Möglichkeiten für asynchronen Code:
+  - Callbacks
+  - Promise
+  - `async` / `await`
+
+`async` / `await` ist verwirrend, weil damit Code produziert wird, der synchron aussieht, aber asynchron funktioniert.
+
+### Callback-Funktionen
+
+- Callback-Funktionen werden als Parameter einer Funktion übergeben und von dieser aufgerufen.
+- Die sogenannt "Callback-Hell", gemeint ist die Verschachtelung von Callbacks in Callbacks, sollte vermieden werden.
+
+```javascript
+function foo(callback) {
+  // some functionality
+  
+  callback(value);
+}
+
+foo((value) => {
+    // runs after "some functionality"
+})
+```
+
+### Promise
+
+Promises können klarer sein als Callbacks, sind aber auch weniger explizit und potenziell verwirrend.
+```javascript
+const p1 = new Promise((resolve, reject) => {
+  // some functionality
+  
+  resolve("Success!");
+});
+p1.then((value) => {
+    // runs after "some functionality"
+  }
+);
+
+```
 
 # Web-APIs verwenden
 # Webanwendungen testen
