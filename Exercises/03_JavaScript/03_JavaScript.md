@@ -45,6 +45,10 @@ module.exports = {
     /* default ["clover", "json", "lcov", "text"]*/
 }
 ```
+Erstelle die Datei `.gitignore` mit folgendem Inhalt (`echo node_modules > .gitignore`)
+```gitignore
+node_modules
+```
 - Starte die tests mi `npm test` oder `npm run watch`
 
 ## Vorgehen
