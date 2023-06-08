@@ -10,7 +10,7 @@ Erstelle zuerst auf beiden Plattformen einen API Key.
 Installiere das Jest Testingframework:
 - In einem neuen Verzeichnis: `npm init`
 - Installiere die Testlibraries:
-`npm install --save-dev jest jest-environment-jsdom babel-jest`
+`npm install --save-dev jest jest-environment-jsdom @babel/preset-env`
 - Füge folgenden Abschnitte zu `package.json` hinzu:
 ```JavaScript
   {
