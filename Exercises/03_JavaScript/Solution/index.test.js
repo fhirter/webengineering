@@ -13,7 +13,7 @@ describe('integration tests', function () {
     });
 
     it('should return an object with a temperature property', function () {
-        expect(weather.temperatur).not.toBeUndefined();
+        expect(weather.temperature).not.toBeUndefined();
     });
 
     it('should return an object with a pressure property', function () {
