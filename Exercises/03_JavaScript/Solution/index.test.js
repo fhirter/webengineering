@@ -1,0 +1,1 @@
+import Meteo from "./index";
