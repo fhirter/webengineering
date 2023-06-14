@@ -1,17 +1,13 @@
-export default function Meteo() {
-    function getWeather(address) {
-        const weather = {
-            humidity: 0,
-            pressure: 0,
-            temperature: 0,
-        }
+import OpenWeatherApiRepository from "./openWeatherApiRepository.js";
+import OpenRouteRepository from "./openRouteRepository.js";
+import {config} from "./config.js";
+import Weather from "./weather.js";
 
-        return Object.freeze(
-            weather
-        )
-    }
+const openWeatherRepository = new OpenWeatherApiRepository(config.openWeatherApiKey);
+const openRouteRepository = new OpenRouteRepository(config.openRouteApiKey);
 
-    return Object.freeze({
-        getWeather
-    })
-}
+const weather = new Weather(openWeatherRepository, openRouteRepository);
+
+weather.getWeather("foo", (weather) => {
+    console.log(weather);
+});
