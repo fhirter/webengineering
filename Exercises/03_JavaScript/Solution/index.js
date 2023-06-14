@@ -8,6 +8,22 @@ const openRouteRepository = new OpenRouteRepository(config.openRouteApiKey);
 
 const weather = new Weather(openWeatherRepository, openRouteRepository);
 
-weather.getWeather("foo", (weather) => {
-    console.log(weather);
+const addressInputButton = document.getElementById('addressForm');
+addressInputButton.addEventListener('submit', function(event) {
+    // Prevent the form from submitting normally
+    event.preventDefault();
+
+    let address = document.getElementById('addressInput').value;
+
+    weather.getWeather(address, (weather) => {
+        const list = `
+            <ul>
+                <li>${Math.round(weather.temperature - 273)}°C</li>
+                <li>${weather.humidity}%</li>
+                <li>${weather.pressure}hPa</li>
+            </ul>
+        `
+        document.getElementById('weather').innerHTML = list;
+        document.getElementById('address').innerHTML = address;
+    });
 });
