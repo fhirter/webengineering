@@ -5,7 +5,7 @@ Nutze für die Auflösung der Koordinaten [openrouteservice.org](https://openrou
 Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst anschliessend die Funktionalität. 
 
 ## Vorbereitungen 
-Erstelle zuerst auf beiden Plattformen einen API Key.
+Erstelle zuerst auf beiden Plattformen einen API Key, weil die Aktiviereung kann mehrere Stunden dauern.
 
 Installiere das Jest Testingframework:
 - In einem neuen Verzeichnis: `npm init`
