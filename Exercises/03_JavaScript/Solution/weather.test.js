@@ -33,6 +33,6 @@ beforeEach(function () {
     weather.getWeather(address, callback);
 });
 
-it('should set temperatur correctly', function () {
-    expect(callback).toHaveBeenCalledTimes(1)
+it('should call callback', function () {
+    expect(callback).toHaveBeenCalledTimes(1);
 });
