@@ -1,6 +1,7 @@
 svg {
     background-color: #d5dbfc;
     border-radius: 10px;
+    width: 100%;
 }
 
 svg #clouds {
