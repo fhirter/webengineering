@@ -36,3 +36,7 @@ beforeEach(function () {
 it('should call callback', function () {
     expect(callback).toHaveBeenCalledTimes(1);
 });
+
+it('should be called with an object that has temperature, pressure and humidity properties', function () {
+    expect(callback).toHaveBeenCalledWith(weatherData);
+});
