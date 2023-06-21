@@ -55,8 +55,8 @@ node_modules
 
 1. Erstelle zuerst eine einfache HTML-Grundstruktur mit einem einfachen Eingabeformular für die Website. Die Website soll primär für Mobile-Anwendung funktionieren.
 2. Zeige die Daten Temperatur (in°C), Luftdruck und Luftfeuchtigkeit an.
-3. Zeichne mit SVG eine Sonne und Wolken und zeige anhand der API Daten nur die Sonne, Sonne und Wolken oder nur Wolken an. (Nutze zum Gruppieren der SVG-Elemente das Element <g>) 
+3. Zeichne mit SVG eine Sonne und Wolken und zeige anhand der API Daten nur die Sonne, Sonne und Wolken oder nur Wolken an. Nutze zum Gruppieren der SVG-Elemente das Element <g>. Du kannst SVG Elemente auch mit IDs und Klassen ausstatten und wie HTML Elemente ansprechen und gestalten.
 4. Erweitere das Programm, z.B.
    - Erweitere und animiere die SVG Symbole (z.B. bewegter Regen) mit CSS oder JS.
-   - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes Framework, z.B. [D3.js](https://github.com/d3/d3/wiki).
+   - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Implementiere einen Service Worker, um die abgerufenen Daten lokal zwischenzuspeichern.
    - Zeige den Forecast
