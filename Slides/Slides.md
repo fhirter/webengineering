@@ -234,16 +234,17 @@ p1.then((value) => {
 - [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem minimalen Objekt isolieren
 
 ## IDE Integration
-![img.png](TestRunner.png)
+![height:500px](TestRunner.png)
 
-# Web-APIs verwenden
-# Webprotokolle verwenden
-## HTTP
-## Websockets
-# Webformate verwenden
-## Rastergrafiken
-## Vektorgrafiken
 # Single-Page-Applikationen implementieren
+## Web Frameworks
+![height:500px](web-frameworks.png)
+[Stackoverflow Survey 2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies), 21.06.2023
+
+--- 
+
+![height:500px](web-frameworks2.png)
+[State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
 # JavaScript auf der Serverseite verwenden
 # Webservices implementieren
 ## REST
