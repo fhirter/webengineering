@@ -1,5 +1,7 @@
 import Weather from "./weather";
 
+import {jest} from '@jest/globals'
+
 const callback = jest.fn();
 let weatherData
 
