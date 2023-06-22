@@ -14,8 +14,8 @@ export default function OpenRouteRepository(apiKey) {
     function extractCoordinates(data) {
         const coordinates = data.features[0].geometry.coordinates;
         return Object.freeze({
-            lon: coordinates[1],
-            lat: coordinates[0]
+            lon: coordinates[0],
+            lat: coordinates[1]
         })
     }
 
