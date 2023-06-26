@@ -60,3 +60,4 @@ node_modules
    - Erweitere und animiere die SVG Symbole (z.B. bewegter Regen) mit CSS oder JS.
    - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Implementiere einen Service Worker, um die abgerufenen Daten lokal zwischenzuspeichern.
    - Zeige den Forecast
+5. Verwende ein Framework deiner Wahl, das du noch nie verwendet hast. Wenn du dir nicht sicher bist, wähle Svelte, dafür erhälst du Unterstützung im Unterricht und Lösungen.
