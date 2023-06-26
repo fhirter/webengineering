@@ -1,4 +1,4 @@
-import Weather from "./weather";
+import Weather from "./weather.js";
 
 import {jest} from '@jest/globals'
 
