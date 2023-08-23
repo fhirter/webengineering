@@ -2,7 +2,7 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "TDD Example",
-  "main": "PayloadExtractor.js",
+  "main": "",
   "scripts": {
     "test": "jest",
     "watch": "jest --watchAll"

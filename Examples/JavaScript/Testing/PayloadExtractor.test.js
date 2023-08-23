@@ -1,4 +1,4 @@
-import PayloadExtractor from "./PayloadExtractor";
+import PayloadExtractor from "./";
 
 it('should extract coordinates', function () {
     // Setup
