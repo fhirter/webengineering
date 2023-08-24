@@ -9,7 +9,7 @@
     const start = window.performance.now();
     function newPromise() {
         return new Promise((resolve, reject) => {
-            const timeout = Math.round(Math.random()*100);
+            const timeout = Math.round(Math.random()*10+50);
             setTimeout(resolve, timeout , timeout);
         })
     }
@@ -23,6 +23,7 @@
         for (const response of responses) {
             console.log(`Individual runtime: ${response}ms`);
         }
+
     }).then(() => {
         const end = window.performance.now() - start;
         console.log(`Total runtime: ${end}ms`);
