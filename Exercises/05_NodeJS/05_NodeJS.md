@@ -30,7 +30,7 @@ Dokumentiere die API mit einem [OpenAPI](https://www.openapis.org/) Dokument. Vi
 
 ## Vorgehen
 
-Folgende Punkte müssen in dieser Reihenfolge erledigt werden:
+Folgende Punkte sollen in dieser Reihenfolge erledigt werden:
 1. Beschreibe die Funktionalität mittels Akzeptanztests.
 2. Schreibe Integrations-Tests für die API.
 3. Setze einen Container auf, der die Node Applikation ausführt.
@@ -40,6 +40,10 @@ Folgende Punkte müssen in dieser Reihenfolge erledigt werden:
 6. Erstelle die Datenbankanbindung.
 7. Erstelle die Frontend-Applikation mit einem gängigen Framework, z.B [Svelte](https://svelte.dev/) mit [SvelteKit]
    (https://kit.svelte.dev).
+
+Dabei müssen die Punkte nicht vollständig abgearbeitet sein, bevor der nächste Punkt bearbeitet wird.
+So kann ein Akzeptanztest für einen Teil der Funktionalität geschrieben werden, anschliessend der API-Integrationstest geschrieben werden und danach die Funktionalität implementiert werden.
+Tests sollen Funktionalität beschreiben, die bekannt ist.
 
 ### Begründung der Reihenfolge
 Unit-Tests zuerst zu schreiben zwingt uns Entwickler:innen, uns zuerst Gedanken zu machen, wie die Schnittstelle des 
