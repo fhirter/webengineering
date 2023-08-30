@@ -1,0 +1,11 @@
+name: Run Tests on Testing Example
+on: [push]
+jobs:
+  Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: cd Examples/JavaScript/Testing
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
