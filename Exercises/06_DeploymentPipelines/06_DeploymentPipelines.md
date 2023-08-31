@@ -24,6 +24,6 @@ Erstelle auf Github eine einfache Deployment-Pipeline für das Projekt aus der [
 - Coverage Report Deployment auf Github Pages
 - Überprüfen der Abhängigkeiten
 
-Die Ausführung der Akzeptanztests in der Pipeline sprengen leider den Rahmen dieser Übung.
+Die Ausführung der Akzeptanztests in der Pipeline sprengt leider den Rahmen dieser Übung.
 
 Konsultiere dazu die [ausführliche Dokumentation](https://docs.github.com/en/actions), das "[Quickstart](https://docs.github.com/en/actions/quickstart)" und die zahlreichen [Beispielworkflows](https://github.com/actions/starter-workflows).
