@@ -1,0 +1,292 @@
+---
+before_script:
+  - export GOOGLE_CREDENTIALS=$(echo $GCP_TERRAFORM_KEY | base64 -d)
+
+variables:
+  IMAGE_NAME: backend
+  TERRAFORM_IMAGE: "$CI_TEMPLATE_REGISTRY_HOST/gitlab-org/terraform-images/stable:latest"
+  ENVIRONMENT: production
+  GCP_PROJECT_ID: racoon-${ENVIRONMENT}
+  TF_STATE_NAME: x${ENVIRONMENT}
+  TF_CACHE_KEY: default
+  TF_ROOT: terraform
+  TF_VAR_gcp_project_id: $GCP_PROJECT_ID
+  TF_VAR_credentials: $GOOGLE_CREDENTIALS
+  TF_VAR_gcp_region: "europe-west1"
+  TF_VAR_gcp_zone: "europe-west1-a"
+  TF_VAR_environment: $ENVIRONMENT
+  TF_VAR_backend_archive: "backend_${CI_COMMIT_SHA}.zip"
+
+# terraform template:
+# https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Terraform/Base.latest.gitlab-ci.yml
+
+stages:
+  - validate
+  - build
+  - test
+  - deploy
+
+lint:
+  image: node:latest
+  stage: validate
+  allow_failure: true
+  script:
+    - |
+      npm install eslint \
+      eslint-config-standard \
+      eslint-plugin-import \
+      eslint-plugin-n \
+      eslint-plugin-jest \
+      eslint-plugin-promise
+    - node_modules/eslint/bin/eslint.js .
+
+#### Frontend ####
+
+build_frontend:
+  tags:
+    - saas-linux-large-amd64
+  image: node:latest
+  stage: build
+  script:
+    - cd board
+    - npm ci
+    - npm run build
+  cache:
+    paths:
+      - board/node_modules/
+  artifacts:
+    expire_in: 1 days
+    when: on_success
+    paths:
+      - board/node_modules/
+  rules:
+    - changes:
+        - board/**/*
+
+check_dependencies_frontend:
+  stage: test
+  allow_failure: true
+  image: node:latest
+  needs:
+    - build_frontend
+  script:
+    - cd board
+    - npm audit --audit-level=high
+    - npm audit signatures
+    - npx ncu -e 2
+  rules:
+    - changes:
+        - board/**/*
+
+unit_test_frontend:
+  stage: test
+  image: node:latest
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  needs:
+    - build_frontend
+  rules:
+    - changes:
+        - board/**/*
+  cache:
+    paths:
+      - board/coverage/
+  script:
+    - cd board
+    - yarn test:ci
+  artifacts:
+    paths:
+      - board/coverage/
+    when: always
+    reports:
+      junit:
+        - board/junit.xml
+
+acceptance_test_frontend:
+  stage: test
+  allow_failure: true
+  image: node:latest
+  needs:
+    - build_frontend
+  rules:
+    - changes:
+        - board/**/*
+  before_script:
+    - apt-get -qq update && apt-get -qq install -y
+      libatk1.0-0
+      libx11-xcb1
+      libxtst6
+      libnss3
+      libnspr4
+      libxss1
+      libasound2
+      libatk-bridge2.0-0
+      libatspi2.0-0
+      libgtk-3-0
+      libgdk3.0-cil
+      libdrm2
+      libgbm1
+  script:
+    - cd __tests__/acceptance
+    - npm install
+    - curl https://github.com/getgauge/gauge-js/releases/download/v3.0.1/gauge-js-3.0.1.zip -L -o gauge.zip
+    - npx gauge install js --file gauge.zip
+    - npm test
+
+deploy_frontend:
+  stage: deploy
+  environment:
+    name: $ENVIRONMENT
+    url: https://racoon.pages.dev
+  image: node:latest
+  needs:
+    - build_frontend
+  rules:
+    - changes:
+        - board/**/*
+      when: manual
+  script:
+    - ./board/deploy.sh $CLOUDFLARE_ID
+
+
+#### Backend ####
+build_backend:
+  tags:
+    - saas-linux-large-amd64
+  image: node:latest
+  stage: build
+  script:
+    - cd backend
+    - npm ci
+  cache:
+    paths:
+      - backend/node_modules/
+  artifacts:
+    expire_in: 1 days
+    when: on_success
+    paths:
+      - backend/node_modules/
+  rules:
+    - changes:
+        - backend/**/*
+
+terraform_format:
+  image: ${TERRAFORM_IMAGE}
+  allow_failure: true
+  stage: validate
+  script:
+    - gitlab-terraform fmt
+  rules:
+    - changes:
+        - ${TF_ROOT}/**/*
+
+terraform_validate:
+  image: ${TERRAFORM_IMAGE}
+  stage: validate
+  script:
+    - gitlab-terraform validate
+  rules:
+    - changes:
+        - ${TF_ROOT}/**/*
+
+terraform_plan:
+  image: ${TERRAFORM_IMAGE}
+  environment: $ENVIRONMENT
+  allow_failure: true
+  stage: build
+  variables:
+    TF_VAR_credentials: "foo"
+  script:
+    - export TF_VAR_credentials=$GOOGLE_CREDENTIALS
+    - gitlab-terraform plan
+    - gitlab-terraform plan-json
+  resource_group: ${TF_STATE_NAME}
+  rules:
+    - changes:
+        - backend/**/*
+        - ${TF_ROOT}/**/*
+  artifacts:
+    # The next line, which disables public access to pipeline artifacts, may not be available everywhere.
+    # See: https://docs.gitlab.com/ee/ci/yaml/#artifactspublic
+    public: false
+    paths:
+      - ${TF_ROOT}/plan.cache
+    reports:
+      terraform: ${TF_ROOT}/plan.json
+
+unit_test_backend:
+  stage: test
+  image: node:latest
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  needs:
+    - build_backend
+  cache:
+    paths:
+      - backend/coverage/
+  script:
+    - cd backend
+    - npm run test
+  rules:
+    - changes:
+        - backend/**/*
+  artifacts:
+    paths:
+      - backend/coverage/
+    when: always
+    reports:
+      junit:
+        - backend/junit.xml
+
+migrate_database:
+  stage: deploy
+  image: node:latest
+  environment: $ENVIRONMENT
+  needs:
+    - build_backend
+  before_script:
+    - export PG_CONNECTION_STRING=$(echo $PG_CONNECTION_STRING_BASE64 | base64 -d)
+    - curl --create-dirs -o $HOME/.postgresql/root.crt $COCKROACH_CERT_URL || echo "curl failed"
+  script:
+    - cd backend
+    - npx knex migrate:latest --esm --env $ENVIRONMENT
+    - npx knex migrate:latest --esm --env $ENVIRONMENT
+  rules:
+    - changes:
+        - backend/migrations/**/*
+      when: manual
+
+
+terraform_apply:
+  stage: deploy
+  environment: $ENVIRONMENT
+  image: ${TERRAFORM_IMAGE}
+  before_script:
+    - apk add --update zip
+    - export TF_VAR_credentials=$GOOGLE_CREDENTIALS
+  script:
+    - cd backend
+    - zip -r $TF_VAR_backend_archive package.json package-lock.json index.js knexfile.js src migrations
+    - mv $TF_VAR_backend_archive ../$TF_ROOT;
+    - gitlab-terraform apply
+  resource_group: ${TF_STATE_NAME}
+  rules:
+    - changes:
+        - backend/**/*
+        - ${TF_ROOT}/**/*
+  artifacts:
+    paths:
+      - $TF_VAR_backend_archive
+
+# Reports
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mkdir public/coverage
+    - cp -r board/coverage/* public/coverage
+  artifacts:
+    paths:
+      - public
+  rules:
+    - changes:
+        - board/src/**/*
+
