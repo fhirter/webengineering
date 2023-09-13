@@ -245,9 +245,63 @@ p1.then((value) => {
 
 ![height:500px](web-frameworks2.png)
 [State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
-# JavaScript auf der Serverseite verwenden
-# Webservices implementieren
-## REST
-# Daten in Datenbanken speichern
-# Webanwendungen absichern
 # Die Performance von Webanwendungen optimieren
+## Browser Tools: Netzwerkanalyse
+![img.png](Netzwerkanalyse.png)
+
+## Browser Tools: Laufzeitanalyse
+![img.png](img.png)
+
+## Bun
+![img.png](Bun_webserver.png)
+
+--- 
+
+![img.png](bun_install.png)
+
+--- 
+
+![img.png](bun_test.png)
+[https://bun.sh/](https://bun.sh/)
+
+## Energy, Time, Memory Comparision
+![img.png](energy_time_memory.png)
+[https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
+
+# Webarchitekturen verstehen und einsetzen
+## High Cohesion - Low Coupling
+![img_1.png](High_cohesion_loose_coupling.png)
+
+## Listening to Tests
+![w:500px](listening-to-tests.svg)
+http://www.growing-object-oriented-software.com
+
+## Ports and Adapters
+![w:500px](ports-and-adapters-architecture.svg)
+[growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
+
+## Traditional Monolithic Design
+![img_1.png](traditional_monolithic_design.png)
+
+## Schichtenarchitektur im Client Server Modell
+![img_1.png](client_server_II.png)
+
+## Microservices
+![img_2.png](microservices.png)
+[martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
+## Microservices
+- Maximale Skalierbarkeit
+- Einzelne Services können von **kleinen[^1]** Teams **unabhängig entwickelt und deployed** werden
+- Bessere Wart- und Erweiterbarkeit
+- Unterschiedliche Technologien können eingesetzt werden
+- Kommunikation nicht trivial
+- Höhere Wahrscheinlichkeit eines Ausfalls
+- **Hohe Komplexität**
+
+[^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
+
+### Monolith First
+- Amazon, Google, Meta etc. haben heute andere Herausforderungen als Startups
+- Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
+![w:600px](route_to_microservices.png)
+[martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
