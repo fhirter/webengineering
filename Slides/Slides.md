@@ -2,36 +2,36 @@
 
 # Grundlagen
 ## Client - Server
-![img.png](client_server.png)
+![img.png](images/client_server.png)
 
 ## URL
 `https://www.philipackermann.de:80/books/web.html?language=de#chapter7`
 
 ## Aufbau von Webapplikationen
-![img_1.png](separation_of_concerns.png)
+![img_1.png](images/separation_of_concerns.png)
 
 ## Software Stacks
 ### LAMP
-![img.png](LAMP.png)
+![img.png](images/LAMP.png)
 
 ### MERN
-![img.png](MERN.png)
+![img.png](images/MERN.png)
 
 
 ## Werkzeuge
-![img.png](browser_dev_tools.png)
+![img.png](images/browser_dev_tools.png)
 
 # Webseiten strukturieren mit HTML
 ## Barrierefreiheit
 ### Gerätevielfalt
-![img.png](gerätevielfalt.png)
+![img.png](images/gerätevielfalt.png)
 
 ### Browser Wars
-![img.png](browser_warsI.png)
+![img.png](images/browser_warsI.png)
 ---
-![StatCounter-browser-ww-monthly-200901-202303.png](StatCounter-browser-ww-monthly-200901-202303.png)
+![StatCounter-browser-ww-monthly-200901-202303.png](images/StatCounter-browser-ww-monthly-200901-202303.png)
 ---
-![StatCounter-comparison-ww-monthly-200901-202303.png](StatCounter-comparison-ww-monthly-200901-202303.png)
+![StatCounter-comparison-ww-monthly-200901-202303.png](images/StatCounter-comparison-ww-monthly-200901-202303.png)
 
 ## Layoutkonzepte
 * http://info.cern.ch/hypertext/WWW/TheProject.html
@@ -60,8 +60,8 @@
 
 # Webseiten gestalten mit CSS
 ## Box Model
-![img.png](box_model.png)
-![img_1.png](content_box.png)![img_2.png](border_box.png)
+![img.png](images/box_model.png)
+![img_1.png](images/content_box.png)![img_2.png](images/border_box.png)
 
 
 ## Einheiten
@@ -70,16 +70,16 @@
   - `em`: Schriftgrösse des Elternelements
   - `rem`: Schriftgrösse des Wurzelelements
   - `vw`, `vh`: viewport breite, viewport höhe
-![img.png](px_vw_em.png)![img.png](percent.png)
+![img.png](images/px_vw_em.png)![img.png](images/percent.png)
 
 ## Farben
-![width:500px](CIE1931.png)
+![width:500px](images/CIE1931.png)
 CIE 1931 Farbraum
 
 ---
 
 ### Vergleich Farbräume
-![width:500px](color_spaces.png)
+![width:500px](images/color_spaces.png)
 
 ---
 
@@ -100,14 +100,14 @@ CIE 1931 Farbraum
 
 ---
 
-![img.png](HSL_vs_LCH.png)
+![img.png](images/HSL_vs_LCH.png)
 https://codepen.io/web-dot-dev/pen/poZgXxy
 
 
 # Webanwendungen deployen und hosten
 
 ## CI / CD
-![](CI_CD.png)
+![](images/CI_CD.png)
 
 ## Continuous Integration
 - Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
@@ -234,60 +234,60 @@ p1.then((value) => {
 - [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem minimalen Objekt isolieren
 
 ## IDE Integration
-![height:500px](TestRunner.png)
+![height:500px](images/TestRunner.png)
 
 # Single-Page-Applikationen implementieren
 ## Web Frameworks
-![height:500px](web-frameworks.png)
+![height:500px](images/web-frameworks.png)
 [Stackoverflow Survey 2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies), 21.06.2023
 
 --- 
 
-![height:500px](web-frameworks2.png)
+![height:500px](images/web-frameworks2.png)
 [State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
 # Die Performance von Webanwendungen optimieren
 ## Browser Tools: Netzwerkanalyse
-![img.png](Netzwerkanalyse.png)
+![img.png](images/Netzwerkanalyse.png)
 
 ## Browser Tools: Laufzeitanalyse
-![img.png](img.png)
+![img.png](images/img.png)
 
 ## Bun
-![img.png](Bun_webserver.png)
+![img.png](images/Bun_webserver.png)
 
 --- 
 
-![img.png](bun_install.png)
+![img.png](images/bun_install.png)
 
 --- 
 
-![img.png](bun_test.png)
+![img.png](images/bun_test.png)
 [https://bun.sh/](https://bun.sh/)
 
 ## Energy, Time, Memory Comparision
-![img.png](energy_time_memory.png)
+![img.png](images/energy_time_memory.png)
 [https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
 
 # Webarchitekturen verstehen und einsetzen
 ## High Cohesion - Low Coupling
-![img_1.png](High_cohesion_loose_coupling.png)
+![img_1.png](images/High_cohesion_loose_coupling.png)
 
 ## Listening to Tests
-![w:500px](listening-to-tests.svg)
+![w:500px](images/listening-to-tests.svg)
 http://www.growing-object-oriented-software.com
 
 ## Ports and Adapters
-![w:500px](ports-and-adapters-architecture.svg)
+![w:500px](images/ports-and-adapters-architecture.svg)
 [growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
 
 ## Traditional Monolithic Design
-![img_1.png](traditional_monolithic_design.png)
+![img_1.png](images/traditional_monolithic_design.png)
 
 ## Schichtenarchitektur im Client Server Modell
-![img_1.png](client_server_II.png)
+![img_1.png](images/client_server_II.png)
 
 ## Microservices
-![img_2.png](microservices.png)
+![img_2.png](images/microservices.png)
 [martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
 ## Microservices
 - Maximale Skalierbarkeit
@@ -303,5 +303,5 @@ http://www.growing-object-oriented-software.com
 ### Monolith First
 - Amazon, Google, Meta etc. haben heute andere Herausforderungen als Startups
 - Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
-![w:600px](route_to_microservices.png)
+![w:600px](images/route_to_microservices.png)
 [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
