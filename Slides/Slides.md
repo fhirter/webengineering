@@ -301,7 +301,7 @@ http://www.growing-object-oriented-software.com
 [^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
 
 ### Monolith First
-- Amazon, Google, Meta etc. haben heute andere Herausforderungen als Startups
+- Vorsicht vor [Cargo-Kult](https://de.wikipedia.org/wiki/Cargo-Kult): Amazon, Google, Meta etc. haben heute andere Herausforderungen als Startups
 - Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
 ![w:600px](images/route_to_microservices.png)
 [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
