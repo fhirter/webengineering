@@ -4,30 +4,13 @@
 
 Die Studierenden können Applikationen containerisieren und deployen.
 
+Die Studierenden kennen die Struktur und Aufgaben einer Deployment-Pipeline und können selber eine einfache Deployment-Pipeline erstellen.
+
 ## Vorgehen
 
-Stelle eine bisher erstellt statische HTML und CSS Seite öffentlich zur Verfügung.
+Als Grundlage für spätere Übungen erstellen und deployen wir einen containerisierten Webserver.
 
-Erstelle anschliessend einen Docker Container für die Webseite.
-Später werden wir Applikationen mit serverseitigem Code und Datenbanken einfach mit Containern starten.
-
-## Statisches Hosting
-
-Deploye die Seite auf einem Hosting für statische Seiten.
-
-Untersuche und vergleiche folgende Angebote:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Cloudflare Pages](https://pages.cloudflare.com/)
-- [Google Cloud Storage](https://cloud.google.com/storage)
-
-Wie ist kontinuierliches Deployment möglichst einfach möglich?
-
-Versuche, die Seite automatisiert aus dem Git Repository zu deployen.
-
-Halte dein Vorgehen fest so dass du es in der Klasse präsentieren kannst.
-Nutze dafür Markdown mit PlantUML oder Mermaid, für Diagramme.
-Halte die Dokumentation im Git Repository fest.
+Erstelle dazu eine [einfache HTML-Seite](https://www.w3schools.com/html/html_basic.asp).
 
 ## Docker Container
 
@@ -69,9 +52,7 @@ services:
 5. Nun kannst du den container mit `docker-compose up` starten. Nutze `docker-compose up --build` um das image vor dem
    Starten neu zu builden.
 
-### Deployment
-
-#### Azure
+## Deployment
 
 Deploye den Container auf Azure. Nutze dazu Azure CLI und halte die ausgeführten Befehle in einem Markdown Dokument
 fest. So kannst du später die Arbeit exakt nachvollziehen und gegebenenfalls automatisieren.
@@ -84,5 +65,32 @@ fest. So kannst du später die Arbeit exakt nachvollziehen und gegebenenfalls au
 
 Stelle sicher, dass du am Ende wieder alle Ressourcen gelöscht hast, damit nicht unnötig Kosten entstehen oder Guthaben
 aufgebraucht wird. Der Befehl `az group delete --name myResourceGroup` löscht die gesamte resource
-group. `az group list` sowie `az container list` sollten keine Ressourcen mehr anzeigen (abgesehen von der .
+group. `az group list` sowie `az container list` sollten keine Ressourcen mehr anzeigen.
+
+## Deployment Pipelines
+
+### Gitlab CI
+
+Untersuche die gegebene [Gitlab Deployment Pipeline](gitlab-ci-example.yml).
+
+![img.png](pipeline.png)
+
+- Welche Stufen sind definiert?
+- Welche Schritte haben die einzelnen Stufen?
+- Welche Abhängigkeiten existieren?
+- Wann werden die einzelnen Schritte ausgeführt?
+- Welche Schritte erzeugen ein Resultat? Welches?
+- Welche Punkte aus [Dave Farleys Video](https://youtu.be/x9l6yw1PFbs?feature=shared) werden umgesetzt? Welche nicht?
+
+### Github Actions
+
+Erstelle auf Github eine einfache Deployment-Pipeline:
+- Statische Code Analyse / Linting
+- Automatisierte Unit-Tests
+- Coverage Report Deployment auf Github Pages
+- Überprüfen der Abhängigkeiten
+- Build und deployment des oben erstellten Containers
+
+Konsultiere dazu die [ausführliche Dokumentation](https://docs.github.com/en/actions), das "[Quickstart](https://docs.github.com/en/actions/quickstart)" und die zahlreichen [Beispielworkflows](https://github.com/actions/starter-workflows).
    
+
