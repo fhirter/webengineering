@@ -1,9 +1,12 @@
 # Webengineering Tools
 
-- Browser Tools
-- [https://caniuse.com/](https://caniuse.com/)
+## Browsers
+
+- https://www.mozilla.org/de/firefox/windows/
+- https://www.google.com/intl/de/chrome/
 
 ## Cloud Platforms
+
 - https://aws.amazon.com/de/
 - https://azure.microsoft.com/de-de/
 - https://cloud.google.com/
@@ -22,4 +25,5 @@
 
 ## Various
 
+- [https://caniuse.com/](https://caniuse.com/)
 - https://localfirstweb.dev/
