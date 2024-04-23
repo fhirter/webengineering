@@ -1,10 +1,10 @@
-<!-- headingDivider: 3 -->
+<!-- headingDivider: 4 -->
 
 # Grundlagen "Web-Engineering"
 
 ## World Wide Web
 
-![w:200px](img_1.png)
+![w:200px](images/www.png)
 
 "Das **World Wide Web** (englisch für „weltweites Netz“, kurz Web oder WWW) ist ein über das **Internet** abrufbares System von elektronischen Hypertext-Dokumenten, sogenannten **Webseiten**, welche mit **HTML** beschrieben werden.
 
@@ -52,7 +52,6 @@ Among the fundamental elements of the design process are the **establishment of 
 - Entscheidungsverfahren
 - Bestimmen der Anforderungen und **Analyse**, **Herstellung**, **Überprüfung** und **Evaluation**
 
-![img.png](images/client_server.png)
 
 ### "Hyperlinks" / URL
 
@@ -60,10 +59,14 @@ Among the fundamental elements of the design process are the **establishment of 
 
 ### Client - Server
 
-- Client: Browser
-- Server: Webserver
+- Client: Browser -> Eher einfache Maschine (Software und Hardware), meistens in direktem Zugriff des Users
+- Server: Webserver -> eher leistungsfähig (Software und Hardware), i.d.R. im Rechenzentrum
+
+![w:400px](images/client_server.png)
 
 ### HTTP
+
+![w:600px](images/HTTP.png)
 
 ### Webbrowser
 
@@ -79,7 +82,7 @@ Among the fundamental elements of the design process are the **establishment of 
 
 ### PC / Smartphone
 
-![img.png](images/gerätevielfalt.png)
+![w:600px](images/gerätevielfalt.png)
 
 ### Webseiten strukturieren mit HTML
 
@@ -97,7 +100,7 @@ Among the fundamental elements of the design process are the **establishment of 
 </html>
 ```
 
-#### Aufbau von Webapplikationen
+### Aufbau von Webapplikationen
 
 ![img_1.png](images/separation_of_concerns.png)
 
@@ -111,33 +114,31 @@ Among the fundamental elements of the design process are the **establishment of 
 
 MongoDB, Express.js, React, Node.js
 
-![img.png](images/MERN.png)
+![w:600px](images/MERN.png)
 
-#### Weitere
+#### Programmiersprachen
 
-Ohne Anspruch auf Vollständigkeit:
+![w:600px](images/ProgrammingLanguages.png)
 
-- **Datenbanken:** PostgreSQL, MySQL, MariaDB, SQLite, Microsoft SQL, Redis,  MongoDB
-- Webserver: Apache, Nginx
-- **Backend**:
-  - **Node.js**: Express, SvelteKit, Next.js
-  - **Python**: Django, Flask
-  - **Go**: Gin
-  - **Java:** Spring
-  - **PHP**: Laravel
-  - **C#**: ASP.net
-  - **Ruby**
-- Frontend: Angular, React, Vue, Svelte
+https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages, 23.04.24
 
-(vgl. https://survey.stackoverflow.co/2023/#technology-most-popular-technologies)
+#### Datenbanken
+
+![w:400px](images/Databases.png)
+
+#### Cloud Plattformen
+
+![w:400px](images/CloudPlatforms.png)
+
+https://survey.stackoverflow.co/2023/#section-most-popular-technologies-cloud-platforms, 23.04.24
+
+#### Web Frameworks
+
+![w:400px](images/WebFrameworks.png)
+
+https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies, 23.04.24
 
 ---
-
-![height:500px](images/web-frameworks.png)
-[Stackoverflow Survey 2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies),
-21.06.2023
-
---- 
 
 ![height:500px](images/web-frameworks2.png)
 [State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
