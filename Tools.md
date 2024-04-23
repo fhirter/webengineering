@@ -26,4 +26,5 @@
 ## Various
 
 - [https://caniuse.com/](https://caniuse.com/)
+- https://jsfiddle.net/
 - https://localfirstweb.dev/
