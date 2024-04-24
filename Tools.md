@@ -1,5 +1,13 @@
 # Webengineering Tools
 
+## Learning
+
+- https://wiki.selfhtml.org/wiki/SELFHTML
+- https://developer.mozilla.org/en-US/
+- https://www.w3schools.com/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+
 ## IDE
 
 - https://www.jetbrains.com/webstorm/
