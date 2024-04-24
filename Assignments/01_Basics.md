@@ -20,12 +20,11 @@ Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
 
 - Ausgefüllte Links auf HTML und CSS Validatoren sowie Pagespeed Analyse
 - Verwendeter SSG mit Begründung
-- Verwendetes Hosting mit Begründung
-- Deployment
+- Deployment und verwendetes Hosting mit Begründung
 
 ## Bewertungsraster
 
-- SSG rendering mit Theme (10)
+- Erläuterung und Begründung SSG (10)
 - HTML (10)
   - Semantisch korrekt
   - Keine Fehler und Warnungen auf https://validator.w3.org
@@ -34,4 +33,4 @@ Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
   - Layout funktioniert auf iPhone 11 (Emuliert in Firefox) und 13" Laptop Display
   - Keine Fehler und Warnungen auf https://jigsaw.w3.org/css-validator/
 - Leistung, Barrierefreiheit, Best Practices, SEO alle über 90: https://pagespeed.web.dev/ (10)
-- Deployed und im Internet erreichbar (10)
+- Deployment (im Internet erreichbar) und verwendetes Hosting mit Begründung (10)
