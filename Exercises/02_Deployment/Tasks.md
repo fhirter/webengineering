@@ -88,7 +88,7 @@ Wähle aus den folgenden Punkten:
 - Automatisierte Unit-Tests
 - Coverage Report Deployment auf Github Pages
 - Überprüfen der Abhängigkeiten
-- Build und deployment des oben erstellten Containers auf Azure
+- Build und deployment des oben erstellten Containers auf Azure [gemäss Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-github-action?tabs=userlevel)
 
 Konsultiere dazu die [ausführliche Dokumentation](https://docs.github.com/en/actions), das "[Quickstart](https://docs.github.com/en/actions/quickstart)" und die zahlreichen [Beispielworkflows](https://github.com/actions/starter-workflows).
    
