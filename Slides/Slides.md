@@ -215,46 +215,6 @@ CIE 1931 Farbraum
 ![img.png](images/HSL_vs_LCH.png)
 https://codepen.io/web-dot-dev/pen/poZgXxy
 
-# Webanwendungen deployen und hosten
-
-## CI / CD
-
-![](images/CI_CD.png)
-
-## Continuous Integration
-
-- Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
-- Dieser Branch ist jederzeit lauffähig
-- Dadurch werden die Releases vereinfachen
-- Eine sehr hohe, automatische Testabdeckung ist zwingend
-
-## Continuous Delivery
-
-- Low risk releases
-- Faster time to market
-- Higher quality
-- Lower costs
-- Better products
-- Happier teams
-
-## Principles
-
-- Build quality in
-- Work in small batches
-- Computers perform repetitive tasks, people solve problems
-- Relentlessly pursue continuous improvement
-- Everyone is responsible
-
-https://www.continuousdelivery.com/
-
-[Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
-
-## Begriffe
-
-GitOps: Git als Single Source of Truth für alles was für die Applikation relevant ist.
-
-# Webanwendungen organisieren und verwalten
-
 # Webseiten interaktiv machen mit JavaScript
 
 vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
@@ -350,19 +310,6 @@ p1.then((value) => {
 
 ```
 
-# Webanwendungen testen
-
-- Test First: Fokus auf die Problemstellung und Schnittstelle
-- Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
-- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
-  werden.
-- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem
-  minimalen Objekt isolieren
-
-## IDE Integration
-
-![height:500px](images/TestRunner.png)
-
 # Single-Page-Applikationen implementieren
 
 
@@ -394,52 +341,3 @@ p1.then((value) => {
 
 ![img.png](images/energy_time_memory.png)
 [https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
-
-# Webarchitekturen verstehen und einsetzen
-
-## High Cohesion - Low Coupling
-
-![img_1.png](images/High_cohesion_loose_coupling.png)
-
-## Listening to Tests
-
-![w:500px](images/listening-to-tests.svg)
-http://www.growing-object-oriented-software.com
-
-## Ports and Adapters
-
-![w:500px](images/ports-and-adapters-architecture.svg)
-[growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
-
-## Traditional Monolithic Design
-
-![img_1.png](images/traditional_monolithic_design.png)
-
-## Schichtenarchitektur im Client Server Modell
-
-![img_1.png](images/client_server_II.png)
-
-## Microservices
-
-![img_2.png](images/microservices.png)
-[martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
-
-## Microservices
-
-- Maximale Skalierbarkeit
-- Einzelne Services können von **kleinen[^1]** Teams **unabhängig entwickelt und deployed** werden
-- Bessere Wart- und Erweiterbarkeit
-- Unterschiedliche Technologien können eingesetzt werden
-- Kommunikation nicht trivial
-- Höhere Wahrscheinlichkeit eines Ausfalls
-- **Hohe Komplexität**
-
-[^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
-
-### Monolith First
-
-- Vorsicht vor [Cargo-Kult](https://de.wikipedia.org/wiki/Cargo-Kult): Amazon, Google, Meta etc. haben heute andere
-  Herausforderungen als Startups
-- Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
-  ![w:600px](images/route_to_microservices.png)
-  [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
