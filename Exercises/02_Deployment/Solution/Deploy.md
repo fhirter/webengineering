@@ -11,10 +11,11 @@
 Create container registry:
 
 ```bash
+# Configuration
 SERVICE_NAME="webengineering"
-IMAGE_NAME=$SERVICE_NAME
-RESOURCE_GROUP_NAME="tekoTest"
 CONTAINER_REGISTRY_NAME="tekoregistry73783811" # needs to be unique, lowercase, alphanumeric
+IMAGE_NAME=$SERVICE_NAME
+RESOURCE_GROUP_NAME=$SERVICE_NAME
 VERSION="v1"
 
 
