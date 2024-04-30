@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: Exercises/02_Deployment/Solution/Deploy.md
+  checksum: 79030c76f59aef251fb61e51ea7e3932691951c4bab603124ee0a5b19df805f7
+version: ""
