@@ -52,7 +52,7 @@ docker run --name webengineering --detach --publish 80:80 webengineering
 ```
 
 4. Stoppe den Container mit `docker stop webengineering` und lösche ihn mit `docker rm webengineering`
-5. Erstelle ein docker-compose file:
+5. Erstelle ein docker-compose file (`docker-compose.yml`):
 
 ```yaml
 version: "1"
@@ -72,12 +72,13 @@ services:
 
 Deploye den Container auf Azure. Nutze dazu Azure CLI und halte die ausgeführten Befehle fest.
 
-1. [Installiere Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) und logge dich mit `az login`
+1. Erstelle eine Azure Student-Subscription.
+2. [Installiere Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) und logge dich mit `az login`
    in deinen Account ein.
-2. Deploye anschliessend den Container
-   gemäss [Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr).
-   Wähle mit der Option `--location` eine Region in der
+2. Erstelle eine Container Registry und lade den Container hoch. Folge dazu der [Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr).
+   Wähle beim ersten Schritt mit der Option `--location` eine Region in der
    Nähe:  `az group create --name tekoTest --location switzerlandnorth`
+3. Deploye anschliessend den Container gemäss [Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app).
 
 Stelle sicher, dass du am Ende wieder alle Ressourcen gelöscht hast, damit nicht unnötig Kosten entstehen oder Guthaben
 aufgebraucht wird. Der Befehl `az group delete --name myResourceGroup` löscht die gesamte resource
