@@ -15,6 +15,9 @@ Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
 - Verwendeter SSG mit Begründung
 - Deployment und verwendetes Hosting mit Begründung
 
+Sämtliche Quellen (Bücher und Artikel) und Hilfsmittel sind als solche anzugeben. 
+Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
+
 ## Bewertungsraster
 
 - Erläuterung und Begründung SSG (10)
