@@ -1,4 +1,10 @@
 fileignoreconfig:
 - filename: Exercises/02_Deployment/Solution/Deploy.md
   checksum: 79030c76f59aef251fb61e51ea7e3932691951c4bab603124ee0a5b19df805f7
+- filename: Examples/JavaScript/Svelte/svelte-example/src/vite-env.d.ts
+  checksum: 87a8d59bb62598087fce7986a29cc12bc6476e83c7f38009421ad9b31a8c054b
+- filename: Examples/JavaScript/Svelte/svelte-example/public/vite.svg
+  checksum: 0bb782bc7896acf5ae957c0a6e406a31a2cea768a7b6f86df314ec0f1bf37a0e
+- filename: Examples/JavaScript/Svelte/svelte-example/package-lock.json
+  checksum: 49b1eac3eeeda103edfa79332aabf552874ef6d1a848dd6a4725b6839fc2ff02
 version: ""
