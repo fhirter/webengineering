@@ -184,13 +184,9 @@ https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-fram
 ![width:500px](images/CIE1931.png)
 CIE 1931 Farbraum
 
----
-
 ### Vergleich Farbräume
 
 ![width:500px](images/color_spaces.png)
-
----
 
 ### Farben in CSS
 
@@ -200,8 +196,6 @@ CIE 1931 Farbraum
 - Hex-Werte: `color: #ffa500;`
 - RGBA-Werte (mit Deckkraft): `color: rgba(169, 169, 169, 0.5)`
 - HSL-Werte (Hue, Saturation, Lightness): `color: hsl(60, 100, 50)`
-
----
 
 #### Alle sichtbaren Farben
 
