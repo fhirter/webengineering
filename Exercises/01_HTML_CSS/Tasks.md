@@ -30,7 +30,7 @@ Gestalte dann die Seite mittels CSS. Verwende möglichst wenige `class` und `id`
 1. Erstelle zuerst das Layout für Mobilgeräte.
 2. Erstelle anschliessend die Version für grössere Geräte mit Grid-Layout.
 3. Erstelle mit `flex` und `grid` eine alternative Version, bei der das Menü horizontal über dem Inhalt ist statt links daneben.
-4. Experimentiere mit den verschiedenen Farbsystemen (Farbnamen, Hex, RGB(A) HSL(A) )
+4. Experimentiere mit den verschiedenen Farbsystemen (Farbnamen, Hex, `rgba()`, `hsla()`,  `lab()`, `oklab()` )
 
 ### Barrierefreiheit
 
