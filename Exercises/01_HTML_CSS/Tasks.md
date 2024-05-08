@@ -21,7 +21,11 @@ Achte dabei auf eine semantisch korrekte Struktur, verwende die HTML5 Strukturel
 
 ### CSS
 
-Gestalte die Seite mittels CSS. Verwende möglichst wenige `class` und `id` Attribute im HTML Code. Nutze nur relative Einheiten (`em`, `rem`)
+Übe zuerst mit folgenden Games die Anwendung von `flex` und `grid`:
+- https://flexboxfroggy.com/#de
+- https://cssgridgarden.com/#de
+
+Gestalte dann die Seite mittels CSS. Verwende möglichst wenige `class` und `id` Attribute im HTML Code. Nutze nur relative Einheiten (`em`, `rem`)
 
 1. Erstelle zuerst das Layout für Mobilgeräte.
 2. Erstelle anschliessend die Version für grössere Geräte mit Grid-Layout.
