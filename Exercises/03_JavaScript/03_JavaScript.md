@@ -12,7 +12,8 @@ Installiere das Jest Testingframework:
 - Installiere die Testlibraries:
 `npm install --save-dev jest jest-environment-jsdom @babel/preset-env`
 - Füge folgenden Abschnitte zu `package.json` hinzu:
-```JavaScript
+
+```json
   {
     "scripts": {
       "test": "jest",
@@ -20,14 +21,19 @@ Installiere das Jest Testingframework:
     }
   }
 ```
-```javascript
+
+```json
+  {
   "babel": {
     "env": {
       "test": {
-        "plugins": ["@babel/plugin-transform-modules-commonjs"]
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
       }
     }
   }
+}
 ```
 - Erstelle die Datei `jest.config.js` im Wurzelverzeichnis:
 ```javascript
