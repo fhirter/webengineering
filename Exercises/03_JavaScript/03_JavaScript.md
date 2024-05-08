@@ -10,7 +10,7 @@ Installiere das Jest Testingframework:
 
 - In einem neuen Verzeichnis: `npm init`
 - Installiere die Testlibraries:
-  `npm install --save-dev jest jest-environment-jsdom @babel/preset-env`
+  `npm install --save-dev jest`
 - Füge folgenden Abschnitte zu `package.json` hinzu:
 
 ```json
@@ -22,37 +22,12 @@ Installiere das Jest Testingframework:
 }
 ```
 
-```json
-  {
-  "babel": {
-    "env": {
-      "test": {
-        "plugins": [
-          "@babel/plugin-transform-modules-commonjs"
-        ]
-      }
-    }
-  }
-}
-```
-
-- Erstelle die Datei `jest.config.js` im Wurzelverzeichnis:
-
-```javascript
-module.exports = {
-    transform: {
-        "^.+\\.jsx?$": "babel-jest"
-    },
-    testEnvironment: "jsdom",
-    moduleFileExtensions: ['js'],
-    testTimeout: 1,
-    collectCoverage: true,
-    coverageReporters: ['text'],
-    collectCoverageFrom: ["src/**/*.js", "!**/node_modules/**"],
-    testMatch: ["**/*.test.js"]
-    /* default ["clover", "json", "lcov", "text"]*/
-}
-```
+- initialisiere jest mit `npm init jest@latest`
+  - Typescript: no
+  - test environment: jsdom
+  - coverage: yes
+  - provider: v8
+  - automatically clear mocks: yes
 
 Erstelle die Datei `.gitignore` mit folgendem Inhalt (`echo node_modules > .gitignore`)
 
