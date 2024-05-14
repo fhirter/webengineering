@@ -1,6 +1,9 @@
 # Übung JavaScript
 
-Schreibe ein Programm, welches das aktuelle Wetter für einen wählbaren Ort anzeigt. Es soll eine Adresse eingeben werden können, an der das aktuelle Wetter angezeigt wird. Nutze für die Auflösung der Koordinaten [openrouteservice.org](https://openrouteservice.org/dev/#/api-docs/geocode) und für die Wetterdaten [openweathermap.org](https://openweathermap.org/current). Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst anschliessend die Funktionalität.
+Schreibe ein Programm, welches das aktuelle Wetter für einen wählbaren Ort anzeigt.
+Es soll eine Adresse eingeben werden können, an der das aktuelle Wetter angezeigt wird.
+Nutze für die Auflösung der Koordinaten [openrouteservice.org](https://openrouteservice.org/dev/#/api-docs/geocode) und für die Wetterdaten [openweathermap.org](https://openweathermap.org/current).
+Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst anschliessend die Funktionalität.
 
 ## Vorbereitungen
 
