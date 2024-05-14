@@ -5,6 +5,8 @@ export default {
     clearMocks: true,
     collectCoverage: true,
     coverageReporters: ['text'],
+    coverageDirectory: "coverage",
+    coverageProvider: "v8",
     collectCoverageFrom: ["src/**/*.js", "!**/node_modules/**"],
     testMatch: ["**/*.test.js"]
     /* default ["clover", "json", "lcov", "text"]*/
