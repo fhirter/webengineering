@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"test": "jest",
-		"watch": "jest --watchAll",
+		"test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest",
+		"watch": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --watchAll",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview"
