@@ -219,7 +219,7 @@ vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
   kann.
 - Sie verhalten sich anders als Klassen in C++, Java oder C#. Das kann verwirrend sein.
 
-### Komposition
+### "Composition over Inheritance"
 
 - Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln.
 - Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist,
