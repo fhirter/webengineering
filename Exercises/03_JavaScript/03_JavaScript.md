@@ -98,6 +98,11 @@ node_modules
 
 - Starte die tests mit `npm test` oder `npm run watch`
 
+## Dokumentation
+
+Halte deine Erkenntnisse, welche über die im Buch behandelten Inhalte hinausgehen, in einem Markdown Dokument im 
+Repository fest. Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
+
 ## Vorgehen
 
 1. Beschreibe die Aufgabenstellung mittels Akzeptanztests. Nutze dazu [Gauge+Taiko](https://gauge.org/).
@@ -107,11 +112,15 @@ node_modules
 4. Zeichne mit SVG eine Sonne und Wolken und zeige anhand der Daten nur die Sonne, Sonne und Wolken oder nur Wolken an.
    Nutze zum Gruppieren der SVG-Elemente das Element <g>. Du kannst SVG Elemente auch mit IDs und Klassen ausstatten und
    wie HTML Elemente ansprechen und gestalten.
-5. Erweitere das Programm, z.B.
-    - Erweitere und animiere die SVG Symbole (z.B. bewegter Regen) mit **CSS** oder **JS
-      **. Nutze wenn möglich CSS Animationen.
-    - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
-      Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speicher die
-      Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-6. Verwende ein Framework deiner Wahl, das du noch nie verwendet hast. Wenn du dir nicht sicher bist, wähle Svelte,
+5. Verwende ein Framework deiner Wahl, das du noch nie verwendet hast. Wenn du dir nicht sicher bist, wähle Svelte,
    dafür erhälst du Unterstützung im Unterricht und Lösungen.
+6. Erweitere die Applikation, z.B:
+    - Erweitere und animiere die SVG Symbole (z.B. bewegter Regen) mit **CSS** oder **JS**. Nutze wenn möglich CSS
+      Animationen.
+    - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
+      Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speichere die
+      Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+    - Mache die Applikation offlinefähig, indem du einen Service Worker verwendest, welcher alle nötigen Dateien im 
+      lokalen Cache speichert.
+    - Ermögliche, dass die Applikation auf lokal installiert werden kann, indem du
+      eine [Manifest Datei erstellst](https://web.dev/learn/pwa/web-app-manifest?hl=de).
