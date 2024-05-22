@@ -10,15 +10,7 @@
   "author": "Fabian Hirter",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
-    "@babel/preset-env": "7.22.14",
-    "jest": "29.6.4",
-    "jest-environment-jsdom": "29.6.4"
-  },
-  "babel": {
-    "env": {
-      "test": {
-        "plugins": ["@babel/plugin-transform-modules-commonjs"]
-      }
-    }
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0"
   }
 }
