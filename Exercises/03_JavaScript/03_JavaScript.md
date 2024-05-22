@@ -1,10 +1,10 @@
 # Übung JavaScript
 
 Schreibe ein Programm, welches das aktuelle Wetter für einen wählbaren Ort anzeigt. Es soll eine Adresse eingeben werden
-können, an der das aktuelle Wetter angezeigt wird. Nutze für die Auflösung der
-Koordinaten [openrouteservice.org](https://openrouteservice.org/dev/#/api-docs/geocode) und für die
-Wetterdaten [openweathermap.org](https://openweathermap.org/current). Erstelle für die JavaScript-Funktionen zuerst die
-Tests und implementiere erst anschliessend die Funktionalität.
+können, an der das aktuelle Wetter angezeigt wird.  
+Nutze für die Auflösung der Koordinaten [openrouteservice.org](https://openrouteservice.org/dev/#/api-docs/geocode) und
+für die Wetterdaten [openweathermap.org](https://openweathermap.org/current).  
+Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst anschliessend die Funktionalität.
 
 ## Vorbereitungen
 
@@ -48,10 +48,10 @@ gemäss [Anleitung](https://docs.gauge.org/writing-specifications?os=macos&langu
 * hello world
 ```
 
-Hinweis: Webstorm schlägt ein unpassendes Plugin vor. Gauge Spec files sind Markdown File. Mit rechtsklick auf das File
-Tab -> "Override File Type" kann dies angepasst werden.
+Hinweis: Webstorm schlägt ein unpassendes Plugin vor. Gauge Specs sind Markdown Dateien. Mit Rechtsklick auf das
+Datei-Tab -> "Override File Type" kann dies angepasst werden.
 
-Erstelle die implementierung im Ordner `tests`
+Erstelle die Implementierung im Ordner `tests`
 gemäss [Anleitung](https://docs.gauge.org/writing-specifications?os=macos&language=javascript&ide=vscode#step-implementations).
 
 `test/spec_implementations.js`:
@@ -100,8 +100,10 @@ node_modules
 
 ## Dokumentation
 
-Halte deine Erkenntnisse, welche über die im Buch behandelten Inhalte hinausgehen, in einem Markdown Dokument im 
-Repository fest. Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
+Halte deine Erkenntnisse, welche über die im Buch behandelten Inhalte hinausgehen, in einem Markdown Dokument im
+Repository fest.
+
+Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
 
 ## Vorgehen
 
@@ -120,7 +122,7 @@ Repository fest. Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Lis
     - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
       Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speichere die
       Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-    - Mache die Applikation offlinefähig, indem du einen Service Worker verwendest, welcher alle nötigen Dateien im 
+    - Mache die Applikation offlinefähig, indem du einen Service Worker verwendest, welcher alle nötigen Dateien im
       lokalen Cache speichert.
     - Ermögliche, dass die Applikation auf lokal installiert werden kann, indem du
       eine [Manifest Datei erstellst](https://web.dev/learn/pwa/web-app-manifest?hl=de).
