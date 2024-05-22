@@ -2,10 +2,10 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "TDD Example",
+  "type": "module",
   "main": "",
   "scripts": {
-    "test": "jest",
-    "watch": "jest --watchAll"
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
   },
   "author": "Fabian Hirter",
   "license": "AGPL-3.0-or-later",
