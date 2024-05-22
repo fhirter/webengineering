@@ -168,7 +168,10 @@ https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-fram
 ## Box Model
 
 ![img.png](images/box_model.png)
-![img_1.png](images/content_box.png)![img_2.png](images/border_box.png)
+
+- `box-sizing: content-box`: `width` bezieht sich nur auf den content (blau, `300x150`)
+- `box-sizing: border-box`: `width` bezieht sich auf content + padding + border (blau, violett, grau,
+  `300+2*40+2*5` für die Breite)
 
 ## Einheiten
 
