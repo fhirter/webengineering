@@ -1,5 +1,7 @@
 import PayloadExtractor from "./PayloadExtractor";
 
+import {it, expect} from "@jest/globals"
+
 it('should extract coordinates', function () {
     // Setup
     const longitude = 7.309726;
@@ -22,5 +24,4 @@ it('should extract coordinates', function () {
     // Verify
     expect(coordinates.lon).toBe(longitude);
     expect(coordinates.lat).toBe(latitude);
-
 });
