@@ -4,7 +4,12 @@ export default {
     testTimeout: 1,
     collectCoverage: true,
     coverageReporters: ['text'],
-    collectCoverageFrom: ["src/**/*.js", "!**/node_modules/**"],
+    coverageDirectory: "coverage",
+    coverageProvider: "v8",
+    collectCoverageFrom: [
+        "!**/node_modules/**",
+        "!jest.config.js"
+    ],
     testMatch: ["**/*.test.js"]
     /* default ["clover", "json", "lcov", "text"]*/
 }
