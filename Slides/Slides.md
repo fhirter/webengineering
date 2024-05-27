@@ -218,20 +218,18 @@ vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
 
 ## How Class Free Works
 
-- Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden
-  kann.
+- Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden kann.
 - Sie verhalten sich anders als Klassen in C++, Java oder C#. Das kann verwirrend sein.
 
 ### "Composition over Inheritance"
 
 - Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln.
-- Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist,
-  welche Methoden aufgerufen werden.
+- Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist, welche Methoden aufgerufen werden.
 - Komposition ist sehr leistungsfähig.
 
 ### Closures
 
-Verschachtelte Funktionen können auf Variablen aus den äusseren Funktionen zugreifen. 
+Verschachtelte Funktionen können auf Variablen aus den äusseren Funktionen zugreifen.  
 Auch nach deren Ausführung.
 
 ```javascript
