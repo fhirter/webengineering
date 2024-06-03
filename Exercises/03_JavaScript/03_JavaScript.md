@@ -121,7 +121,3 @@ Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
     - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
       Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speichere die
       Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-    - Mache die Applikation offlinefähig, indem du einen Service Worker verwendest, welcher alle nötigen Dateien im
-      lokalen Cache speichert.
-    - Ermögliche, dass die Applikation auf lokal installiert werden kann, indem du
-      eine [Manifest Datei erstellst](https://web.dev/learn/pwa/web-app-manifest?hl=de).
