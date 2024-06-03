@@ -26,15 +26,12 @@ den [Local First Prinzipien](https://www.inkandswitch.com/local-first/):
 
 Dokumentiere, wie die einzelnen Punkte erreicht werden.
 
-Beschreibe die Funktionalität mit automatisierten Akzeptanztests.
-
-Nutze für das User-Interface ein geeignetes Frontend-Framework (wie etwa Svelte mit SvelteKit) und strukturiere die
-Applikation in sinnvolle Komponenten.
-
-Implementiere eine Detailansicht für eine Karte. Nutze dafür URL-basiertes Routing.
-
-Speichere die Daten in einem CRDT z.B. [Automerge](https://automerge.org/).
-Speichere den CRDT lokal im Browser.
-Synchronisiere die Daten mit einem einfachen Websocket-Server.
-
-Ermögliche, dass die Applikation "installiert" werden kann.
+1. Beschreibe die Funktionalität mit automatisierten Akzeptanztests.
+2. Nutze für das User-Interface ein geeignetes Frontend-Framework (wie etwa Svelte mit SvelteKit) und strukturiere die
+   Applikation in sinnvolle Komponenten.
+3. Implementiere eine Detailansicht für eine Karte. Nutze dafür URL-basiertes Routing.
+4. Speichere die Daten in einem CRDT z.B. [Automerge](https://automerge.org/). Speichere den CRDT lokal im Browser. 
+5. Synchronisiere die Daten mit einem einfachen Websocket-Server.
+6. Ermögliche, dass die Applikation "installiert" werden kann.
+7. Mache die Applikation offlinefähig, indem du einen Service Worker verwendest, welcher alle nötigen Dateien im lokalen
+   Cache speichert.
