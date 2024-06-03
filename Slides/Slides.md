@@ -325,6 +325,19 @@ p1.then((value) => {
 
 # Single-Page-Applikationen implementieren
 
+## Typische Dokumentstruktur
+![h:400px](project_structure2.png)![h:400px](project_structure1.png)
+
+---
+
+  - **Docs**: README.md, CONTRIBUTING.md, LICENCE.md, etc
+  - **Configs**: `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`, `jest.config.js`, `jsconfig.json`
+  - **Build**: `Dockerfile`, `docker-compose.yml`
+  - **Dependencies**: package.json, package-lock.json, node_modules
+  - **Render/Compilation outputs**: `/dist`, `/build`, `/coverage`
+  - Source Code: `/src`
+  - **Build Pipeline**: `.gitlab-ci.yml`
+
 ## Progressive Web Apps
 
 ## Local First
