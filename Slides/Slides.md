@@ -326,7 +326,7 @@ p1.then((value) => {
 # Single-Page-Applikationen implementieren
 
 ## Typische Dokumentstruktur
-![h:400px](project_structure2.png)![h:400px](project_structure1.png)
+![h:400px](images/project_structure2.png)![h:400px](images/project_structure1.png)
 
 ---
 
