@@ -55,10 +55,6 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 - Akzeptanz- und Unit-Tests (10)
     - Vollständigkeit
     - Verständlichkeit
-- REST API (20)
-    - Swagger Dokumentation
-    - Korrekte verwendung der HTTP-Methoden
-    - Korrekte HTTP Statuscodes (success & failure)
 
 Total mögliche Punkte: 50
 
