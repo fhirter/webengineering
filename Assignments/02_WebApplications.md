@@ -4,16 +4,12 @@
 
 Die Studierenden
 
-- können eine einfache Single Page Applikation mit einem gängigen Framework erstellen.
-- können die Anwendung mit Komponenten strukturieren und Templating anwenden.
-- können Multipage Applikationen mit Routing entwickeln
+- können eine einfache Single Page Applikation mit einem gängigen Framework erstellen, können die Anwendung mit
+  Komponenten strukturieren und Templating anwenden.
+- können Multipage Applikationen mit Routing entwickeln.
 - können einfache REST Schnittstellen serverseitig implementieren und clientseitig abfragen.
 - können Anwendungen mit Datenbankanbindung realisieren.
-- können Applikationen containerisieren und deployen.
 - können Anwendungen mit automatisierten Akzeptanztests testen.
-- können Applikationen mit Deployment-Pipelines kontinuierlich integrieren und deployen.
-- können mit Websockets eine bidirektionale Client-Server Kommunikation realisieren.
-- Können JWT in Applikationen zur Authorisierung und Authentifizierung von Benutzern verwenden
 
 ## Aufgabenstellung
 
