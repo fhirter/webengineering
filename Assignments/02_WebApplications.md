@@ -42,12 +42,17 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 
 ## Bewertungsraster
 
-- Frontend (10)
-  - Sinnvolle Strukturierung mit Framework-Komponenten
-  - Semantisch korrektes HTML
-  - Keine Fehler und Warnungen auf https://validator.w3.org und https://jigsaw.w3.org/css-validator/
-  - Wenige, sinnvolle Klassen und Selektoren
-  - Layout funktioniert auf iPhone 11 (Emuliert in Firefox) und 13" Laptop Display
+- REST API (20)
+    - Swagger Dokumentation
+    - Diskussion REST
+    - Korrekte Verwendung der HTTP-Methoden
+    - Korrekte HTTP Statuscodes (success & failure)
+- Frontend (20)
+    - Sinnvolle Strukturierung mit Framework-Komponenten und Routing
+    - Semantisch korrektes HTML
+    - Keine Fehler und Warnungen auf https://validator.w3.org und https://jigsaw.w3.org/css-validator/
+    - Wenige, sinnvolle Klassen und Selektoren
+    - Layout funktioniert auf iPhone 11 (Emuliert in Firefox) und 13" Laptop Display
 - Akzeptanz- und Unit-Tests (10)
     - Vollständigkeit
     - Verständlichkeit
@@ -56,7 +61,6 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
     - Korrekte verwendung der HTTP-Methoden
     - Korrekte HTTP Statuscodes (success & failure)
 
-
-Total mögliche Punkte:
+Total mögliche Punkte: 50
 
 **Bewertung**: <erreichte Punkte>/<total mögliche Punkte>*5+1. Gerundet auf 0.1.
