@@ -22,17 +22,20 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 
 ## Anforderungen
 
-- Beschreibe die Funktionalität mit automatisierten Akzeptanztests.
+- Beschreibe die Funktionalität (API und User Interface) mit automatisierten Akzeptanztests und Teste sämtlichen *
+  *eigenen** Code mit Unit-Tests.
 - Entwickle eine REST-API (Richardson Maturity Level 2) mit zwei Endpoints. Dokumentiere diese mit Swagger:
-  - `/routes`: Anhand von zwei Adressen wird eine Route aufgelöst. 
-  - `/addresses`: Anhand von einer (unvollständigen) Adresse werden Adress-Vorschläge zurückgegeben.
+    - `/routes`: Anhand von zwei Adressen wird eine Route aufgelöst.
+    - `/addresses`: Anhand von einer (unvollständigen) Adresse werden Adress-Vorschläge zurückgegeben.
+- Diskutiere, wie die implementierte API den REST Prinzipien (Client Server, Stateless, Cache, Uniform Interface,
+  Layered System) entspricht.
 - Nutze folgende Karten-API Endpoints:
-  - [api.openrouteservice.org/geocode/search](https://api.openrouteservice.org/geocode/search)
-  - [api.openrouteservice.org/geocode/autocomplete](https://api.openrouteservice.org/geocode/autocomplete)
-  - [api.openrouteservice.org/v2/directions/](https://api.openrouteservice.org/v2/directions/)
+    - [api.openrouteservice.org/geocode/search](https://api.openrouteservice.org/geocode/search)
+    - [api.openrouteservice.org/geocode/autocomplete](https://api.openrouteservice.org/geocode/autocomplete)
+    - [api.openrouteservice.org/v2/directions/](https://api.openrouteservice.org/v2/directions/)
 - Erstelle eine HTML-Seite mit zwei Eingabefeldern für Start- und Zielort sowie einem Button der die Routenberechnung
   startet. Lade die Route und Adressvervollständigung von der eigenen API.
-- Teste sämtlichen **eigenen** Code mit Unit-Tests.
+-
 - Erstelle die Anwendung als Single Page Application mit einem gängigen Frontend-Framework.
 - Speichere die häufigsten Routen-Suchanfragen lokal im Browser und zeige dem Nutzer die meistgesuchten Routen.
 
