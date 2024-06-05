@@ -41,7 +41,7 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 - Entwickle eine REST-API (Richardson Maturity Level 2) mit zwei Endpoints. Dokumentiere diese mit Swagger:
     - `/routes`: Anhand von zwei Adressen wird eine Route aufgelöst.
     - `/addresses`: Anhand von einer (unvollständigen) Adresse werden Adress-Vorschläge zurückgegeben.
-- Nutze für die Fronten-Applikation diese API.
+- Nutze für die Frontend-Applikation diese API.
 - Diskutiere, wie die implementierte API die REST Prinzipien (Client Server, Stateless, Cache, Uniform Interface,
   Layered System) umsetzt.
 
