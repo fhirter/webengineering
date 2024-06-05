@@ -64,7 +64,7 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
     - Korrekte Verwendung der HTTP-Methoden
     - Korrekte HTTP Statuscodes (success & failure)
 
-Total mögliche Punkte Applikationsentwicklung: 50  
-Total mögliche Punkte Systemtechnik: 30
+Total mögliche Punkte Applikationsentwicklung: 60
+Total mögliche Punkte Systemtechnik: 40
 
 **Bewertung**: `<erreichte Punkte>/<total mögliche Punkte>*5+1`. Gerundet auf 0.1.
