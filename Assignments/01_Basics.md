@@ -30,3 +30,21 @@ Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten T
     - Keine Fehler und Warnungen auf https://jigsaw.w3.org/css-validator/
 - Leistung, Barrierefreiheit, Best Practices, SEO alle über 90: https://pagespeed.web.dev/ (10)
 - Deployment (im Internet erreichbar) und verwendetes Hosting mit Begründung (10)
+
+### Punkteskala
+
+Die Vergabe der Punkte geschieht gemäss folgender Skala:
+
+| Punkte | Bezeichnung         |
+|--------|---------------------|
+| 0      | nicht vorhanden     |
+| 1      | kaum vorhanden      |
+| 2      | deutlich ungenügend |
+| 3      | ungenügend          |
+| 4      | knapp genügend      |
+| 5      | genügend            |
+| 6      | deutliche Mängel    |
+| 7      | grössere Mängel     |
+| 8      | kleine Mängel       |
+| 9      | kleinste Mängel     |
+| 10     | tadellos            |
