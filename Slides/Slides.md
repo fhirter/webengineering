@@ -330,11 +330,11 @@ p1.then((value) => {
 
 ---
 
-  - **Docs**: README.md, CONTRIBUTING.md, LICENCE.md, etc
-  - **Configs**: `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`, `jest.config.js`, `jsconfig.json`, `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`
-  - **Dependencies**: package.json, package-lock.json, node_modules
-  - **Render/Compilation outputs**: `/dist`, `/build`, `/coverage`
-  - Source Code: `/src`
+  - **Docs:** README.md, CONTRIBUTING.md, LICENCE.md, etc
+  - **Configs:** `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`, `jest.config.js`, `jsconfig.json`, 
+  - **Build & Deployment:** `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`, `package.json`, `package-lock.json` 
+  - **Render & build outputs:** `/dist`, `/build`, `/coverage`, `/node_modules`
+  - **Source Code:** `/src`
 
 ## Progressive Web Apps
 
