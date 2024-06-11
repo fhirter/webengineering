@@ -47,25 +47,25 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 
 ## Bewertungsraster
 
-- Frontend Applikation (20)
-    - Sinnvolle Strukturierung (Vanilla JS und Framework-Komponenten)
-    - API fetch requests
-- HTML und CSS (10)
-    - Semantisch korrektes HTML
-    - Keine Fehler und Warnungen auf https://validator.w3.org und https://jigsaw.w3.org/css-validator/
-    - Wenige, sinnvolle Klassen und Selektoren
-    - Layout funktioniert auf iPhone 11 (Emuliert in Firefox) und 13" Laptop Display
-- Akzeptanz- und Unit-Tests (10)
-    - Vollständigkeit
-    - Verständlichkeit
-- REST API (20)
-    - Swagger Dokumentation
-    - Diskussion REST
-    - Korrekte Verwendung der HTTP-Methoden
-    - Korrekte HTTP Statuscodes (success & failure)
+- Frontend Applikation
+    - Sinnvolle Strukturierung (Vanilla JS und Framework-Komponenten) (10)
+    - Auslesen der Benutzereingaben (10)
+    - Laden der Daten von der API (10)
+    - Anzeigen der Daten (10)
+- HTML und CSS
+    - Semantisch korrektes HTML, wenige, sinnvolle Klassen und Selektoren (10)
+    - Keine Fehler und Warnungen auf https://validator.w3.org und https://jigsaw.w3.org/css-validator/ (10)
+- Akzeptanz- und Unit-Tests
+    - Vollständigkeit (10)
+    - Verständlichkeit (10)
+- REST API
+    - Swagger Dokumentation (10)
+    - Diskussion REST (10)
+    - Korrekte Verwendung der HTTP-Methoden (10)
+    - Korrekte HTTP Statuscodes (success & failure) (10)
 
-Total mögliche Punkte Applikationsentwicklung: 60
-Total mögliche Punkte Systemtechnik: 40
+Total mögliche Punkte Applikationsentwicklung: 120
+Total mögliche Punkte Systemtechnik: 80
 
 **Bewertung**: `<erreichte Punkte>/<total mögliche Punkte>*5+1`. Gerundet auf 0.1.
 
