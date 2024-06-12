@@ -5,7 +5,7 @@
 
 ## Test
 
-run `npm run test` to, well, run tests.
+run `npm run test` to run unit tests.
 
 ## Dev Server
 
