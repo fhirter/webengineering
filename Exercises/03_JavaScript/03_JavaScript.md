@@ -75,7 +75,8 @@ Mit `gauge run` kann nun die Spezifikation ausgeführt werden.
 Installiere das Jest Testingframework:
 
 - Installiere die Testlibraries:
-  `npm install --save-dev jest`
+  - `npm install --save-dev jest`
+  - `npm install -D jest-environment-jsdom`
 - Füge folgenden Abschnitte zu `package.json` hinzu:
 
 ```json
