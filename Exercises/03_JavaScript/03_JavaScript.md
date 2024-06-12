@@ -76,24 +76,24 @@ Installiere das Jest Testingframework:
 
 - Installiere die Testlibraries:
   - `npm install --save-dev jest`
-  - `npm install -D jest-environment-jsdom`
-- Füge folgenden Abschnitte zu `package.json` hinzu:
-
-```json
-  {
-  "scripts": {
-    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest",
-    "watch": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --watchAll"
-  }
-}
-```
-
+  - `npm install --save-dev jest-environment-jsdom`
 - initialisiere jest mit `npm init jest@latest`
     - Typescript: no
     - test environment: jsdom
     - coverage: yes
     - provider: v8
     - automatically clear mocks: yes
+- Füge folgenden Abschnitte zu `package.json` hinzu:
+```json
+  {
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest",
+    "watch": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --watchAll",
+    "acceptance-tests": "gauge run"
+  }
+}
+```
+Unter Windows kann [cross-env](https://www.npmjs.com/package/cross-env) genutzt werden.
 
 Erstelle die Datei `.gitignore` mit folgendem Inhalt (`echo node_modules > .gitignore`)
 
@@ -101,7 +101,7 @@ Erstelle die Datei `.gitignore` mit folgendem Inhalt (`echo node_modules > .giti
 node_modules
 ```
 
-- Starte die tests mit `npm test` oder `npm run watch`
+- Starte die tests mit `npm test`, `npm run watch` (unit-tests) und `npm run acceptance-tests`.
 
 ## Dokumentation
 
