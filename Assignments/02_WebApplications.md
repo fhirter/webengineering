@@ -38,7 +38,7 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 - Beschreibe die Funktionalität (API) mit automatisierten Akzeptanztests und Teste sämtlichen **eigenen** Code mit
   Unit-Tests.
 - Speichere die häufigsten Routen-Suchanfragen lokal im Browser und zeige dem Nutzer die meistgesuchten Routen.
-- Entwickle eine REST-API (Richardson Maturity Level 2) mit zwei Endpoints. Dokumentiere diese mit Swagger:
+- Entwickle eine REST-API ([Richardson Maturity Level 2](https://en.wikipedia.org/wiki/Richardson_Maturity_Model)) mit zwei Endpoints. Dokumentiere diese mit Swagger:
     - `/routes`: Anhand von zwei Adressen wird eine Route aufgelöst.
     - `/addresses`: Anhand von einer (unvollständigen) Adresse werden Adress-Vorschläge zurückgegeben.
 - Nutze für die Frontend-Applikation diese API.
