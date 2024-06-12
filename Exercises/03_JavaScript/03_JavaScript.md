@@ -12,6 +12,10 @@ Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst 
 
 Erstelle zuerst auf beiden Plattformen einen API Key, die Aktivierung kann mehrere Stunden dauern.
 
+### NPM
+
+Initialisiere zuerst npm. Führe dazu im Projektverzeichnis folgenden Befehl aus: `npm init`
+
 ### Akzeptanztests
 
 Installiere Gauge und Taiko gemäss den Anleitungen:
@@ -19,6 +23,7 @@ Installiere Gauge und Taiko gemäss den Anleitungen:
 - [Gauge](https://docs.gauge.org/getting_started/installing-gauge?os=macos&language=javascript&ide=vscode)
 - [Taiko](https://docs.taiko.dev/installing/)).
 
+Im Projektordner:
 ```shell
 npm install -g @getgauge/cli
 npm install -D taiko
@@ -69,7 +74,6 @@ Mit `gauge run` kann nun die Spezifikation ausgeführt werden.
 
 Installiere das Jest Testingframework:
 
-- In einem neuen Verzeichnis: `npm init`
 - Installiere die Testlibraries:
   `npm install --save-dev jest`
 - Füge folgenden Abschnitte zu `package.json` hinzu:
