@@ -43,12 +43,10 @@ für die Datenbankinstanz. Stelle sicher, dass die Applikation resistent gegenü
 
 Folgende Punkte sollen in dieser Reihenfolge erledigt werden:
 
-1. Beschreibe die Funktionalität mittels Akzeptanztests.
-2. Schreibe Integrations-Tests für die API.
-3. Setze einen Container auf, der die Node Applikation ausführt.
-4. Implementiere die API bis die Tests nicht mehr fehlschlagen. Nutze dazu statische Dummy-Daten. Erstelle die
-   OpenAPI Spezifikation gleichzeitig anhand des Codes.
-5. Implementiere das Swagger UI.
-6. Erstelle die Datenbankanbindung.
-7. Erstelle die Frontend-Applikation mit einem gängigen Framework, z.B [Svelte](https://svelte.dev/) mit [SvelteKit]
-   (https://kit.svelte.dev).
+1. Beschreibe die Funktionalität mittels Akzeptanztests (UI und API)
+2. Setze einen Container auf, der die Node Applikation ausführt.
+3. Implementiere die API bis die Tests nicht mehr fehlschlagen. Nutze dazu statische Dummy-Daten. Erstelle die OpenAPI
+   Spezifikation gleichzeitig anhand des Codes.
+4. Implementiere das Swagger UI.
+5. Erstelle die Datenbankanbindung.
+6. Erstelle die Frontend-Applikation mit einem gängigen Framework.
