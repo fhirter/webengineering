@@ -11,7 +11,6 @@ Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst 
 Die Studierenden
 
 - können die Applikation mit Akzeptanz- und Unit-Tests testen.
-- verstehen, wieso automatisierte Tests Grundlage für kontinuierliches Deployment sind.
 - kennen die wichtigsten Grafikformate (GIF, JPEG, PNG, SVG) und können die Unterschiede und Anwendungsbereiche erläutern.
 - können die REST-API clientseitig ohne erneutes Laden der Seite abfragen.
 - verstehen, wie Frameworks helfen, reaktive Anwendungen zu entwickeln.
