@@ -19,6 +19,8 @@ vorgängigen Übung.
 Halte alle ausgeführten Befehle und deren Erläuterung in einem Markdown File fest.
 So kannst du später die Arbeit exakt nachvollziehen und gegebenenfalls automatisieren.
 
+Für das Erreichen der Lernziele sollten alle Aufgaben gelöst werden.
+
 ## Fallstudie
 
 Das Management gibt eine Software in Auftrag und fordert vom Entwicklerteam eine Schätzung, wie lange die Entwicklung
