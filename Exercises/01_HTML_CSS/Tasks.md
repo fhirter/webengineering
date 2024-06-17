@@ -12,6 +12,8 @@ Die Studierenden
   grossen Gerätevielfalt im Web erklären.
 - können einfache Media Queries schreiben und die Motivation (Gerätevielfalt) erklären
 
+Für das Erreichen der Lernziele sollte die Übung vollständig gelöst werden.
+
 ## Aufabenstellung
 
 Erstelle die gesamte HTML-Struktur und CSS Layout von dieser abgespeckten Wikipedia-Seite gemäss Screenshot.
