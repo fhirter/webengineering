@@ -4,7 +4,8 @@
 
 Die Studierenden
 
-- können die HTML Grundelemente korrekt anwenden (Meta-Tags, Überschriften, Absätze, Tabellen, Listen, Links, HTML5 Struktur-Elemente) und können damit einfache Seiten komplett erstellen.
+- können die HTML-Grundelemente korrekt anwenden (Meta-Tags, Überschriften, Absätze, Tabellen, Listen, Links, HTML5
+  Struktur-Elemente) und können damit einfache Seiten komplett erstellen.
 - können einfache Stylesheets erstellen und einbinden und dabei Selektoren, Farben, Einheiten korrekt verwenden.
 - kennen die Anwendungsbereiche von Flexbox und Grid und könnend damit einfache Mehrspaltenlayouts erstellen
 - kennen die Layoutkonzepte "mobile first" und "device agnostic" und können deren Vorteile vor dem Hintergrund der
@@ -13,7 +14,7 @@ Die Studierenden
 
 ## Aufabenstellung
 
-Erstelle die gesamte HTML Struktur und CSS Layout von dieser abgespeckten Wikipedia-Seite gemäss Screenshot.
+Erstelle die gesamte HTML-Struktur und CSS Layout von dieser abgespeckten Wikipedia-Seite gemäss Screenshot.
 
 ![img.png](Internetprotokollfamilie.png)
 
