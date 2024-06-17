@@ -7,7 +7,8 @@ Die Studierenden
 - können eine einfache Single Page Applikation mit einem gängigen Framework erstellen.
 - können die Anwendung mit Komponenten strukturieren und Templating anwenden.
 - verstehen, wie Frameworks helfen, reaktive Anwendungen zu entwickeln.
-- können Multipage Applikationen mit Routing entwickeln.
+- können Werkzeuge des State Managements anwenden
+- können Multi-Page-Applikationen mit Routing entwickeln.
 - wissen, wie Daten Lokal im Browser gespeichert werden können.
 - kennen die Local First Prinzipien.
 
