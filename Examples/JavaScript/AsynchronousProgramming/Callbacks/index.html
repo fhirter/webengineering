@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callbacks</title>
+</head>
+<body>
+<script>
+
+    /**
+     * Accepts a callback that gets called after a random amount of time between 50 and 60ms
+     *
+     * @returns {Promise<unknown>}
+     */
+    function randomTimeout(callback) {
+        const timeout = Math.round(Math.random() * 10 + 50);
+        const handlerCallback = () => {
+            callback(timeout);
+        }
+        setTimeout(handlerCallback, timeout);
+    }
+
+    const timeouts = [];
+
+    const start = window.performance.now();
+
+    // start multiple timeouts
+    const count = 100;
+    for (let i = 0; i < count; i++) {
+        randomTimeout((timeout) => {
+            timeouts.push(timeout);
+            console.log(`Individual runtime: ${timeout}ms`);
+            if (timeouts.length === count) {
+                const end = window.performance.now() - start;
+                console.log(`Total runtime: ${end}ms`);
+            }
+        });
+    }
+</script>
+</body>
+</html>
