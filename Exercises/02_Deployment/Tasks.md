@@ -2,7 +2,7 @@
 
 ## Lernziele
 
-Die Studierenden können Applikationen containerisieren und deployen.
+Die Studierenden können Applikationen containerisieren und automatisiert deployen.
 
 Die Studierenden kennen die Struktur und Aufgaben einer Deployment-Pipeline und können selber eine einfache
 Deployment-Pipeline erstellen.
