@@ -39,7 +39,7 @@ für die Datenbankinstanz. Stelle sicher, dass die Applikation resistent gegenü
 - API-Test-Framework: [Supertest](https://www.npmjs.com/package/supertest)
 - Akzeptanztests: [Gauge+Taiko](https://gauge.org/)
 
-## Vorgehen
+### Aufgaben zum Erreichen der Lernziele
 
 Folgende Punkte sollen in dieser Reihenfolge erledigt werden:
 
