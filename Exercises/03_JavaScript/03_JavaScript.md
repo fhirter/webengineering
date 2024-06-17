@@ -6,6 +6,16 @@ Nutze für die Auflösung der Koordinaten [openrouteservice.org](https://openrou
 für die Wetterdaten [openweathermap.org](https://openweathermap.org/current).  
 Erstelle für die JavaScript-Funktionen zuerst die Tests und implementiere erst anschliessend die Funktionalität.
 
+## Lernziele
+
+Die Studierenden
+
+- können die Applikation mit Akzeptanz- und Unit-Tests testen.
+- verstehen, wieso automatisierte Tests Grundlage für kontinuierliches Deployment sind.
+- kennen die wichtigsten Grafikformate (GIF, JPEG, PNG, SVG) und können die Unterschiede und Anwendungsbereiche erläutern.
+- können die REST-API clientseitig ohne erneutes Laden der Seite abfragen.
+- verstehen, wie Frameworks helfen, reaktive Anwendungen zu entwickeln.
+
 ## Vorbereitungen
 
 ### API Keys
