@@ -8,10 +8,7 @@ z.B. Personaldaten oder Wetterdaten aus der vorgängigen Übung.
 Die Studierenden
 
 - können einfache REST Schnittstellen serverseitig implementieren und gemäss der OpenAPI Spezifikation dokumentieren.
-- Sie können die REST-API clientseitig ohne erneutes Laden der Seite abfragen.
-- Sie können die REST-API mit einer Datenbank verbinden und gegen SQL Injection absichern.
-- Sie können die Applikation mit Akzeptanz-, Integrations- und Unit-Tests vollständig testen und so die Grundlage für
-kontinuierliches Deployment schaffen.
+- können die REST-API mit einer Datenbank verbinden und gegen SQL Injection absichern.
 
 ## Aufgabenbeschreibung
 
