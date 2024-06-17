@@ -105,15 +105,10 @@ Untersuche die gegebene [Gitlab Deployment Pipeline](gitlab-ci-example.yml).
 
 Erstelle auf Github eine einfache Deployment-Pipeline die den oben erstellten Container auf Azure deployed.
 
-- Statische Code Analyse / Linting
-- Automatisierte Unit-Tests
-- Coverage Report Deployment auf Github Pages
-- Überprüfen der Abhängigkeiten
-- Build und deployment des oben erstellten Containers auf
-  Azure [gemäss Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-github-action?tabs=userlevel)
-
-Konsultiere dazu die [ausführliche Dokumentation](https://docs.github.com/en/actions),
+Nutze dazu folgende [Anleitung](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-github-action?tabs=userlevel)
+sowie  die [ausführliche Dokumentation](https://docs.github.com/en/actions),
 das "[Quickstart](https://docs.github.com/en/actions/quickstart)" und die
 zahlreichen [Beispielworkflows](https://github.com/actions/starter-workflows).
+
    
 
