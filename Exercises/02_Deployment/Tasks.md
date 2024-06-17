@@ -103,9 +103,7 @@ Untersuche die gegebene [Gitlab Deployment Pipeline](gitlab-ci-example.yml).
 
 ### Github Actions
 
-Erstelle auf Github eine einfache Deployment-Pipeline.
-
-Wähle aus den folgenden Punkten:
+Erstelle auf Github eine einfache Deployment-Pipeline die den oben erstellten Container auf Azure deployed.
 
 - Statische Code Analyse / Linting
 - Automatisierte Unit-Tests
