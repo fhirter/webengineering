@@ -7,6 +7,8 @@ Die Studierenden können Applikationen containerisieren und automatisiert deploy
 Die Studierenden kennen die Struktur und Aufgaben einer Deployment-Pipeline und können selber eine einfache
 Deployment-Pipeline erstellen.
 
+Die Studierenden verstehen, wieso automatisierte Tests Grundlage für kontinuierliches Deployment sind.
+
 ## Vorgehen
 
 Als Grundlage für spätere Übungen erstellen und deployen wir einen containerisierten Webserver.
