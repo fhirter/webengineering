@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    /**
+     * Returns a promise that resolves after a random amount of time between 50 and 60ms
+     *
+     * @returns {Promise<unknown>}
+     */
+    function randomTimeout() {
+        return new Promise((resolve, reject) => {
+            const timeout = Math.round(Math.random()*10+50);
+            const handlerCallback = () => {
+                resolve(timeout);
+            }
+            setTimeout(handlerCallback, timeout);
+        })
+    }
+
+    const promises = [];
+
+    const start = window.performance.now();
+
+    // start multiple timeouts
+    const count = 100;
+    for (let i = 0; i < count; i++) {
+        const promise = randomTimeout();
+        promises.push(promise);
+    }
+
+    // wait for all timeouts to complete
+    Promise.all(promises).then((timeout) => {
+        for (const response of timeout) {
+            console.log(`Individual runtime: ${response}ms`);
+        }
+
+    }).then(() => {
+        const end = window.performance.now() - start;
+        console.log(`Total runtime: ${end}ms`);
+    })
+</script>
+</body>
+</html>
