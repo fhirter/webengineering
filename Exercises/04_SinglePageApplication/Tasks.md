@@ -26,7 +26,7 @@ den [Local First Prinzipien](https://www.inkandswitch.com/local-first/):
 > 7. You retain ultimate ownership and control
 
 - Beschreibe die Funktionalität mit automatisierten Akzeptanztests. Erstelle diese zuerst.
-- Nutze für das User-Interface ein geeignetes Frontend-Framework (wie etwa Svelte mit SvelteKit) und strukturiere die 
+- Nutze für das User-Interface ein geeignetes Frontend-Framework (wie etwa Svelte, React, Angular, Vue) und strukturiere die 
   Applikation in sinnvolle Komponenten. 
 - Implementiere eine Detailansicht für eine Karte. Nutze dafür URL-basiertes Routing. 
 - Speichere die Daten in einem CRDT z.B. [Automerge](https://automerge.org/). Speichere den CRDT lokal im Browser. 
