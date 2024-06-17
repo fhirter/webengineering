@@ -119,7 +119,7 @@ Repository fest.
 
 Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
 
-## Vorgehen
+### Aufgaben zum Erreichen der Lernziele
 
 1. Beschreibe die Aufgabenstellung mittels Akzeptanztests. Nutze dazu [Gauge+Taiko](https://gauge.org/).
 2. Erstelle zuerst eine einfache HTML-Grundstruktur mit einem einfachen Eingabeformular für die Website. Die Website
@@ -130,8 +130,14 @@ Dies betrifft insbesondere die Punkte 5 und 6 der folgenden Liste.
    wie HTML Elemente ansprechen und gestalten.
 5. Verwende ein Framework deiner Wahl, das du noch nie verwendet hast. Wenn du dir nicht sicher bist, wähle Svelte,
    dafür erhälst du Unterstützung im Unterricht und Lösungen.
-6. Erweitere die Applikation, z.B:
-    - Animiere die SVG Symbole (z.B. bewegter Regen) mit CSS.
-    - Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
-      Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speichere die
-      Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+### Zusätzliche Aufgaben
+
+Folgende Aufgaben sind für das Erreichen der Lernziele nicht notwendig.
+
+Erweitere die Applikation, z.B:
+
+- Animiere die SVG Symbole (z.B. bewegter Regen) mit CSS.
+- Zeichne die Daten in regelmässigen Abständen auf und zeichne eine Grafik des Verlaufs. Nutze ein geeignetes
+Framework, z.B. [D3.js](https://github.com/d3/d3/wiki). Speichere die
+Daten [Lokal im Browser](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
