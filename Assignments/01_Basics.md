@@ -9,11 +9,11 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
 - Stelle sicher, dass HTML und CSS korrekt sind (https://validator.w3.org, https://jigsaw.w3.org/css-validator/).
 - Stelle sicher, dass der Lighthouse Index über 90 ist (https://pagespeed.web.dev/).
 
-Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
+Dokumentiere folgende Punkte:
 
-- Ausgefüllte Links auf HTML und CSS Validatoren sowie Pagespeed Analyse
-- Verwendeter SSG mit Begründung (Variantenentscheid)
-- Deployment und verwendetes Hosting mit Begründung (Variantenentscheid)
+- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Pagespeed Analyse, so dass die Analyse per Click gemacht werden kann.
+- `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
+- `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
 
 Sämtliche Aussagen sind mit Quellen (Bücher, Artikel, Dokumentationen) zu belegen und Hilfsmittel sind als solche anzugeben. 
 Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
