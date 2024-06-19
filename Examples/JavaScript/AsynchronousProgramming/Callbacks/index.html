@@ -6,20 +6,6 @@
 </head>
 <body>
 <script>
-
-    /**
-     * Accepts a callback that gets called after a random amount of time between 50 and 60ms
-     *
-     * @returns {Promise<unknown>}
-     */
-    function randomTimeout(callback) {
-        const timeout = Math.round(Math.random() * 10 + 50);
-        const handlerCallback = () => {
-            callback(timeout);
-        }
-        setTimeout(handlerCallback, timeout);
-    }
-
     const timeouts = [];
 
     const start = window.performance.now();
@@ -35,6 +21,18 @@
                 console.log(`Total runtime: ${end}ms`);
             }
         });
+    }
+
+    /**
+     * Accepts a callback that gets called after a random amount of time between 50 and 60ms
+     *
+     */
+    function randomTimeout(callback) {
+        const timeout = Math.round(Math.random() * 10 + 50);
+        function handlerCallback() {
+            callback(timeout);
+        }
+        setTimeout(handlerCallback, timeout);
     }
 </script>
 </body>
