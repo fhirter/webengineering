@@ -68,7 +68,7 @@ Datei-Tab -> "Override File Type" kann dies angepasst werden.
 Erstelle die Implementierung im Ordner `tests`
 gemäss [Anleitung](https://docs.gauge.org/writing-specifications?os=macos&language=javascript&ide=vscode#step-implementations).
 
-`test/spec_implementations.js`:
+`tests/spec_implementations.js`:
 
 ```javascript
 step("hello world", async function () {
