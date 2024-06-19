@@ -7,6 +7,30 @@
 <body>
 <script>
 
+    const start = window.performance.now();
+
+    // start multiple timeouts
+    const count = 100;
+    const promises = startTimeouts(count);
+
+    // wait for all timeouts to complete
+    Promise.all(promises).then((runtimes) => {
+        for (const runtime of runtimes) {
+            console.log(`Individual runtime: ${runtime}ms`);
+        }
+        const end = window.performance.now() - start;
+        console.log(`Total runtime: ${end}ms`);
+    })
+
+    function startTimeouts(count) {
+        const promises = [];
+        for (let i = 0; i < count; i++) {
+            const promise = randomTimeout();
+            promises.push(promise);
+        }
+        return promises
+    }
+
     /**
      * Returns a promise that resolves after a random amount of time between 50 and 60ms
      *
@@ -21,28 +45,6 @@
             setTimeout(handlerCallback, timeout);
         })
     }
-
-    const promises = [];
-
-    const start = window.performance.now();
-
-    // start multiple timeouts
-    const count = 100;
-    for (let i = 0; i < count; i++) {
-        const promise = randomTimeout();
-        promises.push(promise);
-    }
-
-    // wait for all timeouts to complete
-    Promise.all(promises).then((timeout) => {
-        for (const response of timeout) {
-            console.log(`Individual runtime: ${response}ms`);
-        }
-
-    }).then(() => {
-        const end = window.performance.now() - start;
-        console.log(`Total runtime: ${end}ms`);
-    })
 </script>
 </body>
 </html>
