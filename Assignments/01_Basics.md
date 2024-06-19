@@ -12,8 +12,8 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
 Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
 
 - Ausgefüllte Links auf HTML und CSS Validatoren sowie Pagespeed Analyse
-- Verwendeter SSG mit Begründung
-- Deployment und verwendetes Hosting mit Begründung
+- Verwendeter SSG mit Begründung (Variantenentscheid)
+- Deployment und verwendetes Hosting mit Begründung (Variantenentscheid)
 
 Sämtliche Quellen (Bücher und Artikel) und Hilfsmittel sind als solche anzugeben. 
 Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
