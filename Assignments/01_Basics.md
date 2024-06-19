@@ -15,7 +15,7 @@ Dokumentiere folgende Punkte im Readme.md direkt im Git-Repository:
 - Verwendeter SSG mit Begründung (Variantenentscheid)
 - Deployment und verwendetes Hosting mit Begründung (Variantenentscheid)
 
-Sämtliche Quellen (Bücher und Artikel) und Hilfsmittel sind als solche anzugeben. 
+Sämtliche Aussagen sind mit Quellen (Bücher, Artikel, Dokumentationen) zu belegen und Hilfsmittel sind als solche anzugeben. 
 Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
 
 ## Bewertungsraster
