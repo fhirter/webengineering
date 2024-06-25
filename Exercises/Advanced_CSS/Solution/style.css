@@ -6,6 +6,19 @@
 /* Reset some default styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
+/**
+Todo:
+- color functions
+- media queries
+- container queries
+- calc()
+- masking
+- subgrids
+- box shadows
+- filters
+- shape outside
+ */
+
 :root {
     --gradient-color1: rgb(62, 56, 189);
     --gradient-color2: rgb(0, 155, 114);
