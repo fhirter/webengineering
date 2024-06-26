@@ -13,3 +13,5 @@ reports
 logs
 
 config.js
+
+/.gauge
