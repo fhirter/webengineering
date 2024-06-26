@@ -1,14 +1,16 @@
+const {click, write, openBrowser, goto, into, textBox} = require('taiko');
+
 step("Open <url> in Browser", async function(url) {
-    openBrowser();
-    goto(url)
+    await openBrowser();
+    await goto(url)
 })
 
 step("Write <address> into the input field", async function(address) {
-    write(address, into(textBox()))
+    await write(address, into(textBox()))
 });
 
 step("Click <buttonText>", async function(buttonText) {
-    click(buttonText)
+    await click(buttonText)
 })
 
 
