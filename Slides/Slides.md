@@ -348,10 +348,24 @@ p1.then((value) => {
 6. Security and privacy by default
 7. You retain ultimate ownership and control
 
+- https://www.inkandswitch.com/local-first/
+- https://localfirstweb.dev/
 
-https://www.inkandswitch.com/local-first/
-https://localfirstweb.dev/
+# Webservices implementieren
+- Level 0: The Swamp of POX
+- Level 1: Resources
+- Level 2: HTTP verbs
+![](images/Resources_HTTPVerbs.png)
+- Level 3: Hypermedia controls
+```json lines
+{
+  customerId: "1",
+  reservations: [{room: "102", checkin: "10-11-2020", checkout: "11-14-2020", price: "100", href: "https://localhost:8080/room/102"}]
+}
+```
 
+- https://en.wikipedia.org/wiki/Richardson_Maturity_Model
+- https://martinfowler.com/articles/richardsonMaturityModel.html
 
 # Die Performance von Webanwendungen optimieren
 
