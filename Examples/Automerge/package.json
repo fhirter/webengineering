@@ -1,0 +1,23 @@
+{
+  "name": "automerge",
+  "version": "1.0.0",
+  "description": "Automerge example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabian Hirter",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "2.0.5"
+  },
+  "dependencies": {
+    "@automerge/automerge": "2.2.8",
+    "@automerge/automerge-repo": "1.2.1",
+    "@automerge/automerge-repo-network-websocket": "1.2.1",
+    "@automerge/automerge-repo-storage-indexeddb": "1.2.1",
+    "@automerge/automerge-repo-storage-nodefs": "1.2.1",
+    "ws": "8.18.0"
+  }
+}
