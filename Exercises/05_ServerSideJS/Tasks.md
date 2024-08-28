@@ -43,7 +43,7 @@ für die Datenbankinstanz. Stelle sicher, dass die Applikation resistent gegenü
 
 Folgende Punkte sollen in dieser Reihenfolge erledigt werden:
 
-1. Beschreibe die Funktionalität mittels Akzeptanztests (UI und API)
+1. Beschreibe die Funktionalität der REST API mittels Akzeptanztests
 2. Setze einen Container auf, der die Node Applikation ausführt.
 3. Implementiere die API bis die Tests nicht mehr fehlschlagen. Nutze dazu statische Dummy-Daten. Erstelle die OpenAPI
    Spezifikation gleichzeitig anhand des Codes.
