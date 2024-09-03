@@ -30,17 +30,15 @@ beschriebenen Sicherheitslücken anzugreifen:
 - [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
 - https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
 
-Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (nach "Systems Engineering", S.70):
+Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (vgl. "Systems Engineering", S.70):
 
-1. Situationsanalyse
-2. Zielformulierung
-3. Synthese von Lösungen
-4. Analyse von Lösungen
-5. Bewertung
+1. Zielsuche: Analyse und Zielformulierung
+2. Lösungssuche: Untersuchen der Sicherheitslücke
+3. Bewertung: Festhalten, ob das gewünschte Ergebnis eingetroffen ist.
 
 Halte deine Gedanken bei jedem Schritt schriftlich fest.
 Dieser Zyklus kann sehr kurz sein, ein erstes Ziel kann z.B. sein die Applikation zu installieren. 
-Der Zyklus wird also im Verlauf dieser Übung mehrere male durchlaufen.
+Der Zyklus wird also im Verlauf dieser Übung mehrmals durchlaufen.
 
 ## [Setup](https://hub.docker.com/r/bkimminich/juice-shop#setup):
 
