@@ -1,0 +1,20 @@
+{
+  "name": "05_serversidejs",
+  "version": "1.0.0",
+  "description": "## Project Setup",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node --watch src/index.js",
+    "test": "vitest",
+    "acceptance-tests": "gauge run specs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "2.0.5"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}

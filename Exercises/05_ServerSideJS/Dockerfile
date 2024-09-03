@@ -8,10 +8,10 @@ WORKDIR /usr/src/app
 # Install app dependencies
 COPY package*.json ./
 
-RUN npm ci
+RUN mkdir src
 
-EXPOSE 8080
+RUN npm i
 
-#CMD tail -f /dev/null
+EXPOSE 3000
 
-CMD node --watch main.js
+CMD ["npm", "run", "test"]
