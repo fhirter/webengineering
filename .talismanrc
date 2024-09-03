@@ -12,5 +12,5 @@ fileignoreconfig:
 - filename: Examples/JavaScript/SvelteKit/package-lock.json
   checksum: 2b8b3be3c146331b2c76b5c98a8769d745351286560bb715e55c93b582923c84
 - filename: Exercises/05_ServerSideJS/package-lock.json
-  checksum: f2381ba3e8f6e68fc87adb83d0b15269606d3f056a876fd458eca0f9bf2ca067
+  checksum: 6835ca56b1346b8e46d52f8773e4682da1251593a74ce511127da547701d8317
 version: ""
