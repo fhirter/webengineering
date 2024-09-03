@@ -12,7 +12,7 @@ This projects boilerplate has been setup using the following commands:
 - Install unit test suite: `npm install -D vitest`
 - Install gauge + taiko: `npm i -D @getgauge/cli taiko `
 - Add manifest file for gauge: `echo "{\"Language\": \"js\"}" > manifest.json`
-- Gitignore gauge settings and logs: `echo '.gauge \n logs' >> .gitignore `
+- Gitignore gauge settings and logs: `echo '.gauge \n /logs/' >> .gitignore `
 
 ### App
 - Install app dependencies: `npm install express`
