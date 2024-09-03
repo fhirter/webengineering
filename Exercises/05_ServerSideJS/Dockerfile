@@ -12,6 +12,11 @@ RUN mkdir src
 
 RUN npm i
 
+COPY manifest.json .
+COPY specs specs
+COPY tests tests
+
 EXPOSE 3000
 
-CMD ["npm", "run", "test"]
+ENTRYPOINT ["npm", "run"]
+CMD ["serve"]
