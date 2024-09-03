@@ -17,7 +17,8 @@ Der [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ist eine Appli
 Sicherheitslücken aufweist.
 
 Versuche die Applikation unter Ausnutzung der in den [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-beschriebenen Sicherheitslücken anzugreifen:
+beschriebenen Sicherheitslücken anzugreifen.
+Die Beschreibung zu den einzelnen Themen gibt dir viele Anhaltspunkte für einen möglichen Angriff:
 
 - [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 - [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
