@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: Exercises/05_ServerSideJS/package-lock.json
+  checksum: 67b540d125efde16ad608c06d8ce560260152dfe92b5a8db0e49ee972f8b0bb4
+version: ""
