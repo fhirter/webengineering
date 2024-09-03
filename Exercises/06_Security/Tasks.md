@@ -17,15 +17,30 @@ Der [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ist eine Appli
 Sicherheitslücken aufweist.
 
 Versuche die Applikation unter Ausnutzung der in den [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-beschriebenen Sicherheitslücken anzugreifen.
+beschriebenen Sicherheitslücken anzugreifen:
 
-Nutze dazu ein wissenschaftliches Vorgehen:
-- Formuliere eine These, die du überprüfen willst.
-- Beschaffe dir die benötigten Informationen.
-- Überprüfe die These.
-- Halte fest, ob du die These bestätigen oder widerlegen konntest.
+- [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
+- [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
+- [Injection](https://owasp.org/Top10/A03_2021-Injection/)
+- [Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/)
+- [Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
+- [Vulnerabel and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+- [Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
+- [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)
+- [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+- https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
 
-Halte These, Informationen, Vorgehen und Schlussfolgerungen bei jedem Schritt schriftlich fest.
+Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (nach "Systems Engineering", S.70):
+
+1. Situationsanalyse
+2. Zielformulierung
+3. Synthese von Lösungen
+4. Analyse von Lösungen
+5. Bewertung
+
+Halte deine Gedanken bei jedem Schritt schriftlich fest.
+Dieser Zyklus kann sehr kurz sein, ein erstes Ziel kann z.B. sein die Applikation zu installieren. 
+Der Zyklus wird also im Verlauf dieser Übung mehrere male durchlaufen.
 
 ## [Setup](https://hub.docker.com/r/bkimminich/juice-shop#setup):
 
@@ -40,5 +55,9 @@ Halte These, Informationen, Vorgehen und Schlussfolgerungen bei jedem Schritt sc
 
 - Führe einen SQL Injection Angriff aus.
 - Führe einen XSS Angriff aus.
-- Untersuche, die von der Applikation verwendeten Json Web Tokens (JWT).
+- Untersuche die von der Applikation verwendeten JSON Web Tokens (JWT).
 - Untersuche, wie die Applikation die Authentifizierung implementiert.
+
+## Quellen
+
+- "Systems Engineering": Habenfeller Reinhard, de Weck Oliver, Fricke Ernst, Vössner Siegfried, Systems Engineering, 2018, Orell Füssli
