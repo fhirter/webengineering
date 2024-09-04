@@ -20,6 +20,7 @@ This projects boilerplate has been setup using the following commands:
 - Gitignore gauge settings and logs: `echo 'node_modules\n .gauge\n /logs/' >> .gitignore`
 - create specs `mkdir specs && touch /specs/example.specs`
 - create tests `mkdir tests && touch /tests/step_implementations.js`
+- load integration tests `mkdir src && curl -o api.test.js https://raw.githubusercontent.com/fhirter/webengineering/main/Exercises/05_ServerSideJS/SkeletonApp/src/api.test.js`
 
 ### App
 - Install app dependencies: `npm install express`
