@@ -13,4 +13,6 @@ fileignoreconfig:
   checksum: 2b8b3be3c146331b2c76b5c98a8769d745351286560bb715e55c93b582923c84
 - filename: Exercises/05_ServerSideJS/package-lock.json
   checksum: 6835ca56b1346b8e46d52f8773e4682da1251593a74ce511127da547701d8317
+- filename: Exercises/05_ServerSideJS/README.md
+  checksum: 85249a3972dcd3c8df911c403169ab61f6862ac21085a57c3260b2818d6faa44
 version: ""
