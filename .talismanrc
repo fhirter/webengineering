@@ -5,14 +5,6 @@ fileignoreconfig:
   checksum: 87a8d59bb62598087fce7986a29cc12bc6476e83c7f38009421ad9b31a8c054b
 - filename: Examples/JavaScript/Svelte/svelte-example/public/vite.svg
   checksum: 0bb782bc7896acf5ae957c0a6e406a31a2cea768a7b6f86df314ec0f1bf37a0e
-- filename: Examples/JavaScript/Svelte/svelte-example/package-lock.json
-  checksum: 49b1eac3eeeda103edfa79332aabf552874ef6d1a848dd6a4725b6839fc2ff02
-- filename: Examples/Docker/package-lock.json
-  checksum: 905628c992b4e9ebdc237623d6598860cea6f81e6d921a2028125b0a576f3f6e
-- filename: Examples/JavaScript/SvelteKit/package-lock.json
-  checksum: 2b8b3be3c146331b2c76b5c98a8769d745351286560bb715e55c93b582923c84
-- filename: Exercises/05_ServerSideJS/package-lock.json
-  checksum: 6835ca56b1346b8e46d52f8773e4682da1251593a74ce511127da547701d8317
 - filename: Exercises/05_ServerSideJS/README.md
   checksum: 85249a3972dcd3c8df911c403169ab61f6862ac21085a57c3260b2818d6faa44
 version: ""
