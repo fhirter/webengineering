@@ -24,6 +24,16 @@ This projects boilerplate has been setup using the following commands:
 ### App
 - Install app dependencies: `npm install express`
 - Copy express hello world app from https://expressjs.com/en/starter/hello-world.html into `src/index.js`
+- add scripts "serve", "test" in package.json
+
+```json
+{
+  "scripts": {
+    "test": "vitest",
+    "serve": "node --watch src/index.js"
+  }
+}
+```
 
 ## Run application
 
