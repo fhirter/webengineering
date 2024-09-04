@@ -29,7 +29,7 @@ Die Beschreibung zu den einzelnen Themen gibt dir viele Anhaltspunkte für einen
 - [Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 - [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)
 - [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
-- https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
+- [Server-Side Request Forgery (SSRF)](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
 
 Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (vgl. "Systems Engineering", S.70):
 
