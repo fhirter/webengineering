@@ -15,7 +15,7 @@ This projects boilerplate has been setup using the following commands:
 
 ### Testing
 - Install unit and api test suite: `npm install -D vitest supertest`
-- Install gauge + taiko: `npm i -D @getgauge/cli taiko `
+- Install gauge + taiko: `npm i -D @getgauge/cli taiko`
 - Add manifest file for gauge: `echo "{\"Language\": \"js\"}" > manifest.json`
 - Gitignore gauge settings and logs: `echo 'node_modules\n .gauge\n /logs/' >> .gitignore`
 - create specs `mkdir specs && touch /specs/example.specs`
