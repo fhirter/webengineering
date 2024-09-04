@@ -8,11 +8,16 @@ This projects boilerplate has been setup using the following commands:
 - Pin versions by default: `echo save-exact=true > .npmrc`
 - Ignore node_modules in docker image: `echo node_modules > .dockerignore`
 
+### Docker
+
+- Copy Dockerfile `curl -o Dockerfile https://github.com/fhirter/webengineering/blob/6cec7bf94d158fe74671abe20ef78c8503b90e36/Exercises/05_ServerSideJS/Dockerfile`
+- Copy docker-compose `curl -o docker-compose.yml https://github.com/fhirter/webengineering/blob/6cec7bf94d158fe74671abe20ef78c8503b90e36/Exercises/05_ServerSideJS/docker-compose.yml`
+
 ### Testing
 - Install unit and api test suite: `npm install -D vitest supertest`
 - Install gauge + taiko: `npm i -D @getgauge/cli taiko `
 - Add manifest file for gauge: `echo "{\"Language\": \"js\"}" > manifest.json`
-- Gitignore gauge settings and logs: `echo '.gauge \n /logs/' >> .gitignore `
+- Gitignore gauge settings and logs: `echo 'node_modules\n .gauge\n /logs/' >> .gitignore`
 
 ### App
 - Install app dependencies: `npm install express`
