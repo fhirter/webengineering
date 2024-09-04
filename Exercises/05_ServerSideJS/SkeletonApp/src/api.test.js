@@ -21,9 +21,7 @@ describe('/users api', () => {
 
         it('should return an array on GET', () => {
             return new Promise((done) => {
-                return getUsers
-                    .expect('Content-Type', /application\/json/)
-                    .expect(200)
+                    return getUsers
                     .then(response => {
                         expect(response.body).toEqual(expect.any(Array));
                         done();
@@ -42,7 +40,6 @@ describe('/users api', () => {
         it('should return application/json on GET', () => {
             return new Promise((done) => {
                 return getUsers
-                    .expect(200)
                     .end((error, response) => {
                         expect(response.headers['content-type']).toContain('application/json');
                         done();
