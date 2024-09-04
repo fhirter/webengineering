@@ -39,14 +39,22 @@ für die Datenbankinstanz. Stelle sicher, dass die Applikation resistent gegenü
 - API-Test-Framework: [Supertest](https://www.npmjs.com/package/supertest)
 - Akzeptanztests: [Gauge+Taiko](https://gauge.org/)
 
+## Skeleton App
+
+Die Skeleton App stellt folgendes zur Verfügung, um den Start zu beschleunigen:
+
+- Initiales Node App Setup ([package.json](SkeletonApp/package.json))
+- Test Setup (Gauge + Taiko für Akzeptanztests, Vitest für Unit- und Integrationstests)
+- Docker Setup zum Starten der Applikation und Tests ([Dockerfile](SkeletonApp/Dockerfile), [docker-compose.yml](SkeletonApp/docker-compose.yml), [.dockerignore](SkeletonApp/.dockerignore))
+- [API Integrationstests](SkeletonApp/src/api.test.js)
+
 ### Aufgaben zum Erreichen der Lernziele
 
 Folgende Punkte sollen in dieser Reihenfolge erledigt werden:
 
-1. Beschreibe die Funktionalität der REST API mittels Akzeptanztests
-2. Setze einen Container auf, der die Node Applikation ausführt.
-3. Implementiere die API bis die Tests nicht mehr fehlschlagen. Nutze dazu statische Dummy-Daten. Erstelle die OpenAPI
-   Spezifikation gleichzeitig anhand des Codes.
+1. Starte die [SkeletonApp](SkeletonApp) und lasse die Akzeptanz, Unit und Integrationstests laufen.
+2. Implementiere die API bis die Tests nicht mehr fehlschlagen. Nutze dazu statische Dummy-Daten.
+3. Erstelle die OpenAPI Spezifikation anhand des Codes.
 4. Implementiere das Swagger UI.
 5. Erstelle die Datenbankanbindung.
 6. Erstelle die Frontend-Applikation mit einem gängigen Framework.
