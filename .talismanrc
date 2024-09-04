@@ -10,3 +10,4 @@ fileignoreconfig:
 version: ""
 scopeconfig:
   - scope: node
+threshold: high
