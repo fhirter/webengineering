@@ -16,3 +16,5 @@ fileignoreconfig:
 - filename: Exercises/05_ServerSideJS/README.md
   checksum: 85249a3972dcd3c8df911c403169ab61f6862ac21085a57c3260b2818d6faa44
 version: ""
+scopeconfig:
+  - scope: node
