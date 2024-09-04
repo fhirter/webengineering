@@ -10,8 +10,8 @@ This projects boilerplate has been setup using the following commands:
 
 ### Docker
 
-- Copy Dockerfile `curl -o Dockerfile https://github.com/fhirter/webengineering/blob/6cec7bf94d158fe74671abe20ef78c8503b90e36/Exercises/05_ServerSideJS/Dockerfile`
-- Copy docker-compose `curl -o docker-compose.yml https://github.com/fhirter/webengineering/blob/6cec7bf94d158fe74671abe20ef78c8503b90e36/Exercises/05_ServerSideJS/docker-compose.yml`
+- Copy Dockerfile `curl -o Dockerfile https://raw.githubusercontent.com/fhirter/webengineering/main/Exercises/05_ServerSideJS/Dockerfile`
+- Copy docker-compose `curl -o docker-compose.yml https://raw.githubusercontent.com/fhirter/webengineering/main/Exercises/05_ServerSideJS/docker-compose.yml`
 
 ### Testing
 - Install unit and api test suite: `npm install -D vitest supertest`
