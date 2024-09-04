@@ -43,5 +43,5 @@ test with `curl localhost:3000`
 
 ## Run tests
 
-- Unit Tests: `docker compose run web test`
+- Unit & Integrations-Tests: `docker compose run web test`
 - Acceptance Tests: `docker compose run web acceptance-tests`
