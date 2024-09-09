@@ -373,6 +373,7 @@ p1.then((value) => {
 - [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law): 
 > "The hope is that the progress in hardware will cure all software ills. However, a critical observer may observe that software manages to outgrow hardware in size and sluggishness."
 - Wettbewerbsvorteil
+-  https://www.blauer-engel.de/de/produktwelt/software
 
 ## Is it worth the time?
 
