@@ -369,6 +369,23 @@ p1.then((value) => {
 
 # Die Performance von Webanwendungen optimieren
 
+- Nachhaltige Software wird immer wichtiger
+- [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law): 
+> "The hope is that the progress in hardware will cure all software ills. However, a critical observer may observe that software manages to outgrow hardware in size and sluggishness."
+- Wettbewerbsvorteil
+
+## Is it worth the time?
+
+![](./images/XKCD1205.png)
+
+https://xkcd.com/1205/
+
+## Energy, Time, Memory Comparision
+
+![img.png](images/energy_time_memory.png)
+
+[https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
+
 ## Browser Tools: Netzwerkanalyse
 
 ![img.png](images/Netzwerkanalyse.png)
@@ -378,7 +395,3 @@ p1.then((value) => {
 ![img.png](images/img.png)
 
 
-## Energy, Time, Memory Comparision
-
-![img.png](images/energy_time_memory.png)
-[https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
