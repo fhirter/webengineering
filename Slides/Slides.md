@@ -377,18 +377,6 @@ p1.then((value) => {
 
 ![img.png](images/img.png)
 
-## Bun
-
-![img.png](images/Bun_webserver.png)
-
---- 
-
-![img.png](images/bun_install.png)
-
---- 
-
-![img.png](images/bun_test.png)
-[https://bun.sh/](https://bun.sh/)
 
 ## Energy, Time, Memory Comparision
 
