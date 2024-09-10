@@ -86,3 +86,7 @@ Die Vergabe der Punkte geschieht gemäss folgender Skala:
 | 8      | kleine Mängel       |
 | 9      | kleinste Mängel     |
 | 10     | tadellos            |
+
+### Abgabe
+
+Per E-Mail Link auf Git-Repository. Keine Zip Anhänge, nicht auf Teams.
