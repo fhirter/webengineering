@@ -61,8 +61,8 @@ Die häufigsten 10 Suchanfragen sollen angezeigt werden.
 - REST API
     - Swagger Dokumentation (10)
     - Diskussion REST (10)
-    - Korrekte Verwendung der HTTP-Methoden (10)
-    - Korrekte HTTP Statuscodes (success & failure) (10)
+    - Korrekte Verwendung der HTTP-Methoden und Statuscodes (success & failure) (10)
+    - Sinnvolle Strukturierung (10)
 
 Total mögliche Punkte Applikationsentwicklung: 120
 Total mögliche Punkte Systemtechnik: 80
