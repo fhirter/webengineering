@@ -375,12 +375,6 @@ p1.then((value) => {
 - Wettbewerbsvorteil
 -  https://www.blauer-engel.de/de/produktwelt/software
 
-## Is it worth the time?
-
-![](./images/XKCD1205.png)
-
-https://xkcd.com/1205/
-
 ## Energy, Time, Memory Comparision
 
 ![img.png](images/energy_time_memory.png)
