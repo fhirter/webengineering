@@ -10,6 +10,5 @@
 
 
 ## See also
-- [/ObjektorientierteProgrammierung/Literature.md](https://github.com/fhirter/ObjektorientierteProgrammierung/blob/master/Literature.md)
 - [/Computer-Networks/Literature.md](https://github.com/fhirter/Computer-Networks/blob/master/Literature.md)
 - [/ParalleleUndVerteilteSysteme](https://github.com/fhirter//ParalleleUndVerteilteSysteme/blob/main/Literature.md)
