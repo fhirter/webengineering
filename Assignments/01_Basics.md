@@ -21,15 +21,22 @@ Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten T
 ## Bewertungsraster
 
 - Erläuterung und Begründung SSG (10)
+  - Quellen ausgewiesen
+  - Variantenentscheid sinnvoll und nachvollziehbar
+- Deployment und verwendetes Hosting mit Begründung (10)
+  - Quellen ausgewiesen
+  - Variantenentscheid sinnvoll und nachvollziehbar
+  - im Internet erreichbar
+  - Automatisiert
 - HTML (10)
     - Semantisch korrekt
     - Keine Fehler und Warnungen auf https://validator.w3.org
+    - Korrekte Meta-Tags
 - CSS (10)
     - Wenige, sinnvolle Klassen und Selektoren
-    - Layout funktioniert auf iPhone 11 (Emuliert in Firefox) und 13" Laptop Display
+    - Layout funktioniert auf iPhone 11 (Emuliert in Firefox), 13" Laptop Display und 32" 4K Display
     - Keine Fehler und Warnungen auf https://jigsaw.w3.org/css-validator/
 - Leistung, Barrierefreiheit, Best Practices, SEO alle über 90: https://pagespeed.web.dev/ (10)
-- Deployment (im Internet erreichbar) und verwendetes Hosting mit Begründung (10)
 
 ### Punkteskala
 
