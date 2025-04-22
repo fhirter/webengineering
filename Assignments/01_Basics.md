@@ -36,7 +36,7 @@ Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten T
     - Wenige, sinnvolle Klassen und Selektoren
     - Layout funktioniert auf iPhone 11 (Emuliert in Firefox), 13" Laptop Display und 32" 4K Display
     - Keine Fehler und Warnungen auf https://jigsaw.w3.org/css-validator/
-- Leistung, Barrierefreiheit, Best Practices, SEO alle über 90: https://pagespeed.web.dev/ (10)
+- Ecograder über 90: https://ecograder.com/ (10)
 
 ### Punkteskala
 
