@@ -11,7 +11,7 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
 
 Dokumentiere folgende Punkte:
 
-- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Pagespeed Analyse, so dass die Analyse per Click gemacht werden kann.
+- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Ecograder Analyse, so dass die Analyse per Click gemacht werden kann.
 - `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
 - `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
 
