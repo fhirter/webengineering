@@ -68,50 +68,92 @@ Among the fundamental elements of the design process are the **establishment of 
 
 ### dot-com bubble
 
-![Nasdaq_Composite_dot-com_bubble.svg.png](images/Nasdaq_Composite_dot-com_bubble.svg.png)
+![Nasdaq_Composite_dot-com_bubble.svg.png](images/Nasdaq_Composite_dot-com_bubble.svg)
 Nasdaq Composite index
 
-### Browser Wars
-
-![StatCounter-browser-ww-monthly-200901-202303.png](images/StatCounter-browser-ww-monthly-200901-202303.png)
-
-![StatCounter-comparison-ww-monthly-200901-202303.png](images/StatCounter-comparison-ww-monthly-200901-202303.png)
+https://en.wikipedia.org/wiki/Dot-com_bubble
 
 ### Web 2.0
 
-
+- Social Media: Youtube, Facebook (2004), MySpace (2003), Twitter
 - JavaScript (1995): Brendan Eich, Netscape
 - Ajax (2000): XMLHttpRequest
-- Social Media: Youtube, Facebook (2004), MySpace (2003), Twitter
-- 
+- Web Applications, SPA, PWA: Gmail (2004), Google Maps (2005)
+- Cloud Computing: AWS (2002)
+- Mobile: iPhone (2007)
+
+### Browser Wars
+
+![browser_warsI.png](images/browser_warsI.png)
+
+---
+
+![StatCounter-browser-ww-monthly-200901-202503.png](images/StatCounter-browser-ww-monthly-200901-202503.png)
+
+https://gs.statcounter.com/browser-market-share#monthly-200901-202503
+
+---
+![StatCounter-comparison-ww-monthly-200901-202503.png](images/StatCounter-comparison-ww-monthly-200901-202503.png)
+
+https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide/#monthly-200901-202503
+
+### Web 3.0 / Semantic Web
+
+- Tim Berners-Lee, 1999
+- Daten werden mit Metadaten maschinenlesbar aufbereitet
+- Dadurch können Informationen verlinkt werden
+- Beispiel: RSS, https://hnrss.org/frontpage
 
 ### Web3
 
+- Dezentrales Web
+- Blockchains
+- smart contracts
+- digital tokens
 
-### PC / Smartphone
+### Gegenwart und Zukunft
 
-![w:600px](images/gerätevielfalt.png)
+- Browser als App-Plattform
+- Local First: https://localfirstweb.dev/
+- Internet of Things?
+- "Dead Internet Theory" / Enshittification / AI Slop
+  - https://www.wired.com/story/tiktok-platforms-cory-doctorow/
+  - https://www.zeit.de/digital/internet/2025-04/plattformverfall-enshittification-cory-doctorow-facebook-internet
 
-#### Programmiersprachen
+## Werkzeuge
+
+- https://developer.mozilla.org/
+- https://www.mozilla.org/de/firefox/windows/
+- https://www.google.com/intl/de/chrome/
+- https://www.jetbrains.com/webstorm/
+- Node.js: https://nodejs.org/en
+- Docker: https://www.docker.com/
+- [https://caniuse.com/](https://caniuse.com/)
+
+[Tools.md](../Tools.md)
+
+## State of JavaScript
+
+### Programmiersprachen
 
 ![w:600px](images/ProgrammingLanguages.png)
 
 https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages,
 23.04.24
 
-#### Datenbanken
+### Datenbanken
 
 ![w:400px](images/Databases.png)
 
 https://survey.stackoverflow.co/2023/#section-most-popular-technologies-databases, 23.04.24
 
-#### Cloud Plattformen
+### Cloud Plattformen
 
 ![w:400px](images/CloudPlatforms.png)
 
 https://survey.stackoverflow.co/2023/#section-most-popular-technologies-cloud-platforms, 23.04.24
 
-#### Web Frameworks
+### Web Frameworks
 
 ![w:400px](images/WebFrameworks.png)
 
@@ -122,9 +164,7 @@ https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-fram
 ![height:500px](images/web-frameworks2.png)
 [State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
 
-## Werkzeuge
 
-[Tools.md](../Tools.md)
 
 # Webseiten gestalten mit CSS
 
