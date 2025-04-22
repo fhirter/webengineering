@@ -6,41 +6,43 @@
 
 ![w:200px](images/www.png)
 
-"Das **World Wide Web** (englisch für „weltweites Netz“, kurz Web oder WWW) ist ein über das **Internet** abrufbares System von elektronischen Hypertext-Dokumenten, sogenannten **Webseiten**, welche mit **HTML** beschrieben werden.
+"Das **World Wide Web** (englisch für „weltweites Netz“, kurz Web oder WWW) ist ein über das **Internet** abrufbares
+System von elektronischen Hypertext-Dokumenten, sogenannten **Webseiten**, welche mit **HTML** beschrieben werden.
 
-Sie sind durch **Hyperlinks** untereinander verknüpft und werden im Internet über die Protokolle **HTTP oder HTTPS** übertragen.
+Sie sind durch **Hyperlinks** untereinander verknüpft und werden im Internet über die Protokolle **HTTP oder HTTPS**
+übertragen.
 
-Der Benutzer kann dann den **Hyperlinks** auf der angezeigten Webseite folgen, die auf andere Webseiten verweisen. So ergibt sich ein weltweites Netz aus Webseiten. Das Verfolgen der Hyperlinks wird auch als **„Surfen im Internet“** bezeichnet.
+Der Benutzer kann dann den **Hyperlinks** auf der angezeigten Webseite folgen, die auf andere Webseiten verweisen. So
+ergibt sich ein weltweites Netz aus Webseiten. Das Verfolgen der Hyperlinks wird auch als **„Surfen im Internet“**
+bezeichnet.
 
 ---
 
-Die Webseiten enthalten meist **Texte**, oft mit **Bildern** und **grafischen Elementen** illustriert. Häufig sind auch **Videos**, **Tondokumente** oder **Musikstücke** eingebettet."
+Die Webseiten enthalten meist **Texte**, oft mit **Bildern** und **grafischen Elementen** illustriert. Häufig sind auch*
+*Videos**, **Tondokumente** oder **Musikstücke** eingebettet."
 
 ---
 
-Zum Aufrufen von Inhalten aus dem World Wide Web wird ein **Webbrowser** benötigt, der z. B. auf einem **PC** oder einem **Smartphone** läuft. Mit ihm kann der Benutzer die auf einem beliebigen, von ihm ausgewählten **Webserver** bereitgestellten Daten herunterladen und auf einem geeigneten Ausgabegerät wie einem **Bildschirm** oder einer **Braillezeile** anzeigen lassen.
+Zum Aufrufen von Inhalten aus dem World Wide Web wird ein **Webbrowser** benötigt, der z. B. auf einem **PC** oder einem
+**Smartphone** läuft. Mit ihm kann der Benutzer die auf einem beliebigen, von ihm ausgewählten **Webserver**
+bereitgestellten Daten herunterladen und auf einem geeigneten Ausgabegerät wie einem **Bildschirm** oder einer *
+*Braillezeile** anzeigen lassen.
 
 (vgl. https://de.wikipedia.org/wiki/World_Wide_Web)
 
----
-
-- "Hyperlinks" / URL
-- Client - Server
-- HTTP
-- Webbrowser
-- PC / Smartphone
-- HTML
-- Texte, Bilder, Video, Ton
-
 ## Engineering
 
-Engineering is the practice of using **natural science**, **mathematics**, and the **engineering design** process to solve **technical problems**, increase **efficiency** and **productivity**, and **improve systems**.
+Engineering is the practice of using **natural science**, **mathematics**, and the **engineering design** process to
+solve **technical problems**, increase **efficiency** and **productivity**, and **improve systems**.
 
-The **engineering design process** is a common series of steps that engineers use in creating **functional products and processes**. The process is **highly iterative**[...]
+The **engineering design process** is a common series of steps that engineers use in creating **functional products and
+processes**. The process is **highly iterative**[...]
 
-It is a **decision making process** in which the **basic sciences** [...] are **applied** to convert resources optimally **to meet a stated objective**.
+It is a **decision making process** in which the **basic sciences** [...] are **applied** to convert resources optimally
+**to meet a stated objective**.
 
-Among the fundamental elements of the design process are the **establishment of objectives and criteria**, **synthesis**, **analysis**, **construction**, **testing** and **evaluation**.
+Among the fundamental elements of the design process are the **establishment of objectives and criteria**, **synthesis
+**, **analysis**, **construction**, **testing** and **evaluation**.
 
 (vgl. https://en.wikipedia.org/wiki/Engineering,  https://en.wikipedia.org/wiki/Engineering_design_process)
 
@@ -51,26 +53,6 @@ Among the fundamental elements of the design process are the **establishment of 
 - **Iterativer Prozess**
 - Entscheidungsverfahren
 - Bestimmen der Anforderungen und **Analyse**, **Herstellung**, **Überprüfung** und **Evaluation**
-
-
-### "Hyperlinks" / URL
-
-`https://www.philipackermann.de:80/books/web.html?language=de#chapter7`
-
-### Client - Server
-
-- Client: Browser -> Eher einfache Maschine (Software und Hardware), meistens in direktem Zugriff des Users
-- Server: Webserver -> eher leistungsfähig (Software und Hardware), i.d.R. im Rechenzentrum
-
-![w:400px](images/client_server.png)
-
-### HTTP
-
-![w:600px](images/HTTP.png)
-
-### Webbrowser
-
-![img.png](images/browser_warsI.png)
 
 ---
 
@@ -84,43 +66,12 @@ Among the fundamental elements of the design process are the **establishment of 
 
 ![w:600px](images/gerätevielfalt.png)
 
-### Webseiten strukturieren mit HTML
-
-```html
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titel</title>
-</head>
-<body>
-
-</body>
-</html>
-```
-
-### Aufbau von Webapplikationen
-
-![img_1.png](images/separation_of_concerns.png)
-
-### Software Stacks
-
-#### LAMP
-
-![img.png](images/LAMP.png)
-
-#### MERN
-
-MongoDB, Express.js, React, Node.js
-
-![w:600px](images/MERN.png)
-
 #### Programmiersprachen
 
 ![w:600px](images/ProgrammingLanguages.png)
 
-https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages, 23.04.24
+https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages,
+23.04.24
 
 #### Datenbanken
 
@@ -145,12 +96,9 @@ https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-fram
 ![height:500px](images/web-frameworks2.png)
 [State of JavaScript 2022](https://2022.stateofjs.com/), 21.06.2023
 
-### Texte, Bilder, Video, Ton
-
 ## Werkzeuge
-[Tools.md](../Tools.md)
 
-![img.png](images/browser_dev_tools.png)
+[Tools.md](../Tools.md)
 
 # Webseiten gestalten mit CSS
 
@@ -218,13 +166,15 @@ vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
 
 ## How Class Free Works
 
-- Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden kann.
+- Klassen sind syntaktischer Zucker, d.h. sie bieten keine Funktionalität, die nicht mit anderen Mitteln erreicht werden
+  kann.
 - Sie verhalten sich anders als Klassen in C++, Java oder C#. Das kann verwirrend sein.
 
 ### "Composition over Inheritance"
 
 - Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln.
-- Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist, welche Methoden aufgerufen werden.
+- Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist,
+  welche Methoden aufgerufen werden.
 - Komposition ist sehr leistungsfähig.
 
 ### Closures
@@ -234,15 +184,18 @@ Auch nach deren Ausführung.
 
 ```javascript
 function init() {
-  var name = "Mozilla"; // name is a local variable created by init
-  function displayName() {
-    // displayName() is the inner function, that forms the closure
-    console.log(name); // use variable declared in the parent function
-  }
-  displayName();
+    var name = "Mozilla"; // name is a local variable created by init
+    function displayName() {
+        // displayName() is the inner function, that forms the closure
+        console.log(name); // use variable declared in the parent function
+    }
+
+    displayName();
 }
+
 init();
 ```
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 ---
@@ -326,17 +279,17 @@ p1.then((value) => {
 # Single-Page-Applikationen implementieren
 
 ## Typische Dokumentstruktur
+
 ![h:400px](images/project_structure2.png)![h:400px](images/project_structure1.png)
 
 ---
 
-  - **Docs:** README.md, CONTRIBUTING.md, LICENCE.md, etc
-  - **Configs:** `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`, `jest.config.js`, `jsconfig.json`, 
-  - **Build & Deployment:** `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`, `package.json`, `package-lock.json` 
-  - **Render & build outputs:** `/dist`, `/build`, `/coverage`, `/node_modules`
-  - **Source Code:** `/src`
-
-## Progressive Web Apps
+- **Docs:** README.md, CONTRIBUTING.md, LICENCE.md, etc
+- **Configs:** `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`,
+  `jest.config.js`, `jsconfig.json`,
+- **Build & Deployment:** `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`, `package.json`, `package-lock.json`
+- **Render & build outputs:** `/dist`, `/build`, `/coverage`, `/node_modules`
+- **Source Code:** `/src`
 
 ## Local First
 
@@ -352,15 +305,25 @@ p1.then((value) => {
 - https://localfirstweb.dev/
 
 # Webservices implementieren
+
 - Level 0: The Swamp of POX
 - Level 1: Resources
 - Level 2: HTTP verbs
-![](images/Resources_HTTPVerbs.png)
+  ![](images/Resources_HTTPVerbs.png)
 - Level 3: Hypermedia controls
+
 ```json lines
 {
   customerId: "1",
-  reservations: [{room: "102", checkin: "10-11-2020", checkout: "11-14-2020", price: "100", href: "https://localhost:8080/room/102"}]
+  reservations: [
+    {
+      room: "102",
+      checkin: "10-11-2020",
+      checkout: "11-14-2020",
+      price: "100",
+      href: "https://localhost:8080/room/102"
+    }
+  ]
 }
 ```
 
@@ -370,10 +333,12 @@ p1.then((value) => {
 # Die Performance von Webanwendungen optimieren
 
 - Nachhaltige Software wird immer wichtiger
-- [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law): 
+- [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law):
+
 > "The hope is that the progress in hardware will cure all software ills. However, a critical observer may observe that software manages to outgrow hardware in size and sluggishness."
+
 - Wettbewerbsvorteil
--  https://www.blauer-engel.de/de/produktwelt/software
+- https://www.blauer-engel.de/de/produktwelt/software
 
 ## Energy, Time, Memory Comparision
 
