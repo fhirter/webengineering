@@ -56,11 +56,37 @@ Among the fundamental elements of the design process are the **establishment of 
 
 ---
 
+## History of the Web
+
+### Web 1.0
+
+- WWW (1989): Tim Berners-Lee, CERN: https://info.cern.ch/hypertext/WWW/TheProject.html
+- HTTP (1991): https://datatracker.ietf.org/doc/html/rfc1945
+- W3C (1994): https://www.w3.org/
+
+(vgl. https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web)
+
+### dot-com bubble
+
+![Nasdaq_Composite_dot-com_bubble.svg.png](images/Nasdaq_Composite_dot-com_bubble.svg.png)
+Nasdaq Composite index
+
+### Browser Wars
+
 ![StatCounter-browser-ww-monthly-200901-202303.png](images/StatCounter-browser-ww-monthly-200901-202303.png)
 
----
-
 ![StatCounter-comparison-ww-monthly-200901-202303.png](images/StatCounter-comparison-ww-monthly-200901-202303.png)
+
+### Web 2.0
+
+
+- JavaScript (1995): Brendan Eich, Netscape
+- Ajax (2000): XMLHttpRequest
+- Social Media: Youtube, Facebook (2004), MySpace (2003), Twitter
+- 
+
+### Web3
+
 
 ### PC / Smartphone
 
