@@ -7,7 +7,7 @@ welcher Übung du das Lernziel erreichen kannst.
 
 ## Grundlagen
 
-| Kompetenzen (Die Studierenden...)                                                                                                                                                           | Lernziel erreicht (1-5) |
+| Kompetenzen (Die Studierenden...)                                                                                                                                                         | Lernziel erreicht (1-5) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
 | können die HTML Grundelemente korrekt anwenden (Meta-Tags, Überschriften, Absätze, Tabellen, Listen, Links, HTML5 Struktur-Elemente) und können damit einfache Seiten komplett erstellen. |                         |
 | können barrierefreie Webseiten erstellen.                                                                                                                                                 |                         |
@@ -18,7 +18,7 @@ welcher Übung du das Lernziel erreichen kannst.
 
 ## Browserapplikationen
 
-| Kompetenzen (Die Studierenden...)                                                            | Lernziel erreicht (1-5) |
+| Kompetenzen (Die Studierenden...)                                                          | Lernziel erreicht (1-5) |
 |--------------------------------------------------------------------------------------------|-------------------------|
 | können eine einfache Single Page Applikation mit einem gängigen Framework erstellen.       |                         |                        
 | können die Anwendung mit Komponenten strukturieren und Templating anwenden.                |                         |                        
@@ -28,7 +28,7 @@ welcher Übung du das Lernziel erreichen kannst.
 
 ## DevOps
 
-| Kompetenzen (Die Studierenden...)                                          | Lernziel erreicht (1-5) |
+| Kompetenzen (Die Studierenden...)                                        | Lernziel erreicht (1-5) |
 |--------------------------------------------------------------------------|-------------------------|
 | können Applikationen containerisieren und automatisiert deployen.        |                         |                        
 | können Anwendungen mit automatisierten Akzeptanz- und Unit-Tests testen. |                         |                        
