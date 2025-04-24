@@ -59,7 +59,7 @@ https://en.wikipedia.org/wiki/Dot-com_bubble
 
 ### Web 2.0
 
-- Social Media: Youtube, Facebook (2004), MySpace (2003), Twitter
+- Social Media: Youtube (2005), Facebook (2004), MySpace (2003), Twitter (2006)
 - JavaScript (1995): Brendan Eich, Netscape
 - Ajax (2000): XMLHttpRequest
 - Web Applications, SPA, PWA: Gmail (2004), Google Maps (2005)
