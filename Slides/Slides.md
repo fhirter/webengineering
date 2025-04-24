@@ -6,43 +6,29 @@
 
 ![w:200px](images/www.png)
 
-"Das **World Wide Web** (englisch für „weltweites Netz“, kurz Web oder WWW) ist ein über das **Internet** abrufbares
-System von elektronischen Hypertext-Dokumenten, sogenannten **Webseiten**, welche mit **HTML** beschrieben werden.
+"HyperText is a way to link and access information of various kinds as a web of nodes in which the user can browse at will. Potentially, HyperText provides a single user-interface to many large classes of stored information such as reports, notes, data-bases, computer documentation and on-line systems help. We propose the implementation of a simple scheme to incorporate several different servers of machine-stored information already available at CERN, including an analysis of the requirements for information access needs by experiments."
 
-Sie sind durch **Hyperlinks** untereinander verknüpft und werden im Internet über die Protokolle **HTTP oder HTTPS**
-übertragen.
-
-Der Benutzer kann dann den **Hyperlinks** auf der angezeigten Webseite folgen, die auf andere Webseiten verweisen. So
-ergibt sich ein weltweites Netz aus Webseiten. Das Verfolgen der Hyperlinks wird auch als **„Surfen im Internet“**
-bezeichnet.
+(https://www.w3.org/Proposal.html)
 
 ---
 
-Die Webseiten enthalten meist **Texte**, oft mit **Bildern** und **grafischen Elementen** illustriert. Häufig sind auch*
-*Videos**, **Tondokumente** oder **Musikstücke** eingebettet."
+Das **World Wide Web** (englisch für „weltweites Netz“, kurz Web oder WWW) ist ein über das **Internet** abrufbares System von [...] sogenannten **Webseiten**, welche mit **HTML** beschrieben werden.
 
----
+Sie sind durch **Hyperlinks** untereinander verknüpft und werden im Internet über die Protokolle **HTTP oder HTTPS** übertragen.
 
-Zum Aufrufen von Inhalten aus dem World Wide Web wird ein **Webbrowser** benötigt, der z. B. auf einem **PC** oder einem
-**Smartphone** läuft. Mit ihm kann der Benutzer die auf einem beliebigen, von ihm ausgewählten **Webserver**
-bereitgestellten Daten herunterladen und auf einem geeigneten Ausgabegerät wie einem **Bildschirm** oder einer *
-*Braillezeile** anzeigen lassen.
+Zum Aufrufen von Inhalten aus dem World Wide Web wird ein **Webbrowser** benötigt, der z. B. auf einem **PC** oder einem **Smartphone** läuft. Mit ihm kann der Benutzer die auf einem beliebigen, von ihm ausgewählten **Webserver** bereitgestellten Daten herunterladen und auf einem geeigneten Ausgabegerät wie einem **Bildschirm** oder einer **Braillezeile** anzeigen lassen.
 
 (vgl. https://de.wikipedia.org/wiki/World_Wide_Web)
 
 ## Engineering
 
-Engineering is the practice of using **natural science**, **mathematics**, and the **engineering design** process to
-solve **technical problems**, increase **efficiency** and **productivity**, and **improve systems**.
+Engineering is the practice of using **natural science**, **mathematics**, and the **engineering design** process to solve **technical problems**, increase **efficiency** and **productivity**, and **improve systems**.
 
-The **engineering design process** is a common series of steps that engineers use in creating **functional products and
-processes**. The process is **highly iterative**[...]
+The **engineering design process** is a common series of steps that engineers use in creating **functional products and processes**. The process is **highly iterative**[...]
 
-It is a **decision making process** in which the **basic sciences** [...] are **applied** to convert resources optimally
-**to meet a stated objective**.
+It is a **decision making process** in which the **basic sciences** [...] are **applied** to convert resources optimally **to meet a stated objective**.
 
-Among the fundamental elements of the design process are the **establishment of objectives and criteria**, **synthesis
-**, **analysis**, **construction**, **testing** and **evaluation**.
+Among the fundamental elements of the design process are the **establishment of objectives and criteria**, **synthesis**, **analysis**, **construction**, **testing** and **evaluation**.
 
 (vgl. https://en.wikipedia.org/wiki/Engineering,  https://en.wikipedia.org/wiki/Engineering_design_process)
 
@@ -53,8 +39,6 @@ Among the fundamental elements of the design process are the **establishment of 
 - **Iterativer Prozess**
 - Entscheidungsverfahren
 - Bestimmen der Anforderungen und **Analyse**, **Herstellung**, **Überprüfung** und **Evaluation**
-
----
 
 ## History of the Web
 
