@@ -7,7 +7,7 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
 - Nutze für die Inhalte einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Implementiere das erstellte Theme.
 - Deploye die Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
 - Stelle sicher, dass HTML und CSS korrekt sind (https://validator.w3.org, https://jigsaw.w3.org/css-validator/).
-- Stelle sicher, dass der Lighthouse Index über 90 ist (https://pagespeed.web.dev/).
+- Stelle sicher, dass der Ecograder Index über 90 ist (https://ecograder.com/).
 
 Dokumentiere folgende Punkte:
 
