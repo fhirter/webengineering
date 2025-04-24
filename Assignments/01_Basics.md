@@ -1,33 +1,37 @@
 # Gruppenarbeit Web-Engineering
 
-Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und deploye sie auf einem geeigneten Hosting für statische Webseiten.
+Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und deploye sie auf einem geeigneten Hosting für
+statische Webseiten.
 
-- Erstelle eine einfache HTML-Grundstruktur und ein CSS-Layout, das für möglichst viele verschiedene Bildschirme funktioniert.
-- Setze geeignete Meta-Tags, damit eine Suchmaschine die Seite optimal indexieren kann.
-- Nutze für die Inhalte einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Implementiere das erstellte Theme.
+- Erstelle eine einfache HTML-Grundstruktur und ein CSS-Layout, das für möglichst viele **verschiedene Bildschirme**
+  funktioniert und barrierefrei ist.
+- Setze geeignete **Meta-Tags**, damit eine Suchmaschine die Seite optimal indexieren kann.
+- **Evaluiere** einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Implementiere das erstellte
+  Theme.
 - Deploye die Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
 - Stelle sicher, dass HTML und CSS korrekt sind (https://validator.w3.org, https://jigsaw.w3.org/css-validator/).
 - Stelle sicher, dass der Ecograder Index über 90 ist (https://ecograder.com/).
 
 Dokumentiere folgende Punkte:
 
-- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Ecograder Analyse, so dass die Analyse per Click gemacht werden kann.
+- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Ecograder Analyse, so dass die Analyse per Click
+  gemacht werden kann.
 - `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
 - `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
 
-Sämtliche Aussagen sind mit Quellen (Bücher, Artikel, Dokumentationen) zu belegen und Hilfsmittel sind als solche anzugeben. 
-Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
+Sämtliche Aussagen sind mit Quellen (Bücher, Artikel, Dokumentationen) zu belegen und Hilfsmittel sind als solche
+anzugeben. Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
 
 ## Bewertungsraster
 
 - Erläuterung und Begründung SSG (10)
-  - Quellen ausgewiesen
-  - Variantenentscheid sinnvoll und nachvollziehbar
+    - Quellen ausgewiesen
+    - Variantenentscheid sinnvoll und nachvollziehbar
 - Deployment und verwendetes Hosting mit Begründung (10)
-  - Quellen ausgewiesen
-  - Variantenentscheid sinnvoll und nachvollziehbar
-  - im Internet erreichbar
-  - Automatisiert
+    - Quellen ausgewiesen
+    - Variantenentscheid sinnvoll und nachvollziehbar
+    - im Internet erreichbar
+    - Automatisiert
 - HTML (10)
     - Semantisch korrekt
     - Keine Fehler und Warnungen auf https://validator.w3.org
