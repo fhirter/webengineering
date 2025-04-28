@@ -110,6 +110,7 @@ https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide
 - https://www.mozilla.org/de/firefox/windows/
 - https://www.google.com/intl/de/chrome/
 - https://www.jetbrains.com/webstorm/
+- Git: https://git-scm.com/
 - Node.js: https://nodejs.org/en
 - Docker: https://www.docker.com/
 - [https://caniuse.com/](https://caniuse.com/)
