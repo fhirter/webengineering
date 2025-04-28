@@ -14,8 +14,8 @@ statische Webseiten.
 
 Dokumentiere folgende Punkte:
 
-- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren sowie Ecograder Analyse, so dass die Analyse per Click
-  gemacht werden kann.
+- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren, so dass die Analyse per Click
+  gemacht werden kann. Screenshot der Ecograder Analyse. Kurze Übersicht über das Projekt und die Variantenentscheide.
 - `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
 - `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
 
