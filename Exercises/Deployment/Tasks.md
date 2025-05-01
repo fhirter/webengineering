@@ -18,6 +18,8 @@ die User:innen sind nicht zufrieden, weil die Software nicht ihren Anforderungen
 
 Was läuft hier schief? Was sollte anders gemacht werden?
 
+Diskutiert in Gruppen und haltet die Antworten in Stichworten fest!
+
 ## Statisches Hosting
 
 Deploye eine einfache Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
