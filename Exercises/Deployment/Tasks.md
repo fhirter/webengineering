@@ -31,7 +31,7 @@ Einmal eingerichtet sollen Änderungen automatisch deployed werden.
   exakt nachvollziehen und gegebenenfalls automatisieren.
 - Vergleiche die zahlreichen Anbieter und wähle ein geeignetes Produkt: Netlify, Github Pages, Gitlab Pages, Cloudflare
   Pages, Google Cloud Storage, Amazon S3, etc.
-- Erstelle eine einfache Deployment Pipeline, die die Website auf das Hosting deployed.
+- Erstelle eine einfache Deployment-Pipeline, die die Website auf das Hosting deployed.
 
 ## Webapplikation
 
