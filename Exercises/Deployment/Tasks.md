@@ -80,7 +80,7 @@ services:
 
 ### Deployment
 
-Deploye den Container auf Azure. Nutze dazu Azure CLI und halte die ausgeführten Befehle fest.
+Deploye den Container auf Azure. Nutze dazu Azure CLI und **halte die ausgeführten Befehle fest.**
 
 1. Erstelle eine [Azure Student-Subscription](https://azure.microsoft.com/en-us/free/students).
 2. [Installiere Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) und logge dich mit `az login`
