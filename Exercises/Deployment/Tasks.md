@@ -33,6 +33,7 @@ exakt nachvollziehen und gegebenenfalls automatisieren.
 2. Vergleiche die zahlreichen Anbieter und wähle ein geeignetes Produkt: Netlify, Github Pages, Gitlab Pages, Cloudflare
   Pages, Google Cloud Storage, Amazon S3, etc.
 3. Erstelle, wenn nötig, eine einfache Deployment-Pipeline, die die Website auf das Hosting deployed.
+4. Prüfe den Source Code mit einem Linter, z.B. https://html-eslint.org/
 
 ## Webapplikation
 
