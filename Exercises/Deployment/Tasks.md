@@ -25,13 +25,14 @@ Diskutiert in Gruppen und haltet die Antworten in Stichworten fest!
 Deploye eine einfache Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
 Einmal eingerichtet sollen Änderungen automatisch deployed werden.
 
-- Erstelle
+Halte alle ausgeführten Schritte und deren Erläuterung in einem Markdown File fest. So kannst du später die Arbeit
+exakt nachvollziehen und gegebenenfalls automatisieren.
+
+1. Erstelle
   eine [minimale HTML-Seite](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax#anatomy_of_an_html_document).
-- Halte alle ausgeführten Schritte und deren Erläuterung in einem Markdown File fest. So kannst du später die Arbeit
-  exakt nachvollziehen und gegebenenfalls automatisieren.
-- Vergleiche die zahlreichen Anbieter und wähle ein geeignetes Produkt: Netlify, Github Pages, Gitlab Pages, Cloudflare
+2. Vergleiche die zahlreichen Anbieter und wähle ein geeignetes Produkt: Netlify, Github Pages, Gitlab Pages, Cloudflare
   Pages, Google Cloud Storage, Amazon S3, etc.
-- Erstelle, wenn nötig, eine einfache Deployment-Pipeline, die die Website auf das Hosting deployed.
+3. Erstelle, wenn nötig, eine einfache Deployment-Pipeline, die die Website auf das Hosting deployed.
 
 ## Webapplikation
 
