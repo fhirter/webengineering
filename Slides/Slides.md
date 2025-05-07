@@ -117,6 +117,62 @@ https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide
 
 [Tools.md](../Tools.md)
 
+### Browser Tools: Inspektor
+
+![w:1000px Inspektor](images/Inspektor.png)
+
+### Browser Tools: Netzwerkanalyse
+
+![img.png](images/Netzwerkanalyse.png)
+
+### Browser Tools: Laufzeitanalyse
+
+![img.png](images/img.png)
+
+## Webseiten strukturieren mit HTML
+
+### Sprache definieren
+
+```html
+<html lang="en-US">
+  …
+</html>
+```
+
+### Meta Daten
+
+```html
+<meta name="author" content="Chris Mills" />
+<meta
+  name="description"
+  content="The MDN Web Docs site
+  provides information about Open Web technologies
+  including HTML, CSS, and APIs for both websites and
+  progressive web apps." />
+
+<meta charset="utf-8" />
+<meta name="color-scheme" content="dark light" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+
+### Icons
+
+```html
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="manifest.json" />
+```
+
+```json
+// manifest.json
+{
+  "icons": [
+    {
+      "src": "basic-icon.png"
+    }
+  ]
+}
+```
+
 ## State of JavaScript
 
 ### Programmiersprachen
@@ -396,13 +452,3 @@ p1.then((value) => {
 ![img.png](images/energy_time_memory.png)
 
 [https://haslab.github.io/SAFER/scp21.pdf](https://haslab.github.io/SAFER/scp21.pdf)
-
-## Browser Tools: Netzwerkanalyse
-
-![img.png](images/Netzwerkanalyse.png)
-
-## Browser Tools: Laufzeitanalyse
-
-![img.png](images/img.png)
-
-
