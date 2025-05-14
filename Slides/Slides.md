@@ -262,10 +262,45 @@ CIE 1931 Farbraum
 - CIELAB (Lightness, red-green, blue-yellow): `color: lab(29.2345% 39.3825 20.0664);`
 - Oklab: `color: oklab(40.1% 0.1143 0.045);`
 
----
 
-![img.png](images/HSL_vs_LCH.png)
+### HSL vs LCH
+
+![h:400px](images/HSL_vs_LCH.png)
+
+50% Luminance in HSL (links) vs in LCH (rechts)
+
 https://codepen.io/web-dot-dev/pen/poZgXxy
+
+
+### Farbsysteme
+
+```css
+:root {
+  color-scheme: light dark;
+  
+  --color-neutral-25: hsl(0deg 0% 99%);
+  --color-neutral-50: hsl(0deg 0% 97%);
+  /* ... */
+  --color-neutral-900: hsl(0deg 0% 8%);
+  --color-neutral-950: hsl(0deg 0% 4%);
+  
+  --color-blue-100: oklch(0.95 0.17 264);
+  --color-blue-200: oklch(0.90 0.17 264);
+  /* ... */
+  --color-blue-500: oklch(0.40 0.17 264);
+  --color-blue-600: oklch(0.30 0.17 264);
+  
+  --primary-color: var(--color-blue-500);
+  --secondary-color: hsl(240, 48%, 55%);
+  
+  --primary-background-color: light-dark(var(--color-neutral-50), var(--color-neutral-700));
+  --secondary-background-color: light-dark(var(--color-neutral-800), var(--color-neutral-800));
+  
+  --main-background-color: var(--primary-background-color);
+  --nav-background-color: var(--secondary-background-color);
+  --footer-background-color: var(--secondary-background-color);
+}
+```
 
 # Webseiten interaktiv machen mit JavaScript
 
