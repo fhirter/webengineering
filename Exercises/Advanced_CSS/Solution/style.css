@@ -57,12 +57,12 @@ body {
             "main"
 }
 
-main {
+.container {
     background: linear-gradient(130deg, var(--gradient-color1) 0%, var(--gradient-color2) 40%, var(--gradient-color3) 100%);
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
-main > section {
+.container > main {
     grid-area: main;
 
     max-width: 60rem;
@@ -128,3 +128,21 @@ p {
     line-height: 150%;
 }
 
+/* rain animation */
+
+.rain  {
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: two-step-animation 1s infinite ease-in-out;
+}
+
+@keyframes two-step-animation {
+    0% {
+        background-image: url("rain-svgrepo-com.svg");
+    }
+    100% {
+        background-image: url("rain-svgrepo-com2.svg");
+    }
+}
