@@ -5,6 +5,8 @@ statische Webseiten.
 
 - Erstelle eine einfache HTML-Grundstruktur und ein CSS-Layout, das für möglichst viele **verschiedene Bildschirme**
   funktioniert und barrierefrei ist.
+- Das Layout sollte ansprechend sein und die Themen aus dem Unterricht anwenden (Selektoren, Einheiten, Farben,
+  Schriften, Flex/Grid)
 - Setze geeignete **Meta-Tags**, damit eine Suchmaschine die Seite optimal indexieren kann.
 - **Evaluiere** einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Implementiere das erstellte
   Theme.
@@ -14,8 +16,8 @@ statische Webseiten.
 
 Dokumentiere folgende Punkte:
 
-- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren, so dass die Analyse per Click
-  gemacht werden kann. Screenshot der Ecograder Analyse. Kurze Übersicht über das Projekt und die Variantenentscheide.
+- `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren, so dass die Analyse per Click gemacht werden kann.
+  Screenshot der Ecograder Analyse. Kurze Übersicht über das Projekt und die Variantenentscheide.
 - `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
 - `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
 
