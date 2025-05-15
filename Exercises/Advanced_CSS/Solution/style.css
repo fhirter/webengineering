@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-/* Reset some default styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
-/* Reset some default styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-/* Reset some default styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 /**
@@ -64,7 +61,6 @@ body {
 
 .container > main {
     grid-area: main;
-
     max-width: 60rem;
     margin: 0 auto;
     border-radius: 7px;
@@ -123,17 +119,23 @@ p {
 /* rain animation */
 
 .rain  {
+    background-color: hsl(0 0% 0% / 10%);
     place-self: center;
     width: 10rem;
     height: 10rem;
+    border-radius: 1rem;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: 80%;
     animation: two-step-animation 1s infinite ease-in-out;
 }
 
 @keyframes two-step-animation {
     0% {
         background-image: url("rain-svgrepo-com.svg");
+    }
+    50% {
+        transform: scale(1.1);
     }
     100% {
         background-image: url("rain-svgrepo-com2.svg");
