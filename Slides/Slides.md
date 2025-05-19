@@ -302,6 +302,26 @@ https://codepen.io/web-dot-dev/pen/poZgXxy
 }
 ```
 
+## CSS Functions
+
+```css
+color-scheme: light dark;
+
+color: light-dark(#333b3c, #efefec);
+
+width: max(20vw, 400px);
+height: calc(10px + 100px);
+
+filter: brightness(1);
+backdrop-filter: blur(2px);
+
+color-mix(in lch longer hue, hsl(200deg 50% 80%), coral)
+```
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
+
 # Webseiten interaktiv machen mit JavaScript
 
 vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
