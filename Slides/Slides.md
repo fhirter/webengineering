@@ -252,16 +252,15 @@ CIE 1931 Farbraum
 
 - Farbnamen: `color: darkblue;`
 - Hex-Werte: `color: #ffa500;`
-- RGBA-Werte (mit Deckkraft): `color: rgba(169, 169, 169, 0.5)`
-- HSL-Werte (Hue, Saturation, Lightness): `color: hsl(60, 100, 50)`
+- RGB-Werte (Rot, Grün, Blau, Deckkraft): `color: background: background: rgb(30% 20% 50%  / 0.7);`
+- HSL-Werte (Farbe, Sättigung, Helligkeit, Deckkraft): `color: hsl(150deg 80% 40%  / 0.7);`
 
 #### Alle sichtbaren Farben
 
-- LCH (Lightness Chroma Hue / Opacity): `color: lch(29.2345% 44.2 27 / 0.5)`
-- Oklch: `color: oklch(40.1% 0.123 21.57)`
-- CIELAB (Lightness, red-green, blue-yellow): `color: lab(29.2345% 39.3825 20.0664);`
-- Oklab: `color: oklab(40.1% 0.1143 0.045);`
-
+- LCH (Lightness Chroma Hue / Opacity): `color: lch(29% 44 27 / 0.5)`
+- Oklch: `color: oklch(40% 0.1 21)`
+- CIELAB (Lightness, red-green, blue-yellow): `color: lab(29% 39 20);`
+- Oklab: `color: oklab(40. 0.1 0.04);`
 
 ### HSL vs LCH
 
