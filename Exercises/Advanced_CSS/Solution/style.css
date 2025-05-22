@@ -77,9 +77,11 @@ nav {
     padding: 0.5rem 1rem;
     background: #1e1e1e;
 }
+nav a {
+    transition: font-size 0.5s ease;
+}
 
 nav a:hover {
-    transition: font-size 0.5s ease;
     font-size: 1.6rem;
 }
 
