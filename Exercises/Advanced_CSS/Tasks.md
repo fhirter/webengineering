@@ -9,8 +9,11 @@ Die Studierenden
 - können einfache Animationen erstellen
 - können komplexere Layouts nur mit CSS erstellen
 
-
 ## Aufgabenstellung
 
-Erstelle die HTML Struktur und CSS Layout der Website im Ordner "Solution". Betrachte die Website nur im Browser ohne
-die Source anzuschauen.
+Erstelle die HTML-Struktur und CSS-Layout der [beliegenden Website](index.html):
+
+![img.png](img.png)
+
+Öffne dazu die Seite im Browser, ohne die Source anzuschauen.
+
