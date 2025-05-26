@@ -17,3 +17,5 @@ Erstelle die HTML-Struktur und CSS-Layout der [beliegenden Website](index.html):
 
 Öffne dazu die Seite im Browser, ohne die Source anzuschauen.
 
+Für das Erreichen der Lernziele ist es nicht nötig, die Website vollständig umzusetzen.
+Wähle selber Themen, die du üben möchtest.
