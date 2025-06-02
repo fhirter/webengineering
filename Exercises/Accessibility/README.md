@@ -17,8 +17,8 @@ Nutze sowohl automatische als auch manuelle Tests.
 
 ## Ergebnisse
 
-Halte die Erkenntnisse in einer tabellarischen Übersicht fest, schreibe eine kurze Bewertung, welchem Level (A, AA,
-AAA) die Website entspricht und formuliere eine Empfehlung, wie die Barrierefreiheit verbessert werden kann.
-Nutze die das [WCAG-EM Report Tool]( https://www.w3.org/WAI/eval/report-tool).
+Halte die Erkenntnisse in einer tabellarischen Übersicht fest, schreibe eine kurze Bewertung, welchem Level (A, AA, AAA)
+die Website entspricht und formuliere eine Empfehlung, wie die Barrierefreiheit verbessert werden kann. Nutze die
+das [WCAG-EM Report Tool]( https://www.w3.org/WAI/eval/report-tool) (Schritte 2 und 3 können übersprungen werden).
 
 Präsentiere am Ende der Unterrichtseinheit die Ergebnisse der Klasse.
