@@ -19,6 +19,6 @@ Nutze sowohl automatische als auch manuelle Tests.
 
 Halte die Erkenntnisse in einer tabellarischen Übersicht fest, schreibe eine kurze Bewertung, welchem Level (A, AA,
 AAA) die Website entspricht und formuliere eine Empfehlung, wie die Barrierefreiheit verbessert werden kann.
-Nutze die [beiliegende Vorlage](./AccessiblityAnalysis.md).
+Nutze die das [WCAG-EM Report Tool]( https://www.w3.org/WAI/eval/report-tool).
 
 Präsentiere am Ende der Unterrichtseinheit die Ergebnisse der Klasse.
