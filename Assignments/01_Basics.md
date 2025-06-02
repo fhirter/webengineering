@@ -4,7 +4,7 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
 statische Webseiten.
 
 - Erstelle eine einfache HTML-Grundstruktur und ein CSS-Layout, das für möglichst viele **verschiedene Bildschirme**
-  funktioniert und barrierefrei ist.
+  funktioniert und [barrierefrei](https://www.w3.org/WAI/tips/developing/) ist.
 - Das Layout sollte ansprechend sein und die Themen aus dem Unterricht anwenden (Selektoren, Einheiten, Farben,
   Schriften, Flex/Grid)
 - Setze geeignete **Meta-Tags**, damit eine Suchmaschine die Seite optimal indexieren kann.
