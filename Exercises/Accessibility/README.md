@@ -22,4 +22,4 @@ Nutze sowohl automatische als auch manuelle Tests.
 Halte die Erkenntnisse in einem Dokument fest und formuliere eine Empfehlung, wie die Barrierefreiheit verbessert werden
 kann.
 
-Präsentiere am Ende der Unterrichtseinheit die Ergebnisse der Klasse.
+Präsentiere am Ende der Unterrichtseinheit die Ergebnisse der Klasse mit einer Flipchart.

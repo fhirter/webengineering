@@ -1,17 +1,15 @@
 # Übung Security im Web
 
-Untersuche den OWASP Juices Shop auf Sicherheitslücken.
-
 ## Lernziele
 
 Die Studierenden
 
-- Kennen Bedrohungen von Web-Applikationen und wissen, wie sie diesen begegnen können.
-- Wissen, wie Ressourcen vor unerlaubtem Zugriff geschützt werden können.
+- kennen Bedrohungen von Web-Applikationen und wissen, wie sie diesen begegnen können.
+- wissen, wie Ressourcen vor unerlaubtem Zugriff geschützt werden können.
 - kennen Anwendung und Nutzen von Oauth, OIDC und JWT.
-- Wissen, wie XSS und SQL Injection wirkungsvoll vermieden werden kann.
+- wissen, wie XSS und SQL Injection wirkungsvoll vermieden werden kann.
 
-## Aufgabenbeschreibung
+## OWASP Juice Shop
 
 Der [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ist eine Applikation, die absichtlich
 Sicherheitslücken aufweist.
@@ -41,7 +39,9 @@ Halte deine Gedanken bei jedem Schritt schriftlich fest.
 Dieser Zyklus kann sehr kurz sein, ein erstes Ziel kann z.B. sein die Applikation zu installieren. 
 Der Zyklus wird also im Verlauf dieser Übung mehrmals durchlaufen.
 
-## [Setup](https://hub.docker.com/r/bkimminich/juice-shop#setup):
+Präsentiere am Schluss deine Ergebnisse mit einer Flipchart.
+
+### [Setup](https://hub.docker.com/r/bkimminich/juice-shop#setup):
 
 - Install Docker
 - Run `docker pull bkimminich/juice-shop`
