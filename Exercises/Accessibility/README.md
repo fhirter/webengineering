@@ -15,6 +15,8 @@ der [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) ba
 sodass du am Ende zu allen Prinzipien und Richtlinien mindestens ein Erfolgskriterium überprüft hast. Wähle bei Schritt
 1 den Level A.
 
+In den [Tutorials](https://www.w3.org/WAI/tutorials) findest du auch gute Informationen. 
+
 Nutze sowohl automatische als auch manuelle Tests.
 
 ## Ergebnisse
