@@ -31,7 +31,7 @@ Die Beschreibung zu den einzelnen Themen gibt dir viele Anhaltspunkte für einen
 
 Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (vgl. "Systems Engineering", S.70):
 
-1. Zielsuche: Analyse und Zielformulierung
+1. Zielsuche: Analyse, Recherche und Zielformulierung
 2. Lösungssuche: Untersuchen der Sicherheitslücke
 3. Bewertung: Festhalten, ob das gewünschte Ergebnis eingetroffen ist.
 
