@@ -57,6 +57,10 @@ Präsentiere am Schluss deine Ergebnisse mit einer Flipchart.
   (on macOS and Windows browse to http://192.168.99.100:3000 if you are using docker-machine instead of the native
   docker installation)
 
+## Security Header
+
+Setze für ein statisches Hosting passende Security Header. Wähle die Header so, dass sie möglichst restriktive sind,
+ohne die Funktion zu beeinträchtigen.
 
 ## Quellen
 
