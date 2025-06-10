@@ -22,8 +22,8 @@ Der [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ist eine Appli
 Sicherheitslücken aufweist.
 
 Versuche die Applikation unter Ausnutzung der in den [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-beschriebenen Sicherheitslücken anzugreifen.
-Die Beschreibung zu den einzelnen Themen gibt dir viele Anhaltspunkte für einen möglichen Angriff:
+beschriebenen Sicherheitslücken anzugreifen. Die Beschreibung zu den einzelnen Themen gibt dir viele Anhaltspunkte für
+einen möglichen Angriff:
 
 - [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 - [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
@@ -42,9 +42,8 @@ Nutze dazu ein ingenieur-wissenschaftliches Vorgehen (vgl. "Systems Engineering"
 2. Lösungssuche: Untersuchen der Sicherheitslücke
 3. Bewertung: Festhalten, ob das gewünschte Ergebnis eingetroffen ist.
 
-Halte deine Gedanken bei jedem Schritt schriftlich fest.
-Dieser Zyklus kann sehr kurz sein, ein erstes Ziel kann z.B. sein die Applikation zu installieren. 
-Der Zyklus wird also im Verlauf dieser Übung mehrmals durchlaufen.
+Halte deine Gedanken bei jedem Schritt schriftlich fest. Dieser Zyklus kann sehr kurz sein, ein erstes Ziel kann z.B.
+sein die Applikation zu installieren. Der Zyklus wird also im Verlauf dieser Übung mehrmals durchlaufen.
 
 Präsentiere am Schluss deine Ergebnisse mit einer Flipchart.
 
@@ -64,4 +63,5 @@ ohne die Funktion zu beeinträchtigen.
 
 ## Quellen
 
-- "Systems Engineering": Habenfeller Reinhard, de Weck Oliver, Fricke Ernst, Vössner Siegfried, Systems Engineering, 2018, Orell Füssli
+- "Systems Engineering": Habenfeller Reinhard, de Weck Oliver, Fricke Ernst, Vössner Siegfried, Systems Engineering,
+  2018, Orell Füssli
