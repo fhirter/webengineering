@@ -9,6 +9,13 @@ Die Studierenden
 - kennen Anwendung und Nutzen von Oauth, OIDC und JWT.
 - wissen, wie XSS und SQL Injection wirkungsvoll vermieden werden kann.
 
+### Aufgaben zum Erreichen der Lernziele
+
+- Führe einen SQL Injection Angriff aus.
+- Führe einen XSS Angriff aus.
+- Untersuche die von der Applikation verwendeten JSON Web Tokens (JWT).
+- Untersuche, wie die Applikation die Authentifizierung implementiert.
+
 ## OWASP Juice Shop
 
 Der [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ist eine Applikation, die absichtlich
@@ -50,12 +57,6 @@ Präsentiere am Schluss deine Ergebnisse mit einer Flipchart.
   (on macOS and Windows browse to http://192.168.99.100:3000 if you are using docker-machine instead of the native
   docker installation)
 
-### Aufgaben zum Erreichen der Lernziele
-
-- Führe einen SQL Injection Angriff aus.
-- Führe einen XSS Angriff aus.
-- Untersuche die von der Applikation verwendeten JSON Web Tokens (JWT).
-- Untersuche, wie die Applikation die Authentifizierung implementiert.
 
 ## Quellen
 
