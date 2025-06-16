@@ -8,8 +8,8 @@ statische Webseiten.
 - Das Layout sollte ansprechend sein und die Themen aus dem Unterricht anwenden (Selektoren, Einheiten, Farben,
   Schriften, Flex/Grid)
 - Setze geeignete **Meta-Tags**, damit eine Suchmaschine die Seite optimal indexieren kann.
-- **Evaluiere** einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Implementiere das erstellte
-  Theme.
+- **Evaluiere** einen Static Site Generator (SSG), der aus Markdown-Files Webseiten rendert. Nutze den gewählten SSG für
+  die Website und implementiere das erstellte Theme.
 - Deploye die Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
 - Stelle sicher, dass HTML und CSS korrekt sind (https://validator.w3.org, https://jigsaw.w3.org/css-validator/).
 - Stelle sicher, dass der Ecograder Index über 90 ist (https://ecograder.com/).
