@@ -1,6 +1,6 @@
 import PayloadExtractor from "./PayloadExtractor";
 
-import {it, expect} from "@jest/globals"
+import {expect, it} from "@jest/globals"
 
 it('should extract coordinates', function () {
     // Setup
