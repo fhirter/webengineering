@@ -43,6 +43,7 @@ Orten berechnet und anzeigt.
 
 - Führe die Unit-Tests in einer Deployment-Pipeline aus.
 - Deploye die Anwendung automatisch
+- Stelle sicher, dass eine SQL Injection verhindert wird.
 
 ## Bewertungsraster
 
