@@ -61,3 +61,7 @@ Die Vergabe der Punkte geschieht gemäss folgender Skala:
 | 8      | kleine Mängel       |
 | 9      | kleinste Mängel     |
 | 10     | tadellos            |
+
+## Abgabe
+
+Github Link per E-Mail.
