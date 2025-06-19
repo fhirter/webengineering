@@ -20,6 +20,7 @@ Orten berechnet und anzeigt.
 
 - Beschreibe die Funktionalität (User Interface, API) mit automatisierten Akzeptanztests und Teste sämtlichen
   **eigenen** Code mit Unit-Tests.
+  - Ein Beispiel für einen Akzeptanztest ist [beiliegen](tests/assignment.test.js).
 - Erstelle eine HTML-Seite mit zwei Eingabefeldern für Start- und Zielort sowie einem Button der die Routenberechnung
   startet.
 - Implementiere ein einfaches aber ansprechendes Layout.
