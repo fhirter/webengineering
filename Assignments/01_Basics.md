@@ -18,22 +18,24 @@ Dokumentiere folgende Punkte:
 
 - `Readme.md`: Ausgefüllte Links auf HTML und CSS Validatoren, so dass die Analyse per Click gemacht werden kann.
   Screenshot der Ecograder Analyse. Kurze Übersicht über das Projekt und die Variantenentscheide.
-- `StaticSiteGenerator.md`: Erläuterung des gewählten SSG mit Begründung (Variantenentscheid)
-- `Deployment.md`: Erläuterung des Deployments und Hostings mit Begründung (Variantenentscheid)
+- `StaticSiteGenerator.md`: Detaillierte Erläuterung des gewählten SSG und Vergleich mit anderen SSG.
+- `Deployment.md`: Detaillierte Erläuterung des Deployments und Hostings mit anderen Hostinganbietern und
+  Deployment-Varianten.
 
 Sämtliche Aussagen sind mit Quellen (Bücher, Artikel, Dokumentationen) zu belegen und Hilfsmittel sind als solche
 anzugeben. Insbesondere sind durch KI-Tools generierte Texte unter Angabe des verwendeten Tools auszuweisen.
+KI-generierte Texte gelten nicht als sichere Quelle.
 
 ## Bewertungsraster
 
-- Erläuterung und Begründung SSG (10)
+- Erläuterung und Vergleich SSG (10)
     - Quellen ausgewiesen
-    - Variantenentscheid sinnvoll und nachvollziehbar
-- Deployment und verwendetes Hosting mit Begründung (10)
+    - Sinnvoll und nachvollziehbar
+- Deployment und verwendetes Hosting mit Vergleich (10)
     - Quellen ausgewiesen
-    - Variantenentscheid sinnvoll und nachvollziehbar
-    - im Internet erreichbar
-    - Automatisiert
+    - Sinnvoll und nachvollziehbar
+    - Website im Internet erreichbar
+    - Deployment ist Automatisiert
 - HTML (10)
     - Semantisch korrekt
     - Keine Fehler und Warnungen auf https://validator.w3.org
