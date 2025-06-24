@@ -29,13 +29,15 @@ KI-generierte Texte gelten nicht als sichere Quelle.
 ## Bewertungsraster
 
 - Erläuterung und Vergleich SSG (10)
+    - Gewählter SSG erläutert
+    - Alternativen verglichen
     - Quellen ausgewiesen
     - Sinnvoll und nachvollziehbar
 - Deployment und verwendetes Hosting mit Vergleich (10)
+    - Deployment erläutert
+    - Alternativen verglichen
     - Quellen ausgewiesen
-    - Sinnvoll und nachvollziehbar
-    - Website im Internet erreichbar
-    - Deployment ist Automatisiert
+    - Aussagen sinnvoll und nachvollziehbar
 - HTML (10)
     - Semantisch korrekt
     - Keine Fehler und Warnungen auf https://validator.w3.org
