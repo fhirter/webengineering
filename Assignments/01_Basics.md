@@ -41,7 +41,7 @@ KI-generierte Texte gelten nicht als sichere Quelle.
 - HTML (10)
     - Semantisch korrekt
     - Keine Fehler und Warnungen auf https://validator.w3.org
-    - Korrekte Meta-Tags
+    - Korrekte Meta-Tags (description, viewport, character encoding, lang)
 - CSS (10)
     - Wenige, sinnvolle Klassen und Selektoren
     - Layout funktioniert auf iPhone 11 (Emuliert in Firefox), 13" Laptop Display und 32" 4K Display
