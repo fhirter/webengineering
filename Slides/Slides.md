@@ -343,16 +343,13 @@ Auch nach deren Ausführung.
 
 ```javascript
 function init() {
-    var name = "Mozilla"; // name is a local variable created by init
+    const name = "Mozilla"; // name is a local variable created by init
+  
     function displayName() {
         // displayName() is the inner function, that forms the closure
         console.log(name); // use variable declared in the parent function
     }
-
-    displayName();
 }
-
-init();
 ```
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
