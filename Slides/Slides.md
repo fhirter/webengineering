@@ -434,6 +434,15 @@ p1.then((value) => {
 
 `async` / `await` ist verwirrend, weil der Code damit synchron aussieht, aber asynchron funktioniert.
 
+## Things to avoid in JS
+
+- `var`
+- loose equality `==`, `!=`
+- `innerHTML`
+- `eval()`
+
+https://waspdev.com/articles/2025-06-13/things-to-avoid-in-javascript
+
 # Single-Page-Applikationen implementieren
 
 ## Typische Dokumentstruktur
