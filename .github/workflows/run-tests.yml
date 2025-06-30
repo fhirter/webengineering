@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Examples/JavaScript/Testing
+        working-directory: Examples/Testing/UnitTests
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js
