@@ -4,6 +4,7 @@
 2. [Advanced_CSS](Advanced_CSS)
 3. [Deployment](Deployment)
 4. [ResponsiveDesign](ResponsiveDesign)
+5. [Testing](Testing)
 5. [JavaScript](JavaScript)
 6. [SinglePageApplication](SinglePageApplication)
 7. [ServerSideJS](ServerSideJS)
