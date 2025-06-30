@@ -396,12 +396,11 @@ function counter_constructor() {
     - Promise
     - `async` / `await`
 
-`async` / `await` ist verwirrend, weil damit Code produziert wird, der synchron aussieht, aber asynchron funktioniert.
-
 ### Callback-Funktionen
 
 - Callback-Funktionen werden als Parameter einer Funktion übergeben und von dieser aufgerufen.
-- Die sogenannt "Callback-Hell", gemeint ist die Verschachtelung von Callbacks in Callbacks, sollte vermieden werden.
+- Die sogenannte "Callback-Hell", gemeint ist die Verschachtelung von Callbacks in Callbacks, sollte vermieden werden.
+- Asynchroner Code ist jedoch inherent komplex
 
 ```javascript
 function foo(callback) {
@@ -417,7 +416,7 @@ foo((value) => {
 
 ### Promise
 
-Promises können klarer sein als Callbacks, sind aber auch weniger explizit und potenziell verwirrend.
+Promises können klarer sein als Callbacks, sind aber auch weniger explizit und komplexer.
 
 ```javascript
 const p1 = new Promise((resolve, reject) => {
@@ -429,8 +428,11 @@ p1.then((value) => {
         // runs after "some functionality"
     }
 );
-
 ```
+
+### Async / Await
+
+`async` / `await` ist verwirrend, weil der Code damit synchron aussieht, aber asynchron funktioniert.
 
 # Single-Page-Applikationen implementieren
 
@@ -466,6 +468,9 @@ p1.then((value) => {
 - Level 1: Resources
 - Level 2: HTTP verbs
   ![](images/Resources_HTTPVerbs.png)
+
+---
+
 - Level 3: Hypermedia controls
 
 ```json lines
