@@ -332,6 +332,10 @@ vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
 
 ### "Composition over Inheritance"
 
+> **OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.**
+
+-- Alan Kay
+
 - Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln.
 - Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist, welche Methoden aufgerufen werden.
 - Komposition ist sehr leistungsfähig.
