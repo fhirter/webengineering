@@ -334,7 +334,7 @@ vgl.: Douglas Crockford (2018): How JavaScript Works, virgule solidus
 
 > **OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.**
 
--- Alan Kay
+-- Alan Kay (https://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en)
 
 - Vererbung ist weniger zentral als manche Sprachen oder Kurse vermitteln.
 - Vererbung bringt auch einige Probleme mit sich, da die Klassen sehr eng gekoppelt sind und nicht explizit klar ist, welche Methoden aufgerufen werden.
