@@ -7,6 +7,7 @@
 
 ## Articles
 [List on Medium.com](https://medium.com/@fh_89268/list/web-engineering-9669c9352090)
+[Things to avoid in JavaScript](https://waspdev.com/articles/2025-06-13/things-to-avoid-in-javascript)
 
 
 ## See also
