@@ -71,4 +71,4 @@ Die Vergabe der Punkte geschieht gemäss folgender Skala:
 Github Link per E-Mail.
 
 
-<span style="color:white">test</span>.
+<span style="color:rgba(0,0,0,0)">test</span>
