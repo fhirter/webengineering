@@ -3,7 +3,7 @@
 ## Lernziele
 
 - Die Studierenden können Applikationen automatisiert deployen.
-- Die Studierenden können Applikationen containerisieren deployen.
+- Die Studierenden können Applikationen containerisieren und deployen.
 
 ## Fallstudie
 
