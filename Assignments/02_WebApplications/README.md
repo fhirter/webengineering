@@ -20,7 +20,7 @@ Orten berechnet und anzeigt.
 
 - Beschreibe die Funktionalität (User Interface, API) mit automatisierten Akzeptanztests und Teste sämtlichen
   **eigenen** Code mit Unit-Tests.
-  - Ein Beispiel für einen Akzeptanztest ist [beiliegen](tests/assignment.test.js).
+    - Ein Beispiel für einen Akzeptanztest ist [beiliegen](tests/assignment.test.js).
 - Erstelle eine HTML-Seite mit zwei Eingabefeldern für Start- und Zielort sowie einem Button der die Routenberechnung
   startet.
 - Implementiere ein einfaches aber ansprechendes Layout.
@@ -32,7 +32,8 @@ Orten berechnet und anzeigt.
     - [api.openrouteservice.org/geocode/search](https://api.openrouteservice.org/geocode/search)
     - [api.openrouteservice.org/v2/directions/](https://api.openrouteservice.org/v2/directions/)
     - [api.openrouteservice.org/geocode/autocomplete](https://api.openrouteservice.org/geocode/autocomplete)
-- Stelle sicher, dass die Applikation vor SQL Injection Angriffen sicher ist.
+- Stelle sicher, dass die Applikation keine vermeidbaren Sicherheitslücken
+  aufweist. Orientiere dich an den [OWASP Top Ten](https://owasp.org/www-project-top-ten/).
 
 ### Nur TIN/NIA
 
@@ -44,7 +45,6 @@ Orten berechnet und anzeigt.
 
 - Führe die Unit-Tests in einer Deployment-Pipeline aus.
 - Deploye die Anwendung automatisch
-- Stelle sicher, dass eine SQL Injection verhindert wird.
 
 ## Bewertungsraster
 
@@ -52,17 +52,18 @@ Orten berechnet und anzeigt.
     - Funktionalität (Laden und Anzeigen der Route, Autocompleter, 10 häufigsten Suchanfragen) (10)
     - Verständlichkeit des Codes (10)
     - Akzeptanz- und Unit-Tests (Vollständigkeit, Verständlichkeit) (10)
-    - Wenige, sinnvolle Klassen und Selektoren (5)
-    - Mobile Friendly, Barrierefrei (5)
+    - Mobile Friendly (5)
+    - Barrierefrei (5)
 - REST API
     - Funktionalität (Datenbank, REST API) (10)
+    - Verständlichkeit des Codes (10)
     - Akzeptanz- und Unit-Tests (Vollständigkeit, Verständlichkeit) (10)
-    - Verhindern von SQL Injection (10)
     - Swagger Dokumentation (5)
     - RESTfulness (min. Richardson Maturity Level 2) (5)
+- Sicherheitslücken (Frontend und API) (10)
 - Deployment
-  - Tests werden automatisch ausgeführt (10)
-  - Anwendung wird automatisch deployed (10)
+    - Tests werden automatisch ausgeführt (10)
+    - Anwendung wird automatisch deployed (10)
 
 **Bewertung**: `<erreichte Punkte>/<total mögliche Punkte>*5+1`. Gerundet auf 0.1.
 
