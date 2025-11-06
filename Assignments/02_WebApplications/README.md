@@ -1,4 +1,4 @@
-# Gruppenarbeit Web-Engineering "Web-Applikationen"
+# Transferarbeit Web-Engineering "Web-Applikationen"
 
 Die Aufgabenstellung beinhaltet sowohl Aufgaben der Applikationsentwicklung als auch Aufgaben der Systemtechnik. Wie die
 Aufgaben gelöst werden ist den Gruppen überlassen.
