@@ -1,3 +1,7 @@
+---
+author: "Fabian Hirter"
+date: "2025-09-02"
+---
 # Gruppenarbeit Web-Engineering
 
 Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und deploye sie auf einem geeigneten Hosting für
