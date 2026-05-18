@@ -449,19 +449,6 @@ https://waspdev.com/articles/2025-06-13/things-to-avoid-in-javascript
 
 # Single-Page-Applikationen implementieren
 
-## Typische Dokumentstruktur
-
-![h:400px](images/project_structure2.png)![h:400px](images/project_structure1.png)
-
----
-
-- **Docs:** README.md, CONTRIBUTING.md, LICENCE.md, etc
-- **Configs:** `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`,
-  `jest.config.js`, `jsconfig.json`,
-- **Build & Deployment:** `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`, `package.json`, `package-lock.json`
-- **Render & build outputs:** `/dist`, `/build`, `/coverage`, `/node_modules`
-- **Source Code:** `/src`
-
 ## Local First
 
 1. No spinners: your work at your fingertips
