@@ -3,7 +3,7 @@ import PayloadExtractor from "./PayloadExtractor.js";
 import {it, expect} from "vitest"
 
 it('should extract coordinates', function () {
-    // Setup
+    // Arrange
     const longitude = 7.309726;
     const latitude = 46.888055;
     const payload = {
@@ -18,10 +18,10 @@ it('should extract coordinates', function () {
     }
     const payloadExtractor = new PayloadExtractor();
 
-    // Exercise
+    // Act
     const coordinates = payloadExtractor.extractCoordinates(payload);
 
-    // Verify
+    // Assert
     expect(coordinates.lon).toBe(longitude);
     expect(coordinates.lat).toBe(latitude);
 });
