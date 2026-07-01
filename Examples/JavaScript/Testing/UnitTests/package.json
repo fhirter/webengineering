@@ -5,12 +5,11 @@
   "type": "module",
   "main": "",
   "scripts": {
-    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
+    "test": "vitest"
   },
   "author": "Fabian Hirter",
   "license": "AGPL-3.0-or-later",
-  "devDependencies": {
-    "jest": "29.7.0",
-    "jest-environment-jsdom": "29.7.0"
+  "dependencies": {
+    "vitest": "4.1.9"
   }
 }
