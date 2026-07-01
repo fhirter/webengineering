@@ -1,4 +1,4 @@
-import PayloadExtractor from "./PayloadExtractor";
+import PayloadExtractor from "./PayloadExtractor.js";
 
 import {expect, it} from "@jest/globals"
 

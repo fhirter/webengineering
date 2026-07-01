@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera App</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #111;
+            color: #fff;
+        }
+        video, canvas, img {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 12px;
+            background: #000;
+        }
+        button {
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            background: #4f46e5;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover { background: #4338ca; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+<h1>📸 Camera App</h1>
+
+<video id="video" autoplay playsinline></video>
+<canvas id="canvas" class="hidden"></canvas>
+<img id="photo" class="hidden" alt="Captured photo">
+
+<div>
+    <button id="snap">Take Photo</button>
+    <button id="retake" class="hidden">Retake</button>
+    <a id="download" class="hidden"><button>Download</button></a>
+</div>
+
+<script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const photo = document.getElementById('photo');
+    const snapBtn = document.getElementById('snap');
+    const retakeBtn = document.getElementById('retake');
+    const downloadLink = document.getElementById('download');
+
+    // 1. Start the camera
+    async function startCamera() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({
+                video: { facingMode: 'environment' } // rear camera on mobile
+            });
+            video.srcObject = stream;
+        } catch (err) {
+            alert('Camera access denied or unavailable: ' + err.message);
+        }
+    }
+
+    // 2. Capture a frame from the video
+    snapBtn.addEventListener('click', () => {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+
+        const dataUrl = canvas.toDataURL('image/png');
+        photo.src = dataUrl;
+        downloadLink.href = dataUrl;
+        downloadLink.download = 'photo.png';
+
+        // Toggle UI
+        video.classList.add('hidden');
+        snapBtn.classList.add('hidden');
+        photo.classList.remove('hidden');
+        retakeBtn.classList.remove('hidden');
+        downloadLink.classList.remove('hidden');
+    });
+
+    // 3. Retake
+    retakeBtn.addEventListener('click', () => {
+        video.classList.remove('hidden');
+        snapBtn.classList.remove('hidden');
+        photo.classList.add('hidden');
+        retakeBtn.classList.add('hidden');
+        downloadLink.classList.add('hidden');
+    });
+
+    startCamera();
+</script>
+</body>
+</html>
