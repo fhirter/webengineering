@@ -1,3 +1,9 @@
+import {readFileSync, writeFileSync} from 'fs';
+
+const inputFile = "data.csv"
+const outputfile = "data.js"
+
+
 export function parseCsv(csvData) {
     const rows = csvData
         .split('\n')
@@ -19,3 +25,9 @@ export function parseCsv(csvData) {
         );
     });
 }
+
+const csvData = readFileSync(inputFile, 'utf-8');
+const regularCsv = csvData.split('\n').map(row => row.split('\t').join(',')).join('\n');
+const parsed = parseCsv(regularCsv);
+writeFileSync(outputfile, `export const data = ${JSON.stringify(parsed, null, 2)};\n`);
+console.log(`Parsed ${parsed.length} rows and saved to ${outputfile}`);
