@@ -2,6 +2,7 @@ export function parseCsv(csvData) {
     const rows = csvData
         .split('\n')
         .map(row => row.trim())
+        .filter(row => row.length > 0);
 
     if (rows.length < 2) return [];
 
